@@ -107,8 +107,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Accounts Payable Operations",
     "type": "Change",
     "products": [
-      "Sourcing and Procurement Operations",
-      "Now Assist"
+      "Now Assist",
+      "Sourcing and Procurement Operations"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -228,11 +228,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
-      "Sourcing and Procurement Operations",
-      "Public Sector Digital Services (PSDS)",
-      "Financial Services Operations",
-      "Telecommunications Service Management"
+      "Sales and Order Management"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -277,10 +273,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
-      "Sourcing and Procurement Operations",
-      "Financial Services Operations",
-      "Legal Service Delivery"
+      "Sales and Order Management"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -295,15 +288,14 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
-      "Sourcing and Procurement Operations"
+      "Sales and Order Management"
     ],
     "tags": [
       "Approvals / Delegation"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=tracking-approval-status&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Real-time status tracking and approval history</a></strong></p>\n<p>Monitor approval progress and access an audit trail with detailed status for each approval step including assigned approvers, actual approvers (for completed steps), approval comments, and assignment and completion timestamps.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
-    "resources": "https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\nhttps://www.servicenow.com/docs/r/release-notes/advanced-approval-management-for-sales-rn.html\nhttps://www.servicenow.com/docs/r/store-release-notes/store-rn-som-advanced-approval-mgmt.html\nhttps://www.servicenow.com/docs/r/release-notes/quote-management-rn.html",
+    "resources": "<a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/application/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management - ServiceNow Store</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-order-management/page/product/order-management/concept/quote-management.html\">Quote Management Documentation</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-order-management/page/product/order-management/concept/order-mgt-overview.html\">Sales and Order Management Overview</a>",
     "importance": "Medium"
   },
   {
@@ -319,19 +311,21 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=approving-approval-requests&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Approval management</a></strong></p>\n<ul>\n<li>Accept or reject approvals using multiple channels, such as email, push notifications, the CSM Configurable Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.</li>\n<li>Assign backup approvers with date-specific coverage periods for seamless continuity of the approval process.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/advanced-approval-management-for-sales-rn.html?contentId=rEQPW5bfFQslra54cmGJbQ\nhttps://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\nhttps://www.servicenow.com/docs/r/servicenow-platform/approvals/c_MultipleApprovers.html\nhttps://www.servicenow.com/community/developer-forum/how-to-set-up-back-up-approvers/m-p/1552598\nhttps://www.youtube.com/watch?v=zBQYieNuwGQ",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/order-mgt-overview.html\">Sales and Order Management Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management Application</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-overview.html\">CSM Configurable Workspace Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-your-approvals-using-now-assist-virtual-agent-emp-exp.html\">Check Approvals using Now Assist</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-administration/delegate-work.html\">Delegate Work (Backup Approvers)</a>",
     "importance": "Medium"
   },
   {
     "name": "Advanced Risk",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)"
+    ],
     "tags": [
       "Approvals / Delegation"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-risk-event-response-template&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Risk event response template enhancements</a></strong></p>\n<p>After upgrading to version 22.0.x, users with the Risk Manager [sn\\_risk.manager] or Risk Admin [sn\\_risk.admin] role can configure risk event response templates using dynamic, entity‑driven assignments. These changes enable assignments to be derived from entity data alongside existing static user or group selection.</p>\n<p>You can select user fields defined on the entity (such as Owner or Sub-owner) or entity stakeholder personas when configuring:</p>\n<ul>\n<li>Risk event owner assignment</li>\n<li>Issue creation and assignment</li>\n<li>Risk event approvers</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.html\nhttps://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.html\nhttps://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-advancedrisk-release-notes.html\nhttps://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-advanced-risk.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.html\">Risk Event Response Template form</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.html\">Create a risk event response template</a>\n<a href=\"https://www.youtube.com/watch?v=OVqKYPZ1ioM\">What's new in Risk Management</a>",
     "importance": "Medium"
   },
   {
@@ -362,31 +356,35 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-control-objective-ws&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Control Objective workflow</a></strong></p>\n<p>After upgrading to version 22.0.x, you can use a defined workflow to update control objectives. Changes can be drafted and reviewed without changing the current active version, which helps avoid unintended changes to related controls, and risk records. Only approved updates become active. The workflow also sets clear responsibility for making updates and helps keep control objective information consistent and up to date.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/concept_cob_workflow.html\nhttps://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-risk-mgmt.html\nhttps://www.youtube.com/watch?v=OMM-7dcH8nw",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/concept_cob_workflow.html\">Control Objective Workflow Documentation</a>\n<a href=\"https://www.youtube.com/watch?v=OMM-7dcH8nw\">What's New in Risk: Control Objective Change Management Workflow</a>\n<a href=\"https://store.servicenow.com/store/app/dae8e72e1be06a50a85b16db234bcbd1\">GRC: Advanced Risk Application Page</a>",
     "importance": "Medium"
   },
   {
     "name": "Advanced Work Assignment",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=awa-application-landing-page&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Work Assignment</a></strong></p>\n<p>Configure routing for non-task and non-interaction tables such as leads, opportunities, orders, and quotes in AWA.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedworkassignmentawa-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/advanced-work-assignment-rn.html\nhttps://www.servicenow.com/docs/r/washingtondc/servicenow-platform/advanced-work-assignment/awa-create-service-channel.html\nhttps://www.servicenow.com/docs/r/xanadu/customer-service-management/lead-to-cash-workflows.html\nhttps://www.servicenow.com/docs/r/customer-service-management/case-routing-and-asign.html\nhttps://www.servicenow.com/community/agent-chat-routing-and-sidebar/advanced-work-assignment-awa-faqs/ta-p/2306792",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/washingtondc/servicenow-platform/advanced-work-assignment/awa-create-service-channel.html\">Create or Configure a Service Channel</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/servicenow-platform/advanced-work-assignment/implement-awa.html\">Get Started with Advanced Work Assignment</a>\n<a href=\"https://www.servicenow.com/community/agent-chat-routing-and-sidebar/advanced-work-assignment-awa-faqs/ta-p/2306792\">Advanced Work Assignment (AWA) FAQs</a>\n<a href=\"https://www.servicenow.com/community/agent-chat-routing-and-sidebar/understanding-servicenow-awa-what-it-is-and-how-to-configure-it/ta-p/3409271\">Understanding ServiceNow AWA Configuration</a>\n<a href=\"https://www.youtube.com/watch?v=fANNto5TG-0\">Advanced Work Assignment (AWA) Implementation Guide</a>",
     "importance": "Medium"
   },
   {
     "name": "Advanced Work Assignment",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=awa-application-landing-page&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Work Assignment</a></strong></p>\n<p>Use telephone-style transfer workflows in AWA to enable warm transfers where agents consult privately before merging calls with the customer.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedworkassignmentawa-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/advanced-work-assignment-rn.html\nhttps://www.servicenow.com/docs/r/washingtondc/servicenow-platform/advanced-work-assignment/awa-overview.html\nhttps://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles-2.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/integr-awa-vr.html\nhttps://help.webex.com/en-us/article/ny83tx0/Integrate-Webex-Contact-Center-with-ServiceNow-(Version-2-New)",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/interaction-controls-component-icc-call-interaction-features.html\">Interaction Controls Component (ICC) call features</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ccaas-address-callback-requests.html\">CCaaS callback requests in the Configurable Workspace</a>\n<a href=\"https://www.youtube.com/watch?v=fSVJ2MMVyjA\">Feature Shorts: Voice interaction page and call controls</a>\n<a href=\"https://www.youtube.com/watch?v=y-Xs0ej0YkE\">Feature Shorts: CCaaS Callbacks</a>",
     "importance": "Medium"
   },
   {
@@ -416,7 +414,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-workspace-form-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Form template enhancements</a></strong></p>\n<p>Save time and promote consistency by creating conditional templates, setting field-level conditions, and automatically populating email body text. Populate these fields using dynamic values from the Case table and related tables. Preview template changes before applying them to a record.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html\nhttps://www.servicenow.com/docs/r/customer-service-management/task-plan-template-item-condition-form.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/configure-template-field-conditions.html\nhttps://www.servicenow.com/docs/r/yokohama/delta-vancouver-washingtondc/washingtondc-vancouver-customerservicemanagementcsm-release-notes.html\nhttps://www.youtube.com/watch?v=o-_JjXhu9Pw",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html\">CSM Configurable Workspace form templates</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/task-plan-template-item-condition-form.html\">Template item condition form</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-template-field-conditions.html\">Configure field conditions</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-template-value-field.html\">Configure a template value field</a>",
     "importance": "Medium"
   },
   {
@@ -432,7 +430,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-config-ws-pages-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Workspace record page interoperability</a></strong></p>\n<p>Enable agents to use record pages between CSM Configurable Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:</p>\n<ul>\n<li>Incident page</li>\n<li>Change page</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-pages-templates.html\">Record pages and page templates</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.html\">Sharing record pages from Service Operations Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.html\">Configuring record pages in Service Operations Workspace</a>\n<a href=\"https://www.servicenow.com/community/sysadmin-forum/service-operations-workspace-vs-csm-configurable-workspace/m-p/2948480\">Service Operations Workspace vs CSM Configurable Workspace</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-pages-templates.html?contentId=2z_QWEw4DsKQESRIrHZf6A\">Record pages and page templates</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.html?contentId=scdBPJ_MJd9u51sWe9Wrig\">Sharing record pages from Service Operations Workspace</a>\n<a href=\"https://www.servicenow.com/community/next-experience-blog/share-pages-across-experiences/ba-p/3414726\">Share pages across Experiences</a>",
     "importance": "Medium"
   },
   {
@@ -448,7 +446,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=interaction-wrapup-ai-generated&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AI interaction wrap-up</a></strong></p>\n<p>Provide agents with AI assistance during the interaction wrap-up period. This feature generates wrap-up content for interaction records, such as the wrap-up code and notes.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/customer-service-management/interaction-wrapup-ai-generated.html\nhttps://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-wrap-up-state.html\nhttps://www.servicenow.com/community/csm-articles/now-assist-for-csm-chat-summarization-and-wrap-up-generation/ta-p/3346598\nhttps://www.youtube.com/watch?v=pobIffjD4D8",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/interaction-wrapup-ai-generated.html\">AI interaction wrap-up</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/create-interaction-wrap-up-config.html\">Create an interaction wrap-up configuration</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-wrap-up-state.html\">Interaction wrap up</a>\n<a href=\"https://www.youtube.com/watch?v=pobIffjD4D8\">Feature Shorts : Interaction wrap-up</a>",
     "importance": "Medium"
   },
   {
@@ -509,7 +507,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-workspace-agent-actions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Editable record headers</a></strong></p>\n<p>Enables agents to edit the short description of a record directly from the header field. This feature is available on the following record pages:</p>\n<ul>\n<li>Front-line case page</li>\n<li>CSM Interaction record page</li>\n<li>CSM default record page</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-default-record-page.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-interaction-record-page.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page.html\nhttps://store.servicenow.com/store/app/b6c9ab621b246a50a85b16db234bcb4d",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html\">CSM Configurable Workspace form features</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page.html\">Front-line case page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-default-record-page.html\">CSM default record page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-interaction-record-page.html\">CSM Interaction record page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-headers.html\">CSM Configurable Workspace form headers</a>",
     "importance": "Low"
   },
   {
@@ -523,7 +521,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-config-ws-collaborate-component&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Collaborate component in CSM Configurable Workspace</a></strong></p>\n<p>Use the Collaborate component in the contextual side panel in CSM Configurable Workspace to communicate and collaborate with stakeholders in real time to resolve cases.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-collaborate-component.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-side-panel-components.html\nhttps://www.servicenow.com/community/csm-forum/configuring-contextual-side-panel-tab-in-csm-configurable/td-p/2609376\nhttps://www.youtube.com/watch?v=MJEc6WYsinM\nhttps://www.reddit.com/r/servicenow/comments/14vxfh1/configuring_contextual_side_panel_tab_in_csm/",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-collaborate-component.html?contentId=1pamagySHn00c0TGE1FI8A\">Collaborate component in CSM Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-side-panel-components.html?contentId=06K~cE_GQHVdr_okMm8b9g\">Contextual side panel components</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-set-up.html\">Set up CSM Configurable Workspace</a>\n<a href=\"https://www.youtube.com/watch?v=sWBpJKOoWrs\">Drive agent productivity with CSM Configurable Workspace</a>\n<a href=\"https://www.youtube.com/playlist?list=PLkGSnjw5y2U628hT0MZNNUErF9lnKVEln\">CSM Configurable Workspace Video Playlist</a>",
     "importance": "Medium"
   },
   {
@@ -538,7 +536,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">SLA component on the Front-line case page</a></strong></p>\n<p>Use the Service Level Agreement (SLA) component in the contextual side panel on the Front-line case page to view SLAs. The SLA cards appear in the Record Information tab below the record information card.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page.html\">Front-line case page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-side-panel-components.html\">Contextual side panel components</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/t_DefineSLAForCustServiceCase.html\">Configure SLA definitions for customer service cases</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page.html\">Front-line case page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-sla-card-component.html\">Task SLA cards component</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/config-front-line-case-page-action-bar.html\">Configure the Front-line case page action bar</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/t_DefineSLAForCustServiceCase.html\">Configure SLA definitions for customer service cases</a>",
     "importance": "Low"
   },
   {
@@ -553,7 +551,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-email-interaction-record-page&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Email Interaction record page enhancements</a></strong></p>\n<p>Minimize drafts to a dock at the bottom of the workspace page in the inline modeless composer. View activities in the activity feed at the top of the page in reverse order, with the newest entries displayed at the bottom.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/customer-service-config-ws-rn.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-email-interaction-record-page.html\nhttps://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-email-interaction-record-page.html\">Email Interaction record page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-modeless-dialog.html\">Playbook modeless dialogs</a>\n<a href=\"https://www.servicenow.com/community/csm-blog/xanadu-release-highlights-supercharge-customer-service/ba-p/2993655\">Xanadu Release Highlights: Supercharge Customer Service</a>\n<a href=\"https://www.youtube.com/watch?v=H00Mqm2jTfE\">Feature Shorts: Email Enhancements</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-interaction-record-page.html\">CSM Interaction record page</a>",
     "importance": "Low"
   },
   {
@@ -567,7 +565,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-email-interaction-record-page&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Lookup component added to the Email Interaction record page</a></strong></p>\n<p>Enable agents to look up contacts and consumers by name, phone number, or email address and link them to a record.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/email-interaction-page.html\">Email interaction sections</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/using-email-interaction-page.html\">Using the email interaction page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-interaction-record-page.html\">CSM Interaction record page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/lookup-and-verify-overview.html\">Lookup and verify</a>\n<a href=\"https://www.youtube.com/watch?v=P6VJTYoq1V8\">Feature Shorts : Email Interactions</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/email-interaction-page.html\">Email interaction sections</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-email-interaction-record-page.html\">Email Interaction record page</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-interaction-record-page.html\">CSM Interaction record page</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/customer-service-management/lookup-and-verify-overview.html\">Lookup and verify</a>",
     "importance": "Medium"
   },
   {
@@ -613,7 +611,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=auto-dismiss-alerts-in-csm-configurable-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Auto-dismiss alerts</a></strong></p>\n<p>Reduce visual clutter through auto-dismissible alerts, which are enabled by default for Info, Low, and Moderate alerts, with a default timer of five seconds. Critical and High alerts remain persistent to ensure important notifications stay visible</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.html?contentId=OVPlJMS71ku5CtxQzJrB2A\">Auto-dismiss alerts in CSM Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/ui-builder/uib-configure-alerts.html\">Configure alerts to auto-dismiss</a>\n<a href=\"https://www.servicenow.com/community/developer-forum/alert-in-csm-workspace-that-cannot-be-dismissed/m-p/3409753\">Community: Alert in CSM workspace that cannot be dismissed</a>\n<a href=\"https://www.youtube.com/playlist?list=PLkGSnjw5y2U628hT0MZNNUErF9lnKVEln\">YouTube: CSM Configurable Workspace</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.html\">Auto-dismiss alerts in CSM Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/agent-exp.html\">Agent experience for CSM</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/ui-builder/uib-configure-alerts.html\">Configure alerts to auto-dismiss</a>",
     "importance": "Low"
   },
   {
@@ -642,7 +640,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=csm-config-workspace-list-views&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Open multiple lists in separate primary tabs</a></strong></p>\n<p>Agents can now open multiple lists in different CSM Configurable Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-views.html\">CSM Configurable Workspace list views</a>\n<a href=\"https://www.servicenow.com/community/next-experience-forum/open-multiple-tabs-at-the-same-time-in-configurable-workspace/m-p/2343519\">Open multiple tabs at the same time in Configurable Workspace</a>\n<a href=\"https://www.youtube.com/watch?v=8VvQZMAS0tE\">Adding lists and list categories in ServiceNow Service Operations Workspace</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-views.html?contentId=cx~OZmoykDDB3m5SfcUSOQ\">CSM Configurable Workspace list views</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/customer-service-management/csm-workspaces-configurable.html\">CSM Configurable Workspace</a>\n<a href=\"https://www.youtube.com/watch?v=sWBpJKOoWrs\">Drive agent productivity with CSM Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/community/next-experience-forum/open-multiple-tabs-at-the-same-time-in-configurable-workspace/m-p/2343519\">Solved: Open multiple tabs in Configurable Workspace</a>",
     "importance": "Low"
   },
   {
@@ -672,7 +670,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=enable-hr-icc&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Integration with Contact Center as a Service (CCaaS)</a></strong></p>\n<p>Implement prebuilt, certified integrations with Contact Center as a Service (CCaaS) providers using the ServiceNow voice reference architecture. The Interaction Controls Component (ICC) feature enables CCaaS providers to display native voice and callback integrations so HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/enable-hr-icc.html?contentId=m_FT7ysdNpyzOazT7OnRFw\">Integration with Contact Center as a Service (CCaaS)</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-configurable-ws-hr-create-interactions.html?contentId=dw3Q6Q3TuPpu7hxrF9zzrQ\">Create interactions in Agent Workspace for HR Case Management</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.html?contentId=gDnOQ6Rzm0YMFEcraWSyHQ\">Setting up Agent Workspace for HR Case Management</a>\n<a href=\"https://www.servicenow.com/community/hrsd-articles/agent-workspace-for-hr-case-management-hr-configurable-agent/ta-p/2486714\">Agent Workspace for HR Case Management [HR Configurable Agent]</a>\n<a href=\"https://www.youtube.com/watch?v=3yi5f4xDngw\">Core Business Workflows | Agent Workspace for HR Case Management</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/enable-hr-icc.html?contentId=m_FT7ysdNpyzOazT7OnRFw\">Integration with Contact Center as a Service (CCaaS)</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/plugin-req-hr-icc.html?contentId=bJcLlePK6DZ6twwuXJPDUA\">Plugin requirements for HR CCaaS Integration</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/interaction-controls-component-icc-call-interaction-features.html?contentId=bKQA12EuBaJP679zEeCR9g\">Interaction Controls Component (ICC) call features</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/enable-icc-for-ccaas.html?contentId=DxU9mNTlmdQEuDlKLduajg\">Enable ICC for CCaaS calls and callbacks</a>",
     "importance": "Medium"
   },
   {
@@ -689,7 +687,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=recommended-actions-hrsd&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Recommended Actions for HRSD</a></strong></p>\n<p>Recommend actions based on the context of the HR case, helping agents resolve case faster.</p>\n<ul>\n<li>Lists KB articles and similar cases in the context of the current case.</li>\n<li>Suggests to add an approval to the case only when an approval is required.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.html?contentId=Ctm4AQZS4psJ4s0DVSJSmg\">Recommended Actions for HRSD - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configure-recommended-actions-hrsd.html?contentId=1Ukz7TSaApHnPJXefWaXZA\">Configure Recommended Actions for HRSD - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html?contentId=1tUBCxFvtiwsTlmCgibmDQ\">Use Recommended Actions in Agent Workspace - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/community/hrsd-forum/enable-ai-search-in-recommended-actions-for-hr-agent-workspace/m-p/3342249\">Enable AI Search in Recommended Actions - ServiceNow Community</a>\n<a href=\"https://www.youtube.com/watch?v=xrG8FkzZloo\">HR Service Delivery Academy: HR Agent Workspace - YouTube</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.html\">Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/explore-recommended-actions-hrsd.html\">Exploring Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html\">Use Recommended Actions in HR Agent Workspace</a>\n<a href=\"https://store.servicenow.com/store/app/8484b70a47a3fe10f43984f8736d43eb\">ServiceNow Store: Recommended Actions for HRSD</a>\n<a href=\"https://www.youtube.com/watch?v=xrG8FkzZloo\">HR Service Delivery Academy: HR Agent Workspace</a>",
     "importance": "Medium"
   },
   {
@@ -709,7 +707,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Agent Workspace for HR Case Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)",
+      "Now Assist"
+    ],
     "tags": [
       "Agent Workspace",
       "Knowledge Management",
@@ -717,7 +718,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=advance-knowledge-editor&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Knowledge Editor</a></strong></p>\n<p>Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI powered Article optimizations recommendations to improve the knowledge content quality.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/advance-knowledge-editor.html\">ServiceNow Documentation: Advanced Knowledge Editor</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/knowledge-center-article-optimization.html\">ServiceNow Documentation: Knowledge Center Article Optimization</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.html\">ServiceNow Documentation: Configure Article Optimization skill and prompts</a>\n<a href=\"https://www.servicenow.com/community/knowledge-management-articles/introducing-knowledge-center-with-advanced-editing-powered-by/ta-p/3447858\">ServiceNow Community: Introducing Knowledge Center with Advanced Editing</a>\n<a href=\"https://www.youtube.com/watch?v=_RGn80mOyDM\">YouTube: Employee Experience Academy - Knowledge Center with Advanced Editing</a>",
+    "resources": "<a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/application/c5b9a3621b246a50a85b16db234bcbcf\">Agent Workspace for HR Case Management (ServiceNow Store)</a>\n<a href=\"https://www.servicenow.com/community/knowledge-management-articles/introducing-knowledge-center-with-advanced-editing-powered-by/ta-p/3447858\">Introducing Knowledge Center with Advanced Editing</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.html\">Agent Workspace for HR Case Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/edit-article-workspace.html\">Edit a knowledge article in Agent Workspace</a>",
     "importance": "Medium"
   },
   {
@@ -748,7 +749,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=enterprise-ai-discovery&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enterprise AI Discovery</a></strong></p>\n<p>AI connections are created using AI Service Graph Connectors. AI connections are combination of hyperscalars, AI apps, and agentic AI frameworks.</p>\n<p>The AI Service Graph Connectors available from March 2026</p>\n<ul>\n<li><a href=\"https://www.servicenow.com/docs/access?context=aws_0&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AWS</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=microsoft&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft</a>- Azure Foundry and Copilot</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=gcp-vertex-ai&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Google Cloud Platform (GCP) Vertex AI</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=n8n&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">n8n</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=langgraph&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">LangGraph</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=salesforce&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Salesforce</a></li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.html\">Enterprise AI Discovery</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-discovery-setup.html\">AI Connections and Service Graph Connectors</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html\">AI Control Tower Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/using-ai-control-tower.html\">Using AI Control Tower</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-governance.html\">AI Governance and Dashboards</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/service-graph-connectors-for-ai-control-tower.html\">Service Graph Connectors for AI Control Tower</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.html\">Enterprise AI Discovery</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-discovery-setup.html\">AI Connections Setup</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-gcp-vertex-ai.html\">Create AI Connections for GCP Vertex AI</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-ai-connection-for-n8n.html\">Create AI Connections for n8n</a>",
     "importance": "High"
   },
   {
@@ -778,7 +779,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ai-gateway-overview&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AI Gateway Overview</a></strong></p>\n<p>AI Gateway offers MCP Global Clients, which can be used across all servers.</p>\n<p>A Gateway offers MCP Catalog to choose while adding MCP servers.</p>\n<p>MCP server can be added to an AI Asset inventory from AI Control Tower.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-gateway-overview.html\">AI Gateway Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/connect-to-mcp-servers.html\">Connect to MCP servers Via AI Gateway</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.html\">Add an MCP server from AI Agent Studio</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.html\">View the MCP Server Record</a>\n<a href=\"https://www.servicenow.com/community/now-assist-articles/ai-gateway-what-s-new-in-the-march-2026-release/ta-p/3501670\">AI Gateway: What's New in the March 2026 Release</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-gateway-overview.html\">AI Gateway Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.html?contentId=QqI9RRmMcugMNoMX8I1VSg\">Process flow of MCP servers Via AI Gateway</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html?contentId=9QduP8fs6dX0BLDRkoUmEg\">AI Control Tower Documentation</a>\n<a href=\"https://www.servicenow.com/community/now-assist-articles/ai-gateway-what-s-new-in-the-march-2026-release/ta-p/3501670\">AI Gateway: What's New in the March 2026 Release</a>\n<a href=\"https://www.servicenow.com/community/now-assist-articles/ai-gateway-faq/ta-p/3501650\">AI Gateway FAQ</a>",
     "importance": "Medium"
   },
   {
@@ -823,7 +824,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>The AI Control Tower application supports all the browsers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/products/ai-control-tower.html\">ServiceNow AI Control Tower Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html\">AI Control Tower Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.html\">Activation and Installation of AI Control Tower</a>\n<a href=\"https://mynow.service-now.com/now/best-practices/assets/ai-control-tower\">AI Control Tower Implementation Guide</a>\n<a href=\"https://www.youtube.com/watch?v=ss9eUlaM8So\">ServiceNow AI Control Tower Demo</a>",
+    "resources": "<a href=\"https://www.servicenow.com/products/ai-control-tower.html\">ServiceNow AI Control Tower Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html\">AI Control Tower Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.html\">Using AI Control Tower</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.html\">Activation and Installation of AI Control Tower</a>",
     "importance": "Low"
   },
   {
@@ -837,7 +838,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>The AI Control Tower application supports all the platform accessibility features.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/products/ai-control-tower.html\">ServiceNow AI Control Tower Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.html\">Using AI Control Tower Documentation</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-forum/ai-without-chaos-a-deep-dive-into-ai-control-tower/td-p/3455272\">Community: AI Without Chaos - A Deep Dive into AI Control Tower</a>\n<a href=\"https://www.servicenow.com/community/now-assist-forum/ai-control-tower-for-now-assist-installed-with-servicenow-pro/m-p/3490170\">Community: AI Control Tower for Now Assist</a>\n<a href=\"https://www.youtube.com/watch?v=kC_uwr8Dk9o\">YouTube: Introducing the AI Control Tower</a>",
+    "resources": "<a href=\"https://www.servicenow.com/products/ai-control-tower.html\">ServiceNow AI Control Tower Product Page</a>\n<a href=\"https://store.servicenow.com/store/app/ce9dc5b01b192e50a85b16db234bcb4b\">ServiceNow Store: AI Control Tower</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html\">ServiceNow Documentation: AI Control Tower</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.html\">ServiceNow Documentation: Exploring AI Control Tower</a>\n<a href=\"https://www.youtube.com/watch?v=ss9eUlaM8So\">ServiceNow AI Control Tower Demo</a>",
     "importance": "Low"
   },
   {
@@ -852,13 +853,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>The AI Control Tower application is localized.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/products/ai-control-tower.html\">ServiceNow AI Control Tower Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.html\">Exploring AI Control Tower Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configuring-ai-governance.html\">Configuring AI Control Tower Documentation</a>\n<a href=\"https://www.youtube.com/watch?v=ss9eUlaM8So\">ServiceNow AI Control Tower Demo</a>",
+    "resources": "<a href=\"https://www.servicenow.com/products/ai-control-tower.html\">ServiceNow AI Control Tower Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html\">AI Control Tower Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/using-ai-control-tower.html\">Using AI Control Tower</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.html\">Activation and Installation of AI Control Tower</a>\n<a href=\"https://www.youtube.com/watch?v=ss9eUlaM8So\">ServiceNow AI Control Tower Demo</a>",
     "importance": "Low"
   },
   {
     "name": "AI Risk and Compliance",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "AI Control Tower"
+    ],
     "tags": [
       "Forms / Lists",
       "Roles / Permissions",
@@ -866,13 +869,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=request-ai-system&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Risk‑based classification during intake</a></strong></p>\n<p>After upgrading to version 22.0.3, if you have the AI risk and compliance business user [sn\\_grc\\_ai\\_gov.ai\\_risk\\_and\\_compliance\\_business\\_user] role, you can now classify AI systems using a risk‑based approach at intake, enabling organizations to capture AI risk context early and align governance workflows with regulatory and internal risk requirements. This improvement to the AI use case request form supports more accurate AI oversight throughout the system life cycle.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-intake.html\">Intake requests</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.html\">AI Risk and Compliance</a>\n<a href=\"https://store.servicenow.com/store/app/9269fd081b866610a78ca8ea234bcb78\">AI Risk and Compliance Management</a>\n<a href=\"https://www.servicenow.com/community/grc-articles/q1-2026-release-highlights-for-risk-and-resilience/ta-p/3506080\">Q1 2026 Release Highlights for Risk and Resilience</a>\n<a href=\"https://www.youtube.com/watch?v=mF6pAtBtgi8\">What's New in AI Control Tower in Q1 26</a>",
     "importance": "High"
   },
   {
     "name": "AI Risk and Compliance",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "AI Control Tower"
+    ],
     "tags": [
       "Employee Center",
       "Roles / Permissions"
@@ -885,7 +890,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "AI Risk and Compliance",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "AI Control Tower"
+    ],
     "tags": [
       "Asset Management",
       "AI / Machine Learning"
@@ -906,13 +913,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hybrid-search-ais&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Improve search precision and contextual relevance with hybrid search</a></strong></p>\n<p>Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/hybrid-search-ais.html\">Hybrid Search Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/enable-hybrid-search-aisac.html\">Manage Hybrid Search in Search Applications</a>\n<a href=\"https://www.servicenow.com/community/now-assist-articles/now-assist-in-ai-search-nov-2024-release/ta-p/3074279\">Now Assist in AI Search - Nov 2024 Release</a>\n<a href=\"https://www.servicenow.com/community/ceg-ai-coe-articles/making-ai-search-work-practical-lessons-from-the-field/ta-p/3250487\">Making AI Search Work: Practical Lessons from the Field</a>\n<a href=\"https://www.youtube.com/watch?v=tv3yqlmgSSw\">AI Academy - AI Search and External Content</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/hybrid-search-ais.html\">Hybrid search</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/enable-hybrid-search-aisac.html\">Manage hybrid search in search applications</a>\n<a href=\"https://www.servicenow.com/community/csm-articles/unlocking-customer-success-with-ai-powered-search/ta-p/3432984\">Unlocking Customer Success with AI-Powered Search</a>\n<a href=\"https://www.servicenow.com/community/ceg-ai-coe-articles/making-ai-search-work-practical-lessons-from-the-field/ta-p/3250487\">Making AI Search Work: Practical Lessons from the Field</a>\n<a href=\"https://www.youtube.com/watch?v=tv3yqlmgSSw\">ServiceNow Exchange: AI Academy - AI Search and External Content</a>",
     "importance": "Medium"
   },
   {
     "name": "AI Search",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Virtual Agent / Chatbot"
@@ -941,7 +950,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "AI Search",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Security / Access Control",
@@ -969,7 +980,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "API",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations",
       "Scripting",
@@ -977,7 +990,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>New scoped classes and additional methods to existing scoped classes in Australia</strong></p>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=CopyDynamicSchemaAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">CopyDynamicSchemaAPI - Scoped, Global</a></strong></p>\n<p>Methods:</p>\n<ul>\n<li>getCopyApi()</li>\n<li>skipAttributes()</li>\n<li>skipChoiceOverrides()</li>\n<li>skipChoiceSets()</li>\n<li>getTransactionId()</li>\n<li>runAsync()</li>\n</ul>\n<p>Extension points:</p>\n<ul>\n<li>getCopyName()</li>\n<li>shouldCopy()</li>\n<li>verifyCopyOperation()</li>\n</ul>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=c_GlideDateScopedAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">GlideDate - Scoped</a></strong></p>\n<ul>\n<li>getDisplayValueEx()</li>\n<li>setDisplayValueEx()</li>\n</ul>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=c_GlideTimeScopedAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">GlideTime - Scoped</a></strong></p>\n<ul>\n<li>getDisplayValueEx()</li>\n<li>getDisplayValueLang()</li>\n<li>setDisplayValueEx()</li>\n<li>setDisplayValueLang()</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-api-release-notes.html",
-    "resources": "Based on the details provided, the **CopyDynamicSchemaAPI** and the new methods for **GlideDate** and **GlideTime** appear to be part of the **Australia** release (following the alphabetical release naming convention after Zurich). The following official ServiceNow resources document these APIs and their methods.\n\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/CopyDynamicSchemaAPI.html\">CopyDynamicSchemaAPI - Scoped, Global</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideDateScopedAPI.html\">GlideDate - Scoped</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideTimeScopedAPI.html\">GlideTime - Scoped</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/CopyDynamicSchemaAPI.html\">CopyDynamicSchemaAPI - Scoped, Global</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideDateScopedAPI.html\">GlideDate - Scoped</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideTimeScopedAPI.html\">GlideTime - Scoped</a>",
     "importance": "Medium"
   },
   {
@@ -998,7 +1011,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "API",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations",
       "Attachments / Documents",
@@ -1006,7 +1021,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>New REST APIs and additional endpoints to existing REST APIs in Australia</strong></p>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=c_AttachmentAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Attachment API</a></strong></p>\n<ul>\n<li>DELETE /now/attachment/{attachment\\_sys\\_id}/attributes</li>\n<li>DELETE /now/attachment/{attachment\\_sys\\_id}/attributes/{attribute\\_key}</li>\n<li>GET /now/attachment/{attachment\\_sys\\_id}/attributes/{attribute\\_key}</li>\n<li>GET /now/attachments/{attachment\\_sys\\_id}/attributes</li>\n<li>PATCH /now/attachment/{sys\\_id}</li>\n<li>POST /now/attachment/{attachment\\_sys\\_id}/attributes</li>\n<li>PUT /now/attachment/{attachment\\_sys\\_id}/attributes/{attribute\\_key}</li>\n</ul>\n<p><a href=\"https://www.servicenow.com/docs/access?context=help-request-api&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Help Request API</a></p>\n<ul>\n<li>POST /now/helprequest/action/create\\_or\\_update</li>\n</ul>\n<p><a href=\"https://www.servicenow.com/docs/access?context=atf-code-coverage-api&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ATF Code Coverage API</a></p>\n<ul>\n<li>POST /now/atf/code\\_coverage/all</li>\n<li>POST /now/atf/code\\_coverage/by\\_line\\_number</li>\n<li>POST /now/atf/code\\_coverage/by\\_script\\_id</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-api-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-apis/c_AttachmentAPI.html\">Attachment API</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-apis/help-request-api.html\">Help Request API</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-apis/atf-code-coverage-api.html\">ATF Code Coverage API</a>",
     "importance": "Medium"
   },
   {
@@ -1026,7 +1041,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "API",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Scripting",
       "Forms / Lists",
@@ -1034,38 +1051,45 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Changed client classes in Australia</strong></p>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=c_GlideFormAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">GlideForm (g\\_form) - Client</a></strong></p>\n<p>On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:</p>\n<ul>\n<li>clearValue()</li>\n<li>setValue()</li>\n</ul>\n<p>For more information, see <a href=\"https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Read-only options</a>.</p>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=GlideFormAPINX&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">GlideForm (Next Experience) - Client</a></strong></p>\n<p>On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:</p>\n<ul>\n<li>clearValue()</li>\n<li>setValue()</li>\n</ul>\n<p>For more information, see <a href=\"https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Read-only options</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-api-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/read-only-option.html\">Configuring read-only security options</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/test-read-only-options.html\">Test read-only options</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/c_GlideFormAPI.html\">GlideForm (g_form) - Client</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/GlideFormAPINX.html\">GlideForm (Next Experience) - Client</a>\n<a href=\"https://www.servicenow.com/community/itsm-articles/new-read-only-options-australia-release/ta-p/3511146\">New Read-only options Australia Release</a>",
     "importance": "Low"
   },
   {
     "name": "API",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "API / Integrations"
     ],
     "details": "<p><strong>Changed REST APIs in Australia</strong></p>\n<p><strong><a href=\"https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Party Management Open API</a></strong></p>\n<p>Previously, all GET endpoints didn't return results for Account records as expected due to a hardcoded flag. As a fix, users are now required to install the plugin Customer Service Base Entities (com.snc.cs\\_base), which adds the Active field to Customer [customer\\_account] and Core Company [core\\_company] tables.</p>\n<ul>\n<li><a href=\"https://www.servicenow.com/docs/access?context=partymgmt-GET-individual&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Party Management – GET /api/sn\\_tmf\\_api/v1/party/individual</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=partymgmt-GET-individual-id&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Party Management - GET /api/sn\\_tmf\\_api/v1/party/individual/{id}</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=partymgmt-GET-organization-id&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Party Management – GET/api/ sn\\_tmf\\_api/v1/party/organization/{id}</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=partymgmt-GET-organization&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Party Management - GET /api/sn\\_tmf\\_api/v1/party/organization</a></li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-api-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-apis/tmf-party-management-open-api.html\">Party Management Open API</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/tmt-api-reference.html\">TMF APIs for TMT</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/plugins-activated-with-csm.html\">Plugins activated with Customer Service Management</a>",
     "importance": "High"
   },
   {
     "name": "API",
     "type": "Deprecation",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations",
       "Scripting"
     ],
     "details": "<p><strong>GlideElementDynamicAttribute has been removed.</strong></p>\n<p>Use other GlideElement instances corresponding to an attribute's type instead.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-api-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133\">Dynamic Schema Zurich Migration Guide</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.html\">GlideElementDynamicAttributeStore API</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideElementAPI.html\">GlideElement API</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideRecordAPI.html\">GlideRecord API</a>",
     "importance": "Medium"
   },
   {
     "name": "API",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Now Platform",
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "API / Integrations",
       "Scripting",
@@ -1080,20 +1104,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "App Engine Management Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "App Engine"
+    ],
     "tags": [
       "Developer Tools",
       "Forms / Lists"
     ],
     "details": "<p><strong>Use the improved filter feature</strong> to sort requests based on specific criteria.</p>\n<p>See <a href=\"https://www.servicenow.com/docs/access?context=app-engine-management-center&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">App Engine Management Center</a> for more information.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-development/app-engine-management-center/filter-search-aemc.html\">Filter and search for requests in App Engine Management Center</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/app-engine-studio/monitor-requests-using-aemc.html\">Monitor requests using App Engine Management Center</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/app-engine-management-center-knowledge-amp-troubleshooting/ta-p/2345611\">App Engine Management Center Knowledge & Troubleshooting</a>\n<a href=\"https://www.youtube.com/watch?v=fDvEqAQIHzQ\">Creator Toolbox | App Engine Management Center</a>",
     "importance": "Low"
   },
   {
     "name": "App Engine Studio",
     "type": "Deprecation",
-    "products": [],
+    "products": [
+      "App Engine"
+    ],
     "tags": [
       "Developer Tools",
       "Workflows / Flow Designer",
@@ -1101,26 +1129,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Several Integration Hub flow templates are being deprecated.</strong></p>\n<p>See <a href=\"https://www.servicenow.com/docs/access?context=aes-overview&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">App Engine Studio</a> for more information.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginestudio-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-application-development/page/administer/app-engine-studio/concept/aes-overview.html\">Build apps using App Engine Studio</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/administer/integrationhub/concept/integrationhub.html\">Integration Hub Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/cae4b7ab47aff690cbbce551336d431a\">Flow Templates for Integration Hub Enterprise</a>\n<a href=\"https://store.servicenow.com/store/app/2b7e63aa1b646a50a85b16db234bcbd7\">Flow Templates for HR Management</a>",
     "importance": "Medium"
   },
   {
     "name": "Application Manager",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Update Sets / Deployments"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-app-mgr&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Now Assist suites for version compatibility</a></strong></p>\n<p>Use the Application Manager to install and update Now Assist applications with suites of compatible application versions. Now Assist suites help verify that new Now Assist applications and versions remain compatible with the ones already installed to your instance.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-applicationmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/application-manager/now-assist-suites-app-mgr.html\">Now Assist suite</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/application-manager/assist-suite-app-mgr-eg.html\">Now Assist suite versions in the Application Manager</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/application-manager/now-assist-app-mgr.html\">Managing Now Assist apps</a>",
     "importance": "Medium"
   },
   {
     "name": "Application Manager",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Developer Tools",
       "Upgrade / Patching"
@@ -1133,19 +1165,23 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Application Manager",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Update Sets / Deployments"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=available-for-you-app-mgr&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Unlicensed application information</a></strong></p>\n<p>In addition to details about applications that are already licensed, the \"Available for you\" tab of the Application Manager now includes information about applications that haven't been procured from the ServiceNow Store yet.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-applicationmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/application-manager/available-for-you-app-mgr.html\">Application Manager Available for you tab</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/application-development/exploring-application-manager.html\">Exploring Application Manager</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-administration/application-manager/installing-applications-in-application-manager.html\">Install an application or plugin</a>",
     "importance": "Low"
   },
   {
     "name": "Authentication",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "SSO / Authentication",
       "Virtual Agent / Chatbot"
@@ -1158,7 +1194,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Authentication",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "SSO / Authentication",
       "Security / Access Control"
@@ -1171,7 +1209,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Authentication",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "SSO / Authentication",
       "Roles / Permissions",
@@ -1179,13 +1219,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=roles-within-platform-security&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Bundle psec.roles within platform security</a></strong></p>\n<p>The granular admin role enables developers and administrators to complete administrative configuration tasks for Authentication without requiring the full admin role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-authentication-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html\">Granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platsec-granular-roles.html\">Platform security granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/authentication/c_Authentication.html\">Authentication</a>",
     "importance": "High"
   },
   {
     "name": "Authentication",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations",
       "SSO / Authentication",
@@ -1193,13 +1235,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=api-inbound-and-outbound&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">OAuth enhancements</a></strong></p>\n<p>Following are the OAuth enhancements:</p>\n<ul>\n<li>Use <strong>Opaque</strong> or <strong>JWT</strong> token option for your inbound integration endpoints.</li>\n<li>Use the <strong>Allow access only to APIs in selected scope</strong> option to enable access to the APIs that are explicitly listed in the selected scopes for your inbound integrations.</li>\n<li>Use the OAuth Entity Resource tab for outbound integrations to configure resource parameters so they flow into the OAuth token request and are reflected in the token from your OAuth provider.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-authentication-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/create-jwt-endpoint.html\">Create an OAuth JWT API endpoint for external clients</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/platform-security/authentication/configure-rest-api-auth-scope.html\">Configure REST API Auth scope</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/authentication/oauth-outbound.html\">OAuth Outbound</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/identity/inbound-integrations.html\">Inbound integrations</a>\n<a href=\"https://www.servicenow.com/community/platform-privacy-security-blog/choose-the-right-oauth-grant-type-for-servicenow-integration/ba-p/3385352\">Choose the Right OAuth Grant Type for ServiceNow Integration</a>",
     "importance": "High"
   },
   {
     "name": "Authentication",
     "type": "Accessibility Information",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI / UX",
       "Service Portal",
@@ -1213,31 +1257,37 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Buying Group",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-new-buying-groups&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create separate buying groups for each product family or solution within an account</a></strong></p>\n<p>Avoid confusion or overlap and efficiently map the right stakeholders involved in different purchase decision for an account by creating separate buying groups for each product family or solution, which helps account for differing decision‑makers, influencers, and users.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-buyinggroup-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/5831c8d247a73254040ae738436d43d6\">ServiceNow Store: Buying Groups</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/order-mgt-overview.html\">ServiceNow Documentation: Sales and Order Management</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/now-assist-for-sales-and-order-management-som.html\">ServiceNow Documentation: Now Assist for Sales and Order Management</a>",
     "importance": "Low"
   },
   {
     "name": "Buying Group",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=add-buying-group-member&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Add buying group members with different roles</a></strong></p>\n<p>Enable role‑specific engagement, and improve alignment throughout the buying process by adding buying group members with defined roles.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-buyinggroup-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/add-buying-group-member.html\">Add buying group member</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/configure-buying-group.html\">Configure Buying Group</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/create-new-buying-groups.html\">Create new buying groups</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/using-buying-group.html\">Using Buying Group</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/associate-buying-groups-to-an-opportunity.html\">Associate buying group to an opportunity</a>",
     "importance": "Medium"
   },
   {
     "name": "Buying Group",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Forms / Lists"
     ],
@@ -1249,19 +1299,23 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Buying Group",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Asset Management"
     ],
     "details": "<p>Install Buying Group by requesting it from the ServiceNow Store. Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-buyinggroup-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/5831c8d247a73254040ae738436d43d6\">ServiceNow Store: Buying Groups</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/explore-buying-group.html\">ServiceNow Documentation: Buying Group</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/create-new-buying-groups.html\">ServiceNow Documentation: Create new buying groups</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/add-buying-group-member.html\">ServiceNow Documentation: Add buying group member</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/associate-buying-groups-to-an-opportunity.html\">ServiceNow Documentation: Associate buying group to an opportunity</a>",
     "importance": "Low"
   },
   {
     "name": "Card data security",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Financial Services Operations"
+    ],
     "tags": [
       "Security / Access Control",
       "Certificates / Encryption",
@@ -1269,39 +1323,45 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=card-data-security-component&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View documents in the tokenizer service vault</a></strong></p>\n<p>Use the Card data security container to display documents in the tokenizer service vault without storing sensitive documents in your ServiceNow instance.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-carddatasecurity-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/card-data-security.html\">Card Data Security</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.html\">Manage Tokenizer Resource Configurations</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/exploring-card-data-security.html\">Explore Card Data Security</a>\n<a href=\"https://store.servicenow.com/store/app/00bc378a476bba503d01112a636d43ec\">Card data security container</a>",
     "importance": "High"
   },
   {
     "name": "Card data security",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Financial Services Operations"
+    ],
     "tags": [
       "Agent Workspace",
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=reveal-a-pan-using-card-data-security&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">PAN display</a></strong></p>\n<p>Display, mask, or redact PAN values in the workspace with the Card data security container.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-carddatasecurity-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/card-data-security-component.html\">Card Data Security container</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/reveal-a-pan-using-card-data-security.html\">Reveal a PAN using Card Data Security</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/configuring-card-data-security.html\">Configuring Card Data Security</a>\n<a href=\"https://www.youtube.com/watch?v=DeoZ2wW6VaA\">Feature Short: Card Data Security</a>",
     "importance": "High"
   },
   {
     "name": "Card data security",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Financial Services Operations"
+    ],
     "tags": [
       "Attachments / Documents",
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-attachments-in-card-data-security&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Updated attachment panel</a></strong></p>\n<p>View external documents from card networks, acquirers, and merchants at the transaction level of a dispute, which are stored in the tokenizer service vault.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-carddatasecurity-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/card-data-security.html\">Card Data Security</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.html\">Manage Tokenizer Resource Configurations</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/components-installed-with-card-data-security.html\">Components installed with Card Data Security</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/card-operations-dashboard.html\">Dispute Management</a>",
     "importance": "High"
   },
   {
     "name": "Card data security",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Financial Services Operations"
+    ],
     "tags": [
       "API / Integrations",
       "Security / Access Control",
@@ -1309,13 +1369,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=spokes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Mastercard and Visa integration updates</a></strong></p>\n<p>Updated Mastercard and Visa actions and integrations to support document download in Card data security.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-carddatasecurity-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/card-data-security.html\">Card Data Security Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.html\">Financial Services Operations Integration with Mastercard</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.html\">Financial Services Operations Integration with Visa</a>\n<a href=\"https://store.servicenow.com/store/app/3b2ddace87832294c61cfea5cebb3566\">Card Data Security - ServiceNow Store</a>\n<a href=\"https://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba\">Financial Services Operations Integration with Mastercard - ServiceNow Store</a>",
     "importance": "High"
   },
   {
     "name": "Care Team Operations for Biomed",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Security / Access Control",
       "Scripting",
@@ -1330,31 +1392,37 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Care Team Operations for Environmental Services",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
     "details": "<p>If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careteamoperationsforenvironmentalservices-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-set-up-roles-responsibilities.html?contentId=Uh4hQew0VbG3FMf0dSXiIA\">Setting up roles and responsibilities in Care Team Operations for Environmental Services</a>\n<a href=\"https://www.servicenow.com/docs/en-US/bundle/zurich-healthcare-life-sciences/page/product/healthcare-life-sciences/concept/cto-evs-configuring.html\">Configuring Care Team Operations for Environmental Services</a>\n<a href=\"https://www.servicenow.com/docs/r/AK18yGU6kuNpXDV4oOETsw/vKFZNugPvZC_hTpKpvFx5A\">Care Team Operations for Environmental Services Overview</a>\n<a href=\"https://store.servicenow.com/store/app/d13ed6821b87e654159bc845624bcbdf\">Care Team Operations for EVS - ServiceNow Store</a>",
     "importance": "Medium"
   },
   {
     "name": "Care Team Operations for Facilities",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
     "details": "<p>If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careteamoperationsforfacilities-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-landing.html\">Care Team Operations for Facilities</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-facilities-set-up-roles-responsibilities.html\">Setting up roles and responsibilities in Care Team Operations for Facilities</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-assign-roles.html\">Set up roles for Care Team Operations for Facilities</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-configuring.html\">Configuring Care Team Operations for Facilities</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-activate.html\">Install Care Team Operations for Facilities</a>",
     "importance": "Medium"
   },
   {
     "name": "Care Team Operations for Healthcare",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Security / Access Control",
       "Scripting",
@@ -1369,31 +1437,37 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Care Team Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Automation / Orchestration"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ctwm-create-care-team-work-plan&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create a care team task plan</a></strong></p>\n<p>Create single or multi‑unit task plans for care teams to support ad hoc or recurring tasks. Multi‑unit work plans can include orchestration cases and tasks, while single‑unit work plans use care team cases and tasks. This feature helps teams coordinate work more efficiently across units and within their own teams.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careteamworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-task-plan-templates-understand.html\">Understand task plan templates</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-task-plan-example.html\">Example - Task Plans for Care Teams</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-track-care-team-task-plans.html\">Track care team task plans</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-care-team-case.html\">Care Team cases and tasks</a>\n<a href=\"https://store.servicenow.com/store/app/898e12021b4b261025fe65b2604bcbc9\">Care Team Work Management Store App</a>",
     "importance": "Medium"
   },
   {
     "name": "Care Team Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ctwm-landing-page&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Bundle hcls.ctwm landing page</a></strong></p>\n<p>Use the unified Care Team Work Management landing page to view and manage care team cases and care team tasks all in one place. This provides a streamlined and consistent experience across work activities for care team agents.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careteamworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-landing.html\">Care Team Work Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.html\">View the Landing Page for Healthcare-related Cases</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-care-team-case.html\">Care Team Cases and Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-operations/hcls-cto-care-team-portal.html\">Care Team Portal</a>",
     "importance": "Low"
   },
   {
     "name": "Care Team Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Healthcare and Life Sciences Service Management"
+    ],
     "tags": [
       "Agent Workspace",
       "Workflows / Flow Designer",
@@ -1401,13 +1475,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ctwm-create-care-team-case&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Operational Rounding playbook</a></strong></p>\n<p>Use rounding templates with required fields and clinical checklists to standardize operations activities. The playbook generates one‑time and recurring rounding tasks across units using built‑in scheduling within the Healthcare Workspace. It supports completing task, capturing evidence, and tracking progress.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careteamworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-operational-rounding-playbook.html\">Operational Rounding Playbook Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-work-plan-overview.html\">Operational Rounding in Care Team Work Management</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-exploring.html\">Explore Care Team Work Management</a>\n<a href=\"https://store.servicenow.com/store/app/ae7d7702976bba5096793bd11153af54\">Healthcare Operations Orchestration Store Page</a>",
     "importance": "Medium"
   },
   {
     "name": "Case and Knowledge Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control",
@@ -1415,62 +1491,72 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=components-installed-with-case-and-knowledge-management&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Granular roles</a></strong></p>\n<p>Provide tighter security to HR data using the granular admin roles in Case and Knowledge Management.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-caseandknowledgemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html?contentId=QtFomAKRXSwaM9ypEGr1XQ\">Granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.html\">Case and Knowledge Management</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.html?contentId=qSy_ThmTtsfXBTrWRKQyHQ\">Roles installed with Case and Knowledge Management</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/c_ManageRoles.html?contentId=IfzM90vHdwFJHRrcbp6Rpw\">Manage HR roles</a>",
     "importance": "High"
   },
   {
     "name": "Case and Knowledge Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=coe-diagnostics-tool&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use COE Security Diagnostics</a></strong></p>\n<p>Enable HR administrators to determine which users have access to HR cases within an instance based on COE security policies. HR administrators can also review the specific COE security policies that restrict user access.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-caseandknowledgemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/coe-diagnostics-tool.html?contentId=Sk7WGnOpXnICrckqc7kH_w\">Use COE Security Diagnostics</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.html\">Create a COE Security Policy</a>\n<a href=\"https://www.servicenow.com/community/hrsd-forum/coe-security-policy-to-restrict-access-to-cases-based-on/td-p/2979123\">Community: COE Security Policy to Restrict Access</a>\n<a href=\"https://www.youtube.com/watch?v=xCSId2YbYw8\">How to Safeguard Sensitive HR Data with COE Security</a>\n<a href=\"https://www.youtube.com/watch?v=KiXvkJs6FjI\">HR Case Security in ServiceNow HRSD</a>",
     "importance": "High"
   },
   {
     "name": "Case and Knowledge Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Agent Workspace",
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hr-er-dashboards&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ER Consolidated List in HR Agent Workspace</a></strong></p>\n<p>Get a holistic view of all related tables for all the ER cases using the ER cases consolidated view in the Employee relations dashboard.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-caseandknowledgemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-dashboards.html\">HR Service Delivery Employee Relations dashboards</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/er-hr-pa-eo.html\">Employee Relations Executive Overview dashboard</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-lists.html\">Lists in Agent Workspace for HR Case Management</a>",
     "importance": "Medium"
   },
   {
     "name": "Case and Knowledge Management",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Knowledge Management"
     ],
     "details": "<p>Case and Knowledge Management is available with activation of the Human Resources Scoped app: Core [com.sn\\_hr\\_core]. See Activate plugin for more information.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-caseandknowledgemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.html\">Activate Case and Knowledge Management</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.html\">Components installed with Case and Knowledge Management</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/c_HRCaseManagement.html\">HR Case Management</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-knowledge-management.html\">HR Knowledge Management</a>\n<a href=\"https://www.youtube.com/watch?v=szQM5RUpDZI\">Get started with Case and Knowledge Management for HR (Video)</a>",
     "importance": "Low"
   },
   {
     "name": "Case management for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Workflows / Flow Designer"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=task-dependencies-for-task-plan-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Task Dependencies for Task Plan Templates</a></strong></p>\n<p>Define dependency relationships between template items in the [sn\\_task\\_plan\\_template\\_dependency] table, and upon applying the template, create and store the resulting task dependencies in the [sn\\_task\\_dependency\\_m2m] table to ensure controlled task sequencing through predecessor–successor relationships.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-casemanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/task-dependencies-for-task-plan-templates.html\">Task Dependencies for Task Plan Templates</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/add-and-manage-task-dependencies.html\">Add and Manage Task Dependencies</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/create-task-plan-template.html\">Create a task plan template</a>\n<a href=\"https://store.servicenow.com/store/app/c7215e8e1b87aad02ca2a643604bcbf4\">Task Plan Templates (ServiceNow Store)</a>",
     "importance": "Medium"
   },
   {
     "name": "Case management for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Attachments / Documents",
       "Security / Access Control",
@@ -1478,13 +1564,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=adding-and-managing-document-references-in-task-plan-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Document References in Task Plan Templates</a></strong></p>\n<p>Add documents to Task Plan Template items, storing document references in the [sn\\_task\\_plan\\_template\\_document] table and making them accessible through form views and related lists based on template state and user permissions, ensuring secure and controlled document access aligned with template‑level permissions</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-casemanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.html?contentId=sK2t3c_WH5koLyDimV48_A\">Document References in Task Plan Templates</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/create-task-plan-template.html\">Create a task plan template</a>\n<a href=\"https://store.servicenow.com/store/app/c7215e8e1b87aad02ca2a643604bcbf4\">Task Plan Templates</a>\n<a href=\"https://www.youtube.com/watch?v=PgPVpbZQpL4\">Feature Short: Task Plan Templates</a>",
     "importance": "Medium"
   },
   {
     "name": "Case management for CSM",
     "type": "Change",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Approvals / Delegation",
       "Workflows / Flow Designer",
@@ -1492,186 +1580,216 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=major-issue-management&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Major Issue Management</a></strong></p>\n<p>Case Type consistency improvements: This update ensures case type consistency when creating and managing major cases and their related child cases, improving accuracy and reducing manual correction.</p>\n<ul>\n<li>Create major cases automatically upon approval, and major cases now inherit the same case type as the originating case.</li>\n<li>Promote the proposed case directly to a major case I-if no account or consumer or partner exists on the originating major case.</li>\n<li>Use the major case's case type and inherit the fields defined in (sn\\_customerservice.case\\_fields\\_to\\_sync) property or defined through extension point for child cases.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-casemanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/major-issue-management.html\">Major issue management overview</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/major-candidate-child-case-types.html\">Major, candidate, and child cases</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/create-child-cases-for-major-case.html\">Create child cases for a major case</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/installed-with-major-issue-mgmt.html\">Components installed with Major Issue Management</a>\n<a href=\"https://www.servicenow.com/community/csm-forum/how-to-configure-major-issue-management-for-case-types/td-p/3436891\">How to Configure Major Issue Management for Case Types?</a>",
     "importance": "Medium"
   },
   {
     "name": "Case management for CSM",
     "type": "Change",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Forms / Lists",
       "Attachments / Documents"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=task-plan-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Task plan templates</a></strong></p>\n<p>Add flexible task dependency management to task plan templates, and support for attachments.</p>\n<ul>\n<li>Schedule offsets can be defined when creating dependencies, allowing tasks to start within a specified time period (minutes, hours, days, or weeks).</li>\n<li>Configure and manage task dependencies directly from task dependency list and view layouts.</li>\n<li>Built‑in validations prevent circular dependencies, ensuring task plans remain accurate and reliable.</li>\n<li>Ability to attach documents to tasks or cases.</li>\n<li>Select <strong>Apply Template</strong> for any published task plan templates to automatically add all document references from the original template items to the newly created tasks, ensuring seamless access for task owners to all required documents.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-casemanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/task-plan-templates.html\">Task Plan Templates</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/add-and-manage-task-dependencies.html\">Add and Manage Task Dependencies</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.html\">Document References in Task Plan Templates</a>\n<a href=\"https://www.servicenow.com/community/fso-articles/automating-task-plan-templates-in-servicenow-a-game-changer-for/ta-p/3398170\">Automating Task Plan Templates in ServiceNow</a>\n<a href=\"https://www.youtube.com/watch?v=PgPVpbZQpL4\">Feature Short: Task Plan Templates</a>",
     "importance": "Medium"
   },
   {
     "name": "Change Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Change Management",
       "Roles / Permissions"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=installed-with-cm-itsm-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Granular admin role</a></strong></p>\n<p>Assign the single feature-specific granular sn\\_change\\_admin role to users to grant permission to configure Change Management features and system properties. This role replaces the previous general admin and ITIL roles. The sn\\_change\\_admin role includes the sn\\_change\\_writer, change\\_manager, and sn\\_change\\_cab.cab\\_manager roles.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-changemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/reference/installed-with-cm-itsm-roles.html\">Components installed with ITSM Roles</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/contextual-security/concept/granular-admin-roles.html\">Granular admin roles</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/change-management/concept/c_ITILChangeManagement.html\">Change Management</a>",
     "importance": "High"
   },
   {
     "name": "Change Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Change Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-conflict-properties&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Exclude change request records from conflict check</a></strong></p>\n<p>Exclude change requests from the conflict check process by setting the <strong>Exclude from conflict detection</strong> field to true. This setting also means that the change record is not displayed as a conflicting change when conflict checker is run on other change records.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-changemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/t_RunManualConflictDetection.html\">Detect conflicts manually and review conflict details</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/c_ConflictDetection.html\">Conflict detection</a>\n<a href=\"https://www.youtube.com/watch?v=IHqc11vmzKw\">Modern Change Academy — Change Scheduling & Conflict Detection</a>",
     "importance": "Medium"
   },
   {
     "name": "Change Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Change Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-change-template&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create change templates</a></strong></p>\n<p>Control mandatory and read-only fields for change models by configuring change templates and defining template field policies. Change templates provide baseline standardization for common changes, making changes easier to create as well as driving a higher standard of change and compliance. Similar to the concepts used for existing standard change templates, templates used for change models can be proposed, reviewed, versioned, or retired.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-changemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/create-change-template.html\">Create and propose a change template</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/change-models.html\">Change models</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/modify-or-retire-template.html\">Modify a template</a>\n<a href=\"https://www.youtube.com/watch?v=6GYtd8Z-yBE\">Change Models in ServiceNow | Share the Wealth</a>\n<a href=\"https://www.youtube.com/watch?v=xe0BBgYrR2c\">Modern Change Launch & Learn Session 1 - Change Models</a>",
     "importance": "Medium"
   },
   {
     "name": "Change Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Change Management",
       "Roles / Permissions"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=change-data-model&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enhanced data model for change templates</a></strong></p>\n<p>Use the enhanced data model that supports better categorization and role-based access for change templates for all change models automatically. This feature is optional for newly created standard changes.</p>\n<p>This data model does not impact the existing standard change catalog and migration of these standard changes is not required.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-changemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/change-data-model.html?contentId=whrn7u8zeernzkdg7NxLtg\">Enhanced Change data model</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-change-model.html\">Create a Change model</a>\n<a href=\"https://www.servicenow.com/docs/r/Sx3eYflWQ2rS18vmPDBm0Q/HzgmGBGh8LoT5DpBaSsOtg\">Create and propose a change template</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/c_StandardChangeCatalogPlugin.html?contentId=dkoQ0fa0rnia6fNjgs74aQ\">Standard change catalog</a>",
     "importance": "Low"
   },
   {
     "name": "Change Management",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Change Management"
     ],
     "details": "<p>Change Management is a ServiceNow AI Platform feature that is active by default. The Change Management plugins listed are activated by default.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-changemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/products/change-management.html\">ServiceNow Change Management Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/c_ITILChangeManagement.html\">Change Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/change-plugins.html\">Change Management Plugins</a>\n<a href=\"https://www.servicenow.com/community/itsm-articles/modern-change-management-adoption-playbook-amp-maturity-journey/ta-p/3279260\">Modern Change Management Adoption Playbook</a>\n<a href=\"https://www.youtube.com/watch?v=5TErpVYNdoo\">Change Management in Service Operations Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Change Management",
     "type": "Accessibility Information",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Change Management",
       "UI / UX"
     ],
     "details": "<p><strong>Reflow for Create a change request page</strong></p>\n<p>The Create a change request page now supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.</p>\n<p>This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-changemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-change-sow.html\">Create a change request in Service Operations Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/change-management/t_CreateAChange.html\">Create a change request</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-user-interface/auto-reflow.html\">Reflow for Configurable Workspace</a>\n<a href=\"https://www.youtube.com/watch?v=YyTvGRw2MQs\">Reflow for configurable workspaces</a>",
     "importance": "Medium"
   },
   {
     "name": "Clone Admin Console",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Import / Export / Data"
     ],
     "details": "<p>Clone requests via lists and forms (legacy) are no longer supported. The page redirects to the new request page after 30 seconds.</p>\n<p>Legacy clones no longer appear in the Clone Admin Console dashboard.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/bundle/washingtondc-platform-administration/page/administer/managing-data/concept/Clone-UI.html\">Clone Admin Console</a>\n<a href=\"https://www.servicenow.com/docs/bundle/washingtondc-platform-administration/page/administer/managing-data/task/clone-ui-request-clone.html\">Request a clone in Clone Admin Console</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1425858\">Clone Admin Console: Quick Start Guide & Instructions</a>\n<a href=\"https://www.youtube.com/watch?v=FoGkPoTNJ-Q\">Clone Admin Console | Getting Started</a>\n<a href=\"https://www.youtube.com/watch?v=sB8v9ontz60\">Clone Admin Console and best practices for efficient cloning</a>",
     "importance": "Low"
   },
   {
     "name": "Clone Admin Console",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Import / Export / Data"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Updated clone menu navigation items</a></strong></p>\n<p>All clone-related functions are now available under the Clone Admin Console menu navigation item.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-administration/Clone-UI.html\">ServiceNow Documentation: Clone Admin Console</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1425858\">ServiceNow Support: Clone Admin Console Quick Start Guide</a>\n<a href=\"https://www.servicenow.com/community/in-other-news/clone-admin-console-and-its-features/ba-p/3456199\">ServiceNow Community: Clone Admin Console and its features</a>\n<a href=\"https://www.youtube.com/watch?v=FoGkPoTNJ-Q\">ServiceNow YouTube: Clone Admin Console | Getting Started</a>\n<a href=\"https://www.youtube.com/watch?v=sB8v9ontz60\">ServiceNow YouTube: Clone Admin Console and best practices</a>",
     "importance": "Low"
   },
   {
     "name": "Clone Admin Console",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Import / Export / Data"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Submit a new clone even if another clone is scheduled</a></strong></p>\n<p>Create an additional clone request even if there’s already a future clone for that target. This feature helps with the limitation where you can't submit another clone until all existing requests have been canceled.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-administration/clone-ui-request-clone.html\">Request a clone in the Clone Admin Console</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1425858\">Clone Admin Console: Quick Start Guide & Instructions</a>\n<a href=\"https://www.servicenow.com/community/in-other-news/clone-admin-console-and-its-features/ba-p/3456199\">Clone Admin Console and its features</a>\n<a href=\"https://www.youtube.com/watch?v=FoGkPoTNJ-Q\">Clone Admin Console | Getting Started</a>",
     "importance": "Low"
   },
   {
     "name": "Clone Admin Console",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Import / Export / Data"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Clone summary</a></strong></p>\n<p>Help prevent clone conflicts with the Clone summary, which highlights clones that are scheduled in the next 30 days that involve the same target instance.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-administration/Clone-UI.html\">Clone Admin Console</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/join-our-pilot-and-take-advantage-of-the-new-clone-admin-console/ta-p/2596154\">Join our Pilot and take advantage of the new Clone Admin Console</a>\n<a href=\"https://www.youtube.com/watch?v=sB8v9ontz60\">Clone Admin Console and best practices for efficient cloning</a>\n<a href=\"https://www.youtube.com/watch?v=FoGkPoTNJ-Q\">Clone Admin Console | Getting Started</a>",
     "importance": "Medium"
   },
   {
     "name": "Cloud Cost Management 10.0",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Cloud Governance"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing</a></strong></p>\n<p>Enhance your ability to manage cloud costs using the FOCUS billing standard that enables better insights. This feature helps you make more informed decisions. Additionally, you experience seamless processing of billing data across multiple Azure billing models such as:</p>\n<ul>\n<li>Enterprise Agreement (EA)</li>\n<li>Microsoft Customer Agreement (MCA)</li>\n<li>Microsoft Partner Agreement (MPA)</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloudcostmanagement100-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/schedule-azure-billing-job.html\">Schedule and manage Azure billing download jobs</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/it-asset-management/cloud-cost-management/azure-billing-usage-data.html\">Set up access to Microsoft Azure billing and usage data</a>\n<a href=\"https://store.servicenow.com/store/app/3e09276e1be06a50a85b16db234bcb96\">ServiceNow Store: Cloud Cost Management</a>\n<a href=\"https://www.servicenow.com/community/cloud-cost-management-articles/cloud-cost-management-path-to-value/ta-p/3060830\">Cloud Cost Management Path to Value</a>",
     "importance": "Medium"
   },
   {
     "name": "Cloud Cost Management 10.0",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Cloud Governance",
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View cloud cost data in your preferred currency for multiple cloud service providers</a></strong></p>\n<p>View your cloud cost data in your preferred local currency for better clarity and reporting flexibility. This capability enables you to view cost and usage details from multiple cloud service providers, including AWS, Azure, and GCP, in your selected currency.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloudcostmanagement100-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/choose-pref-currency.html?contentId=XqR_cTRMLP6qvZzCY6zb3g\">Choose preferred currency for cost and usage data</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/setup-update-currency.html?contentId=rXL8qTty8RO0BiEHsE7Yrg\">Set up or update preferred currency options</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/operation-view-ccm-ws.html?contentId=vAI8X8cUgJip3lzjzsGzzQ\">Operations view in Cloud Cost Management Workspace</a>\n<a href=\"https://store.servicenow.com/store/app/3e09276e1be06a50a85b16db234bcb96\">Cloud Cost Management Store Page</a>",
     "importance": "Low"
   },
   {
     "name": "Cloud Cost Management 10.0",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Cloud Governance"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=azure-pricesht-sched-dwnld-cloudin&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Get support for your Azure MPA model when operating under an MSP</a></strong></p>\n<p>Gain full visibility into your cloud costs and actionable insights for your Azure cloud spend when operating under an MSP. Additionally, the feature provides a centralized view to monitor cloud spend and manage budgets.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloudcostmanagement100-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-cloud-insights-setup-guide.html\">Configure Cloud Cost Management for Microsoft Azure</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.html\">Schedule and manage the Cloud Cost Management jobs</a>\n<a href=\"https://store.servicenow.com/store/app/3e09276e1be06a50a85b16db234bcb96\">Cloud Cost Management (ServiceNow Store)</a>\n<a href=\"https://www.servicenow.com/community/cloud-cost-management-articles/cloud-cost-management-path-to-value/ta-p/3060830\">Cloud Cost Management Path to Value</a>",
     "importance": "Medium"
   },
   {
     "name": "Cloud Cost Management 10.0",
     "type": "Change",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Cloud Governance",
       "Roles / Permissions",
@@ -1679,140 +1797,165 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=cloud-insights-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Granular instance operator role</a></strong></p>\n<p>Use the instance operator role to perform routine operational tasks without requiring the full admin role for basic operations. By using limited privileges in the instance operator role, you can help reduce security risks across your organization.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloudcostmanagement100-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/EdiPWhlSAqBiE0AMK4k9bQ/FcxF1Ic2L9tqHDiIhm~k2A\">Cloud Cost Management roles</a>\n<a href=\"https://mynow.service-now.com/now/best-practices/assets/cloud-cost-management-process-guide\">Cloud Cost Management Process Guide</a>\n<a href=\"https://www.servicenow.com/products/enterprise-asset-management/what-is-cloud-cost-management.html\">What is Cloud Cost Management?</a>\n<a href=\"https://store.servicenow.com/store/app/3e09276e1be06a50a85b16db234bcb96\">Cloud Cost Management Store App</a>",
     "importance": "High"
   },
   {
     "name": "Cloud Cost Management 10.0",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Cloud Governance"
     ],
     "details": "<p>Install Cloud Cost Management by requesting it from the ServiceNow Store. Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloudcostmanagement100-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/3e09276e1be06a50a85b16db234bcb96\">ServiceNow Store: Cloud Cost Management</a>\n<a href=\"https://www.servicenow.com/products/cloud-cost-management.html\">ServiceNow Product Page: Cloud Cost Management</a>\n<a href=\"https://www.servicenow.com/community/cloud-cost-management-articles/cloud-cost-management-welcome-guide/ta-p/2511399\">ServiceNow Community: Cloud Cost Management Welcome Guide</a>\n<a href=\"https://www.servicenow.com/community/cloud-cost-management-articles/cloud-cost-management-quick-start-guide/ta-p/3059938\">ServiceNow Community: Cloud Cost Management Quick Start Guide</a>",
     "importance": "Low"
   },
   {
     "name": "Collaborative Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "Forms / Lists",
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=add-formula-column-cwm-boards&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Formula columns in CWM</a></strong></p>\n<p>Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values across your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.</p>\n<p>Build formulas manually using the Formula Builder panel, which guides you through selecting functions and referencing columns with inline suggestions. As you type, the builder validates your formula in real time and displays clear error messages if corrections are needed.</p>\n<p>You can accelerate formula creation with Now Assist by describing your calculation in natural language. Now Assist generates a valid formula that you can insert directly into the editor with a single click, saving you the time to manually build a valid formula.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-formula-cwm-board-now-assist.html\">Generate a formula using Now Assist for CWM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.html\">Add custom columns for tasks in a CWM Board</a>\n<a href=\"https://www.youtube.com/watch?v=8iLVmVfYYw8\">Generate a formula using Now Assist for CWM</a>\n<a href=\"https://www.servicenow.com/community/spm-forum/use-of-formula-in-columns-for-cwm-board/m-p/3253517\">Use of formula in columns for CWM board</a>",
     "importance": "Low"
   },
   {
     "name": "Collaborative Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=cwm-board-views&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Kanban board filters</a></strong></p>\n<p>Save time finding the work that matters most by applying quick filters directly on your Kanban board.</p>\n<p>As you adjust filter conditions in the header, the quick filter panel stays in sync, and vice versa. Your filter choices automatically apply to saved views and CWM Board templates, so the next time you open the board, your preferences are readily available.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-board-views.html\">List, Gantt, and Kanban views in CWM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/personalize-cwm-board-views.html\">Personalize List, Gantt and Kanban display for CWM Boards</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/agile-in-cwm.html\">Agile work management in CWM</a>\n<a href=\"https://www.youtube.com/watch?v=ROXiP5jInpg\">Collaborative Work Management | Board views</a>",
     "importance": "Low"
   },
   {
     "name": "Collaborative Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Forms / Lists"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=managing-scrum-tasks-for-stories-cwm&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Scrum tasks</a></strong></p>\n<p>Improve sprint execution by breaking user stories into scrum tasks that make estimation easier and daily progress visible. These tasks appear as nested children in the List, Kanban, and Sprint planning views, so that your team always sees how individual efforts roll up into the larger story.</p>\n<p>Using Now Assist to generate an initial set of scrum tasks based on your story descriptions, you can reduce the overhead of task creation. You can then review and refine the first drafts as needed.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.html\">Scrum tasks for stories in CWM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-scrum-tasks-for-stories-cwm.html\">Generate scrum tasks for a story with Now Assist for CWM</a>\n<a href=\"https://store.servicenow.com/store/app/cbf51a3c1b952a50396216db234bcb30\">Now Assist for Collaborative Work Management (CWM) Store App</a>\n<a href=\"https://www.youtube.com/watch?v=0YMcx8Ip4LI\">Generate scrum tasks for stories using Now Assist for CWM</a>",
     "importance": "Medium"
   },
   {
     "name": "Collaborative Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Forms / Lists"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=managing-task-dependencies-relationships-cwm&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Task dependencies and relationships</a></strong></p>\n<p>Increase visibility into how work is connected by linking related items directly in CWM and avoid switching context to track dependencies.</p>\n<p>As these relationships surface across Kanban, List, and Gantt views with clear visual cues, you can improve planning confidence for your teams. Blocked items stand out at a glance, helping teams spot bottlenecks early, communicate delays quickly, and plan tasks in the right sequence.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.html?contentId=bIqDPi02N8wDmVRdNB0o6Q\">Task dependencies and relationships in CWM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-board-views.html?contentId=ErShEXLubsOWqcPIFqtNow\">List, Gantt, and Kanban views in CWM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/exploring-cwm.html?contentId=RT7MLVbOsfFY7Geqwi1ovw\">Exploring Collaborative Work Management</a>\n<a href=\"https://www.youtube.com/watch?v=ROXiP5jInpg\">Collaborative Work Management | Board views</a>",
     "importance": "Medium"
   },
   {
     "name": "Collaborative Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Attachments / Documents"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">External copy-paste support for CWM Docs</a></strong></p>\n<p>Accelerate content migration by bringing your existing Microsoft Word documents into CWM Docs with formatting intact. Paragraphs, nested lists, tables, and images all transfer cleanly, so that you can avoid rebuilding the same structure all over.</p>\n<p>Once the content is copied over, you can delete sections, adjust formatting, or continue editing seamlessly. With this feature, teams can consolidate scattered documentation into a single collaborative space.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-docs.html\">Collaborate with Docs - ServiceNow Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/3aed63e61b646a50a85b16db234bcb34\">Collaborative Work Management - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/community/cwm-forum/import-ms-word-documents-into-cwm/td-p/3155683\">Import MS Word Documents into CWM - ServiceNow Community</a>\n<a href=\"https://www.youtube.com/watch?v=dszYxpScCmU\">Collaborative Work Management | Collaborate in Docs - YouTube</a>",
     "importance": "Medium"
   },
   {
     "name": "Collaborative Work Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Attachments / Documents"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Image download from docs</a></strong></p>\n<p>Save images from your CWM documents directly to your device, making it easier to share or use them outside of the Docs environment.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-docs.html\">Collaborate with Docs - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-landing.html\">Collaborative Work Management - ServiceNow Documentation</a>\n<a href=\"https://www.youtube.com/watch?v=dszYxpScCmU\">Collaborative Work Management | Collaborate in Docs - YouTube</a>\n<a href=\"https://www.servicenow.com/products/collaborative-work-management.html\">Collaborative Work Management - Product Page</a>",
     "importance": "Low"
   },
   {
     "name": "Collaborative Work Management",
     "type": "Accessibility Information",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Agent Workspace"
     ],
     "details": "<p><strong>Accessibility improvements</strong></p>\n<p>Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-landing.html\">Collaborative Work Management Documentation</a>\n<a href=\"https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_spm_collaborative_work_management.pdf\">Collaborative Work Management Accessibility Conformance Report</a>\n<a href=\"https://www.servicenow.com/products/collaborative-work-management.html\">Collaborative Work Management Product Page</a>",
     "importance": "Low"
   },
   {
     "name": "Collaborative Work Management",
     "type": "Accessibility Information",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Agent Workspace",
       "UI / UX"
     ],
     "details": "<p><strong>Reflow</strong></p>\n<p>Docs in CWM Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.</p>\n<p>This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-collaborativeworkmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-user-interface/auto-reflow.html\">Reflow for Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-docs.html\">Collaborate with Docs</a>\n<a href=\"https://www.servicenow.com/products/collaborative-work-management.html\">Collaborative Work Management Product Page</a>\n<a href=\"https://www.youtube.com/watch?v=YyTvGRw2MQs\">Reflow for Configurable Workspaces</a>\n<a href=\"https://www.youtube.com/watch?v=dszYxpScCmU\">Collaborative Work Management | Collaborate in Docs</a>",
     "importance": "Medium"
   },
   {
     "name": "Common Governance, Risk, and Compliance",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "GRC (Governance, Risk, and Compliance)",
+      "IRM (Integrated Risk Management)"
+    ],
     "tags": [
       "Notifications / Email",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=email-notification-redirection&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">GRC notification redirection</a></strong></p>\n<p>After upgrading GRC to version 22.0.x, notification links in GRC applications automatically route you to the appropriate workspace view based on your persona and access permissions. If you don't have workspace access, links default to the classic view.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-commongovernanceriskandcompliancefeature-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/email-notification-redirection.html\">GRC Notification Redirection Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.html\">Configure GRC Notification Redirection</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.html\">Modify Email Notifications for Redirection</a>",
     "importance": "Medium"
   },
   {
     "name": "Common Governance, Risk, and Compliance",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "Performance",
       "Forms / Lists",
@@ -1820,25 +1963,31 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-my-tasks-in-ws&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Monitor my tasks</a></strong></p>\n<p>After upgrading GRC to version 22.0.1, the Tasks page loads faster with performance improvements. Task counts display first as an at-a-glance summary, followed by detailed task lists that load progressively. Task data refreshes at regular intervals to keep information current. These improvements provide better scalability for users with high task volumes across multiple task sources.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-commongovernanceriskandcompliancefeature-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-my-tasks-in-ws.html\">Monitor my tasks in the Tasks page in the workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configuration-of-tasks.html\">My tasks in the workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.html\">GRC Risk Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Common Governance, Risk, and Compliance",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)",
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "Security / Access Control"
     ],
     "details": "<p>Install Integrated Risk Management by requesting it from the ServiceNow Store. Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-commongovernanceriskandcompliancefeature-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/install-risk-store-app.html\">ServiceNow Documentation: Install Risk Management</a>\n<a href=\"https://store.servicenow.com/store/product/aee8e72e1be06a50a85b16db234bcbf3\">ServiceNow Store: Integrated Risk Management</a>\n<a href=\"https://www.servicenow.com/products/integrated-risk-management.html\">ServiceNow Product Page: Integrated Risk Management</a>\n<a href=\"https://www.servicenow.com/docs/bundle/xanadu-governance-risk-compliance/page/product/grc-common/reference/r_WhatIsGRC.html\">ServiceNow Documentation: Governance, Risk, and Compliance</a>\n<a href=\"https://store.servicenow.com/\">ServiceNow Store</a>",
     "importance": "Low"
   },
   {
     "name": "Compliance Case Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "GRC (Governance, Risk, and Compliance)",
+      "IRM (Integrated Risk Management)"
+    ],
     "tags": [
       "Employee Center",
       "Service Portal",
@@ -1846,37 +1995,45 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=report-compliance-case-anonymously&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Report a compliance case anonymously</a></strong></p>\n<p>Employees can now use the Anonymous Reporting Center to report compliance violations such as fraud and embezzlement, workplace misconduct (harassment, discrimination), bribery and corruption, and other concerns without revealing their identity or location.</p>\n<p>Accessed through the Employee Center, the Anonymous Reporting Center portal automatically logs users out to enforce anonymity, creates case records without mapping to employee identity, and provides a unique report key and report number for secure follow-up communication.</p>\n<p>CAPTCHA‑based verification is used to authenticate submissions, and the system generates a report statement summarizing the case after submission. Employees can save a copy of their report for future reference. For security and confidentiality, the submitted information is not displayed again. Reports are routed to the appropriate compliance team based on the nature of the concern.</p>\n<p>Throughout the investigation process:</p>\n<ul>\n<li>Investigators can request additional information through a comments system visible to the reporter</li>\n<li>Reporters can follow up on their case using their report key to check progress and respond to questions</li>\n<li>All interactions maintain reporter anonymity at every step; no identity or location data is ever captured or linked</li>\n</ul>\n<p>This enhancement enables organizations to build trust, mitigate risks before escalation, and ensures regulatory compliance with whistleblower protection requirements.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-compliancecasemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.html?contentId=xfdMd50oX7p5Zs_zFc9MfA\">Report a compliance case anonymously</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.html?contentId=QZd_VnFBBjaSeTRjFWklwg\">Anonymous Reporting Center</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.html?contentId=I8~6lrv0~qxQTZlpZEn3kw\">Submit an anonymous case</a>\n<a href=\"https://www.servicenow.com/community/grc-events/the-what-why-and-how-of-compliance-case-management/ev-p/2627612\">The what, why, and how of Compliance Case Management (Community)</a>\n<a href=\"https://www.youtube.com/watch?v=qehkpBOjv_4\">The what, why, and how of Compliance Case Management (YouTube)</a>",
     "importance": "High"
   },
   {
     "name": "Compliance Case Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=compliance-case-summarization-skill&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Case summarization for compliance cases</a></strong></p>\n<p>After upgrading Now Assist for Integrated Risk Management (IRM) application to version 22.x, Compliance analysts can use the Case summarization feature to quickly understand a compliance case without manually reviewing every field, attachment, or related list. Now Assist analyzes key case attributes—such as timelines, impacted areas, evidence, and actions—and generates a structured summary directly inside the compliance case.</p>\n<p>This solves a common problem: case data is often lengthy, scattered across multiple related lists, and difficult for analysts to digest efficiently. Analysts can also save and edit summaries as case data evolves, ensuring the record stays current.</p>\n<p>By consolidating all relevant information into a single, coherent narrative, Now Assist reduces investigation time, improves consistency across reviewers, and supports faster decision-making.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-compliancecasemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/summarize-compliance-case.html\">Summarize a compliance case</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/now-assist-for-irm.html\">Now Assist for Integrated Risk Management (IRM)</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-grc-case-summarization-skill.html\">Activate the GRC case summarization skill</a>\n<a href=\"https://www.servicenow.com/community/grc-articles/build-your-gen-ai-and-agentic-ai-skills-using-our-now-assist-for/ta-p/3361531\">Now Assist for IRM, GenAI, agentic AI</a>",
     "importance": "High"
   },
   {
     "name": "Compliance Case Management",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "GRC (Governance, Risk, and Compliance)",
+      "IRM (Integrated Risk Management)"
+    ],
     "tags": [
       "Update Sets / Deployments"
     ],
     "details": "<p>Install Compliance Case Management by requesting it from the ServiceNow Store. Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-compliancecasemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/install-ccm.html\">Install Compliance Case Management</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/download-compliance-case-management.html\">Download Compliance Case Management</a>\n<a href=\"https://store.servicenow.com/store/app/177e63aa1b646a50a85b16db234bcb8e\">ServiceNow Store: GRC Compliance Case Management Full Access</a>\n<a href=\"https://www.youtube.com/watch?v=qehkpBOjv_4\">YouTube: The what, why, and how of Compliance Case Management</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "UI Builder",
@@ -1884,13 +2041,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-da-ui-interactions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">UI interactions for declarative actions</a></strong></p>\n<p>Combine logic, script, and configurable UI with a UI interaction, and apply it from any page event or declarative action. When you use a declarative action to apply a UI interaction, you can extend a page without taking ownership.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-da-ui-interactions.html\">Trigger a UI interaction</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-user-interface/declarative-actions-landing.html\">Customizing Configurable Workspace with declarative actions</a>\n<a href=\"https://www.servicenow.com/community/developer-blog/declarative-actions-in-servicenow-the-complete-guide/ba-p/2781607\">Declarative Actions in ServiceNow: The COMPLETE Guide</a>\n<a href=\"https://www.servicenow.com/community/next-experience-articles/how-to-use-ui-actions-in-workspaces/ta-p/2331988\">How to use UI Actions in Workspaces</a>",
     "importance": "Medium"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI Builder",
       "Agent Workspace",
@@ -1899,52 +2058,60 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Record List component bundle enhancements in UI Builder</strong></p>\n<p>Configure these enhancements to the Record List component bundle in UI Builder:</p>\n<ul>\n<li>Pin columns to keep them visible while scrolling horizontally.</li>\n<li>Change the medium default size for highlighted values.</li>\n<li>View list data as a data visualization.</li>\n<li>Show a filter overview in the list header for a summary of the filters currently applied to the list.</li>\n<li>Catalog variables and questions are supported as list columns.</li>\n<li>Open lists in multiple session tabs from the list menu.</li>\n<li>Customize gallery list card layouts including images, icons, text placement, and sizing.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-record-list-component-bundle.html\">Record List component bundle</a>\n<a href=\"https://horizon.servicenow.com/workspace/components/record-list\">Record List - Horizon Design System</a>\n<a href=\"https://www.servicenow.com/community/next-experience-blog/ui-builder-essentials-dynamically-binding-the-list-component/ba-p/3164521\">UI Builder Essentials: Dynamically Binding the List Component</a>\n<a href=\"https://www.servicenow.com/community/next-experience-blog/ui-builder-essentials-interactive-list-and-form-configuration/ba-p/3177394\">UI Builder Essentials: Interactive List and Form Configuration</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "Agent Workspace",
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AI filter assist</a></strong></p>\n<p>Convert everyday language into an encoded query with AI filter assist.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/use-ai-filter-assist.html\">Use AI filter assist</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configurable-workspace-glossary.html\">Configurable Workspace glossary</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/ai-search-servicenow-ai-search-demo-a-complete-guide/ta-p/3488050\">ServiceNow AI Search Demo (A Complete Guide)</a>",
     "importance": "Medium"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-related-list-grouping&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Grouping for related lists</a></strong></p>\n<p>Configure related lists to persist selections for the Group by filter.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-related-list-grouping.html\">Configure Related List Grouping</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/administer-lists-configurable-workspace.html\">Administer Lists for Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/lists-configurable-workspace.html\">Lists in Configurable Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI Builder",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-predicate-builder/uib-setup\" target=\"_blank\" rel=\"noopener noreferrer\">Predicate Builder component enhancements in UI Builder</a>:</strong></p>\n<p>Configure these enhancements to the Predicate Builder component in UI Builder:</p>\n<ul>\n<li>Customize condition rows.</li>\n<li>Configure a simple filtering mechanism.</li>\n<li>Use a search term for filtering panel definitions.</li>\n<li>Configure fixed queries.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-predicate-builder/overview\">Predicate Builder UIB Setup</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-views.html\">CSM Configurable Workspace list views</a>\n<a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/record%20list/overview\">Record List UIB Setup</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "UI Builder",
@@ -1952,25 +2119,29 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=data-hierarchies&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Hierarchical queries</a></strong></p>\n<p>Configure a record hierarchy to create filter queries that traverse levels of hierarchy.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/data-hierarchies.html\">Building hierarchical queries</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-record-hierarchy.html\">Create a record hierarchy</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/create-hierarchical-filter.html\">Create a hierarchical filter</a>\n<a href=\"https://www.youtube.com/watch?v=Ztr31Dsg62Y\">ServiceNow Zurich: Simplify Record Queries</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Dynamic queries</a></strong></p>\n<p>Configure dynamic attributes and dynamic categories to create filter queries that use the dynamic schema field type.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/dynamic-schema.html\">Dynamic Schema</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/working-with-dynamic-schema.html\">Working with Dynamic Schema</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/create-dynamic-category.html\">Create a dynamic category</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/add-dynamic-attributes-dynamic-category.html\">Include dynamic attributes in a dynamic category</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI Builder",
       "Forms / Lists",
@@ -1980,13 +2151,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/form%20record%20page/uib-setup\" target=\"_blank\" rel=\"noopener noreferrer\">Form component enhancements in UI Builder</a>:</strong></p>\n<p>Configure these enhancements to the Form component in UI Builder:</p>\n<ul>\n<li>Wrap field labels on mobile devices.</li>\n<li>Display an indicator dot on unsaved fields.</li>\n<li>Add a background color to unsaved fields to make them more noticeable.</li>\n<li>Add an address field to forms that searches, validates, and automatically fills an address.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html\">Configurable Workspace release notes</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-unsaved-field-indicator.html\">Configure the unsaved field indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/application-development/ui-builder/learn-by-example-edit-form-component.html\">Customize forms within a form component</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Agent Workspace",
@@ -1995,26 +2168,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ai-indicator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AI indicator</a></strong></p>\n<p>The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content, providing a consistent and clear indication of AI involvement across the platform.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/c_FormFields.html\">Form fields</a>\n<a href=\"https://www.servicenow.com/docs/r/XD2Unl5_ZE378Sh6jb~6Rg/Isx9Ffd0yi3l9Peo4a12pg\">Administering forms for Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html?contentId=H5eC7xhUUxQjMYGVRu7xzA\">CSM Configurable Workspace form features</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "UI / UX"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-unsaved-field-indicator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Unsaved field indicator</a></strong></p>\n<p>Configure the unsaved field indicator for your entire workspace experience instead of individual pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-unsaved-field-indicator.html\">Configure the unsaved field indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/form-configurable-workspace.html\">Configurable Workspace Forms</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html\">CSM Configurable Workspace form features</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "UI / UX",
@@ -2022,13 +2199,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-background-color-unsaved-indicator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Background color for unsaved fields</a></strong></p>\n<p>Configure a background color to display on unsaved fields for your entire workspace experience instead of individual pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-background-color-unsaved-indicator.html?contentId=CcGqNc4mdI7w8LmvHOcZ4A\">Configure a background color for unsaved fields</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-user-interface/next-experience-ui-admin.html?contentId=vHt34ef_mpxIP49APMGaeg\">Configuring the Next Experience UI</a>\n<a href=\"https://www.servicenow.com/community/next-experience-articles/everything-you-need-to-know-to-get-started-with-next-experience/ta-p/2905482\">Everything you need to know to get started with Next Experience</a>\n<a href=\"https://www.youtube.com/watch?v=zUerU6_Aw48\">ServiceNow Unsaved Workspace Changes</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "UI / UX",
@@ -2036,26 +2215,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-background-color-highlighted-values&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Background color for highlighted values</a></strong></p>\n<p>Configure a background color for fields with highlighted values.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-background-color-highlighted-values.html\">Configure a background color for highlighted values</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/platform-user-interface/config-ws-highlight-value.html\">Configure a highlighted value</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-highlight-value.html\">Set up a highlighted value in a form header</a>\n<a href=\"https://www.servicenow.com/community/developer-forum/add-background-color-to-field-in-workspace/td-p/3184787\">Add background color to field in Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-journal-fields-keyboard-shortcuts&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Text commands for journal fields</a></strong></p>\n<p>Configure text commands that can be applied by keyboard shortcuts within journal fields.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-journal-fields-keyboard-shortcuts.html\">Configure a text command</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/next-experience-keyboard-shortcuts.html\">Next Experience Keyboard shortcuts</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/exploring-configurable-workspace.html\">Explore CSM Configurable Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists",
@@ -2063,13 +2246,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-html-editor-toolbar&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">HTML editor toolbar</a></strong></p>\n<p>Configure toolbar options for the HTML editor within journal input fields.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-html-editor-toolbar.html\">Configure the HTML editor toolbar</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/c_set-up-configurable-workspace.html\">Configuring Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/community/next-experience-articles/journal-field-components-in-configurable-workspaces/ta-p/2984136\">Journal field components in Configurable Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Configurable Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists",
@@ -2077,7 +2262,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=format-regex-pattern-string-fields&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Inline validation for string fields</a></strong></p>\n<p>Configure inline validation for string fields that formats inputs automatically, persists guidance text as a placeholder, and restricts unsupported characters.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/format-regex-pattern-string-fields.html\">Configure inline validation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/administer-forms-configurable-workspace.html\">Administer forms in Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/c_set-up-configurable-workspace.html\">Set up Configurable Workspace</a>",
     "importance": "Low"
   },
   {
@@ -2092,7 +2277,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-watch-list&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Watch lists</a></strong></p>\n<p>Add and remove yourself and multiple records from a watch list.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-user-interface/configure-watch-list.html\nhttps://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html\nhttps://www.servicenow.com/community/next-experience-articles/configuring-lists-in-configurable-workspace/ta-p/2331983\nhttps://www.servicenow.com/docs/r/platform-user-interface/t_UseSlushbuckets.html\nhttps://www.servicenow.com/docs/r/washingtondc/platform-user-interface/t_EditMultRecUsingListEditor.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/platform-user-interface/workspace-tutorial-for-agents.html?contentId=_324N2s5A9Lz_I44O3zLmA\">Workspace tutorial for agents starting with a record</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-watch-list.html?contentId=RqRF6UIQzDYphrrkL5Rv9Q\">Configure a watch list</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-administration/t_UseAWatchList.html\">Add users to a watch list</a>",
     "importance": "Low"
   },
   {
@@ -2108,7 +2293,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-templates-connected/uib-setup\" target=\"_blank\" rel=\"noopener noreferrer\">Form Templates component enhancements in UI Builder</a></strong></p>\n<p>Configure these enhancements to the Form Templates component in UI Builder:</p>\n<ul>\n<li>Preview form templates before applying them to the record page.</li>\n<li>Display an alert message and confirm reuse when a selected form template is already applied to that record.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "<a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-templates-connected/uib-setup\">Form Templates component UIB setup</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-user-interface/form-templates-configurable-workspace.html\">Form templates in Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/create-template-workspace-form.html\">Manage custom form templates</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-user-interface/form-templates-configurable-workspace.html\">Form Templates in Configurable Workspace</a>\n<a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-common-templates-connected/uib-setup\">Form Templates Component UIB Setup</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-form-templates.html\">CSM Configurable Workspace Form Templates</a>\n<a href=\"https://www.youtube.com/watch?v=m8g-rq7ycQs\">Platform Academy: What's New in UI Builder for Yokohama</a>",
     "importance": "Low"
   },
   {
@@ -2124,7 +2309,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-template-email-field&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Email field for form templates</a></strong></p>\n<p>Add the email composer as a form template field.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html\nhttps://www.servicenow.com/docs/r/zurich/platform-user-interface/form-templates-configurable-workspace.html\nhttps://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-email-templates.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/administer-forms-configurable-workspace.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-template-email-field.html\">Configure the email field for form templates</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/administer-form-templates.html\">Form templates in Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-template-field-conditions.html\">Configure field conditions for form templates</a>",
     "importance": "Low"
   },
   {
@@ -2139,7 +2324,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-template-field-conditions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field conditions for form templates</a></strong></p>\n<p>Configure conditions that determine which fields to apply to a form template.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-user-interface/configure-template-field-conditions.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/form-templates-configurable-workspace.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html\nhttps://www.servicenow.com/community/next-experience-blog/workspace-for-a-custom-app-forms/ba-p/2599424\nhttps://www.youtube.com/watch?v=itxwJEUqjsU",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-template-field-conditions.html\">Configure field conditions</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/form-templates-configurable-workspace.html\">Form templates in Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html\">CSM Configurable Workspace form templates</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/task-plan-template-item-condition-form.html\">Template item condition form</a>",
     "importance": "Low"
   },
   {
@@ -2154,7 +2339,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-template-variable-picker&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Variable picker for form templates</a></strong></p>\n<p>Configure form template fields with a variable picker.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-user-interface/configure-template-variable-picker.html\nhttps://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/form-templates-configurable-workspace.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/create-template-workspace-form.html\nhttps://www.servicenow.com/community/servicenow-ai-platform-forum/variable-editor-in-configurable-workspace-form/m-p/3415891",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-template-variable-picker.html\">Configure the variable picker</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html\">CSM Configurable Workspace form templates</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/form-templates-configurable-workspace.html\">Form templates in Configurable Workspace</a>",
     "importance": "Low"
   },
   {
@@ -2170,7 +2355,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-activity-stream-connected/uib-setup\" target=\"_blank\" rel=\"noopener noreferrer\">Activity Stream component enhancements in UI Builder</a></strong></p>\n<p>Configure these enhancements to the Activity Stream component in UI Builder:</p>\n<ul>\n<li>Edit and delete Activity stream posts after submitting.</li>\n<li>Add knowledge base links from recommended actions to Activity stream posts.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/activity-stream-configurable-workspace.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/administer-activity-stream-configurable-workspace.html\nhttps://www.servicenow.com/docs/r/customer-service-management/configure-recommended-actions.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/activity-stream-configurable-workspace.html\">Activity stream</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-user-interface/configure-activity-stream-general.html\">Configure Activity stream</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-csm-using-recommended-actions.html\">Using the Recommended Actions application</a>",
     "importance": "Low"
   },
   {
@@ -2185,7 +2370,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=add-response-templates-shortcut&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Keyboard shortcuts for emails</a></strong></p>\n<p>Use keyboard shortcuts to open drafts, email templates, and response templates.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-user-interface/add-response-templates-shortcut.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/configure-email-templates.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/review-draft-emails.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/next-experience-keyboard-shortcuts.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/add-response-templates-shortcut.html\">Use keyboard shortcuts</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-user-interface/communicating-with-requesters.html\">Communicating with requesters and agents using Compose</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/use-response-templates-in-the-mini-email-composer.html\">Use response templates in the mini email composer</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-user-interface/configure-email-templates.html\">Set up email templates in Configurable Workspace</a>",
     "importance": "Low"
   },
   {
@@ -2201,7 +2386,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-attachments-connected/uib-setup\" target=\"_blank\" rel=\"noopener noreferrer\">Attachments component enhancements in UI Builder</a></strong></p>\n<p>Configure these enhancements to the Attachments component in UI Builder:</p>\n<ul>\n<li>Open the file viewer as a modeless dialog.</li>\n<li>Customize the attachment header, upload instructions, and menu actions in both the full and compact modes.</li>\n<li>Display the loading skeleton as a spinner or as three cards.</li>\n<li>Enable a visible drop zone for file uploads in the compact mode.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/washingtondc-platform-user-interface/page/administer/workspace/concept/attachments-configurable-workspace.html\">Attachments component in Configurable Workspace</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-application-development/page/administer/ui-builder/task/add-modeless-dialog.html\">Add modeless dialog to a UI Builder page</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-application-development/page/administer/ui-builder/concept/uib-modeless-dialog.html\">Create modeless dialogs in UI Builder</a>\n<a href=\"https://community.servicenow.com/community?id=community_article&sys_id=e84f238ddb6305103321db85ca961966\">UI Builder Essentials: Using the Attachment Component</a>",
     "importance": "Low"
   },
   {
@@ -2217,7 +2402,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-da-layout-group&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Form action layout groups for declarative actions</a></strong></p>\n<p>Upgrade form action layout groups to customize the order, label, and icons for declarative actions without altering the base action.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-user-interface/configure-da-layout-group.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/declarative-actions-landing.html\nhttps://www.servicenow.com/community/developer-blog/declarative-actions-in-servicenow-the-complete-guide/ba-p/2781607\nhttps://www.youtube.com/watch?v=iWkXekiKSto",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-action-layout-groups.html\">Create action layout group</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/configure-da-action-layout.html\">Configure a form action layout</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/declarative-actions-landing.html\">Declarative actions</a>\n<a href=\"https://www.youtube.com/watch?v=iWkXekiKSto\">Group UI Action in Workspace | UI Builder Day 13</a>",
     "importance": "Low"
   },
   {
@@ -2233,7 +2418,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Declarative actions and UI actions on public pages</a></strong></p>\n<p>Non-logged in users may access specified declarative actions and UI actions on embedded web pages while maintaining integrity with security guidance and access control list permissions.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurableworkspace-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html\nhttps://www.servicenow.com/docs/r/platform-user-interface/declarative-actions-landing.html\nhttps://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-guest-user-support.html\nhttps://www.servicenow.com/community/next-experience-articles/introduction-to-declarative-actions/ta-p/2332003",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-platform-user-interface/page/administer/workspace/concept/declarative-actions-landing.html\">Declarative Actions in Configurable Workspace</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-customer-service-management/page/product/customer-service-management/task/csm-config-workspace-set-up.html\">Set up CSM Configurable Workspace</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-platform-user-interface/page/administer/workspace/concept/c_set-up-configurable-workspace.html\">Configuring Configurable Workspace</a>\n<a href=\"https://community.servicenow.com/community?id=community_article&sys_id=e84c2220db818d103321db85ca961908\">Introduction to Declarative Actions</a>",
     "importance": "High"
   },
   {
@@ -2251,7 +2436,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Due to changes in the Configuration Item [cmdb\\_ci] table, if you're upgrading to Australia, you might experience an increased upgrade time. To learn more about this change and reducing its impact, see the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2588894\" target=\"_blank\" rel=\"noopener noreferrer\">Increased Australia Upgrade Time due to cmdb\\_ci composite index addition KB2588894</a> article in the Now Support Knowledge Base.</p>\n<p>If you're upgrading from Xanadu or Yokohama directly to the Australia release, you must run the <strong>Remove CMDB Roles from ITIL roles and Add CUD access to sn\\_cmdb\\_admin/sn\\_cmdb\\_editor roles</strong> scheduled job to correctly configure some user roles, such as CMDB Admin and CMDB Editor. For more information about this scheduled job and its use, see the <a href=\"https://www.servicenow.com/docs/bundle/zurich-release-notes/page/release-notes/now-platform-capabilities/cmdb-rn.html\" target=\"_blank\" rel=\"noopener noreferrer\">CMDB Zurich release notes</a>.</p>\n<p>Strengthen your instance security and maintain backward compatibility through enhanced protections for read‑only fields across the ServiceNow AI Platform®. These back-end changes include a new “read\\_only\\_option” field with granular control levels, including “strict\\_read\\_only” and “client\\_script\\_modifiable\". If you have custom client scripts that modify read‑only fields on the ServiceNow AI Platform® using g\\_form.setValue() or g\\_form.clearValue(), see the [Remediation for strict read-only fields preventing client side updates [KB2718122]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base. This article provides additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see <a href=\"https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring read-only security options</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/cmdb-rn.html\nhttps://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/read-only-option.html\nhttps://www.servicenow.com/docs/r/release-notes/upgrade-and-migration-tasks.html\nhttps://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
+    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2588894\">Increased Australia Upgrade Time due to cmdb_ci composite index addition (KB2588894)</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122\">Remediation for strict read-only fields preventing client side updates (KB2718122)</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/read-only-option.html?contentId=aZ4cWnhGvjRs97M0BAYZLQ\">Configuring read-only security options</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.html?contentId=wAmFoosvAsVhqKMDbN4RlQ\">Components installed with CMDB Workspace</a>",
     "importance": "High"
   },
   {
@@ -2266,7 +2451,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=cmdb-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">CMDB Workspace v8.0</a>:</strong></p>\n<p>Create a CI with a lookup identifier entry that contains mandatory attributes in the CMDB Workspace. When you select a lookup identifier entry on the Required attributes page, you can set those mandatory attribute values for proper IRE processing. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=create-ci-manual-cmdb-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create a CI manually in CMDB Workspace</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.html\">Create a CI manually in CMDB Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.html\">Create a CI identification rule</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/servicenow-platform/configuration-management-database-cmdb/best-practices-id-reconcile-d70991e18122.html\">General guidelines for using CMDB Identification</a>\n<a href=\"https://www.youtube.com/watch?v=Nf9-FYzNihY\">Getting started with the CMDB workspace</a>\n<a href=\"https://www.youtube.com/watch?v=ElmcsXcEKsU\">CMDB Workspace in 5 Minutes</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.html\">Create a CI manually in CMDB Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.html\">Create a CI identification rule</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.html\">Set a CI attribute to be mandatory</a>\n<a href=\"https://www.servicenow.com/community/itom-articles/key-identifiers-in-servicenow-cmdb-explained-like-you-re-5/ta-p/3308125\">Key Identifiers in ServiceNow CMDB Explained</a>",
     "importance": "Medium"
   },
   {
@@ -2283,7 +2468,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=cmdb-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">CMDB Workspace v9.0</a>:</strong></p>\n<ul>\n<li>Use the Service Graph Workspace to view data, such as company, location, user, and CMDB data, using panels and dashboards. The Service Graph Workspace is specifically organized to help CMDB administrators, data owners, and analysts work with the CMDB. You can search the CMDB in Service Graph Workspace without having detailed knowledge of the CMDB data model by using contexts that are mapped to CI classes as navigation.</li>\n<li>Configure de-duplication remediation processes for related tables to turn off automated workflows, such as ignoring errors and skipping business rules, that might block referenced duplicate CIs from updating to the main CI. Skipping automated workflows for related tables enables de-duplication tasks, which would otherwise fail, to complete successfully. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=de-duplication-tasks&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Effects on related tables (such as Change)</a> and <a href=\"https://www.servicenow.com/docs/access?context=dedup-ci-disable-workflow&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Turn off workflows of related tables during remediation</a>.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-workspace.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.html\nhttps://store.servicenow.com/store/app/dbe4b3429723f654fe857a121153af96\nhttps://www.servicenow.com/docs/r/release-notes/cmdb-rn.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace.html\">Service Graph Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/exploring-sg-workspace.html\">Exploring Service Graph Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.html\">Turn off workflows of related tables during remediation</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.html\">Duplicate CIs remediation</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/components-installed-with-dup-ci.html\">Components installed for duplicate CI remediation</a>",
     "importance": "Medium"
   },
   {
@@ -2297,7 +2482,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=dynamic-ire&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Dynamic IRE</a></strong></p>\n<p>Use Dynamic IRE to accurately identify CIs across multiple data sources, and by so, minimize duplicate CIs. Dynamic IRE is applicable only to the Hardware [cmdb\\_ci\\_hardware] class and its descending class, using a dynamic identification process which eliminates the need to manually create and maintain identification rules.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/exploring-ire.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dynamic-ire-exclude-class.html\nhttps://www.servicenow.com/community/cmdb-blog/overview-of-what-s-new-in-san-diego-for-the-cmdb-csdm-and/ba-p/2332200\nhttps://www.youtube.com/watch?v=DTbdeFfFZ34",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.html\">ServiceNow Documentation: Dynamic IRE</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/ire.html\">ServiceNow Documentation: Identification and Reconciliation Engine (IRE)</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/exploring-ire.html\">ServiceNow Documentation: Exploring CMDB Identification and Reconciliation (IRE)</a>\n<a href=\"https://www.youtube.com/watch?v=DTbdeFfFZ34\">YouTube: What's new in CMDB and CSDM for our San Diego release</a>",
     "importance": "High"
   },
   {
@@ -2312,7 +2497,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=reconcile-dup-task&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Simplify resolving de-duplication tasks by using a Now Assist for CMDB skill</a></strong></p>\n<p>Use the De-duplication task resolution assistant skill in the Duplicate CI Remediator to use preselected remediation options instead of manually making selections. An AI agent preselects the options to resolve the task, such as the choice of the main CI. Then, before initiating the remediation, you can review all suggested options with supported reasoning.</p>\n<p>To use the De-duplication task resolution assistant skill, you must install the Now Assist for CMDB version v3.0.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.html\">Resolve de-duplication tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.html\">Manage de-duplication tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html\">Now Assist for Configuration Management Database (CMDB)</a>\n<a href=\"https://www.servicenow.com/community/s/cgfwn76974/attachments/cgfwn76974/it-operations-management-forum/125117/1/SNU-NowAssistCMDB-DeDupTemplates-Lab.pdf\">Now Assist – CMDB and De-Duplication Templates (Lab)</a>\n<a href=\"https://www.youtube.com/watch?v=cyXF0qq7R5w\">Now Assist for CI Deduplication (RapDev Demo)</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.html\">Resolve de-duplication tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.html\">Manage de-duplication tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html\">Now Assist for Configuration Management Database (CMDB)</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.html\">Remediate a de-duplication task (manual)</a>",
     "importance": "Medium"
   },
   {
@@ -2327,7 +2512,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=quick-start-tests-cmdb&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Quick start tests for CMDB</a></strong></p>\n<p>Run quick start tests after upgrades and deployments of new applications or integrations to verify that CMDB works as expected. If you customized CMDB, copy the quick start tests and configure them for your customizations.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/quick-start-tests-cmdb.html\nhttps://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/available-quick-start-tests.html\nhttps://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/quick-start-tests.html\nhttps://www.servicenow.com/docs/r/xanadu/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.html\nhttps://www.youtube.com/watch?v=ZX47LgZpwmU",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/quick-start-tests-cmdb.html?contentId=cGOUCQG4UV_eehp5f1w~jQ\">Quick start tests for Configuration Management Database (CMDB)</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.html?contentId=WyvNlsVQP5Hzl1AN11hp0g\">Quick start tests for Integration Commons for CMDB</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/available-quick-start-tests.html\">Available quick start tests by application or feature</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/quick-start-tests.html\">Quick start tests (General ATF)</a>",
     "importance": "Medium"
   },
   {
@@ -2343,7 +2528,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-cmdb&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Elevated user roles are no longer required for CMDB tasks</a>:</strong></p>\n<p>Access to CMDB tables is no longer restricted to users with elevated privileges. Instead, for improved security, users with access privileges that are trimmed to CMDB features can complete any administrative or end-user CMDB task:</p>\n<ul>\n<li>CMDB tables that required the admin or itil\\_admin roles are now also accessible to the sn\\_cmdb\\_admin user role.</li>\n<li>CMDB tables that required the itil role are now also accessible to the sn\\_cmdb\\_editor user role.</li>\n</ul>\n<p>For more information, see the <a href=\"https://support.servicenow.com/kb_view.do?sysparm_article=KB0561055\" target=\"_blank\" rel=\"noopener noreferrer\">CMDB Granular Role EPIC changes KB0561055</a> article in the Now Support Knowledge Base.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0561055\">CMDB Granular Role EPIC changes KB0561055</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/roles/reference/r_BaseSystemRoles.html\">ServiceNow Base System Roles Documentation</a>\n<a href=\"https://www.servicenow.com/community/itom-forum/granting-users-read-only-access-to-cmdb/m-p/976200\">Granting users read only access to CMDB</a>\n<a href=\"https://www.reddit.com/r/servicenow/comments/1g9cy9i/sn_cmdb_admin_alone_not_enough_to_modify_the_cmdb/\">sn_cmdb_admin alone not enough to modify the CMDB?</a>",
+    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0561055\">KB0561055: CMDB Granular Role EPIC changes</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html\">ServiceNow Documentation: Granular Admin Roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/user-administration/r_BaseSystemRoles.html\">ServiceNow Documentation: Base System Roles</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cnfig-mgmt-and-cmdb.html\">ServiceNow Documentation: Configuration Management and CMDB Overview</a>",
     "importance": "High"
   },
   {
@@ -2358,7 +2543,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=id-detect-dup-ci&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically generate de-duplication tasks for lookup and related tables</a></strong></p>\n<p>Configure IRE to automatically generate de-duplication tasks for specific lookup or related tables during the identification process. You can then process those de-duplication tasks to remediate any duplications.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.html\nhttps://www.youtube.com/watch?v=lcLbvJzCD_o",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.html\">Detecting duplicate CIs</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.html\">Duplicate CIs remediation</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/ire.html\">Identification and Reconciliation Engine (IRE)</a>\n<a href=\"https://www.servicenow.com/community/itom-articles/how-to-create-a-duplicate-less-servicenow-cmdb/ta-p/2326866\">How to create a duplicate less ServiceNow CMDB</a>",
     "importance": "Medium"
   },
   {
@@ -2372,7 +2557,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=id-detect-dup-ci&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Remediate duplicate related items in lookup tables</a></strong></p>\n<p>Configure IRE to create de-duplication tasks for duplicate related items in a lookup table, detected during a lookup-based identification. Sort which duplicates do or don't require remediation by configuring the system property <strong>glide.identification\\_engine.lookup\\_match.create\\_duplicate\\_task\\_ci.enabled</strong>. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=id-detect-dup-ci&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Detecting duplicate CIs</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.html\nhttps://www.servicenow.com/docs/r/washingtondc/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.html\nhttps://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.html\nhttps://www.servicenow.com/docs/r/release-notes/cmdb-rn.html",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-servicenow-platform/page/product/configuration-management/concept/id-detect-dup-ci.html\">Detecting duplicate CIs</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-servicenow-platform/page/product/configuration-management/reference/properties-id-reconciliation.html\">Properties for Identification and Reconciliation</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-servicenow-platform/page/product/configuration-management/reference/components-installed-with-dup-ci.html\">Components installed for duplicate CI remediation</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-servicenow-platform/page/product/configuration-management/task/t_ResolveDeDuplicationTask.html\">Review de-duplication tasks (manual)</a>",
     "importance": "Medium"
   },
   {
@@ -2493,7 +2678,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Control tests grid view in Engagements</strong></p>\n<p>After upgrading to version 22.0.2, toggle between traditional related list and hierarchical data grid on the Control tests tab. Changes to assessment procedure effectiveness automatically cascade to parent control test effectiveness.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-continuousauthorizationandmonitoring-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-continuous-authorization-monitor.html\nhttps://www.servicenow.com/docs/r/release-notes/grc-cam-rn.html\nhttps://store.servicenow.com/sn_appstore_store.do#!/store/application/3989a3221b246a50a85b16db234bcb49\nhttps://www.servicenow.com/products/continuous-authorization-monitoring.html",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/ab1aa7e21b246a50a85b16db234bcb1c\">GRC: Continuous Authorization and Monitoring Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.html\">Continuous Authorization and Monitoring Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-manage-implement-control-tests.html\">Manage and implement control tests</a>\n<a href=\"https://www.youtube.com/watch?v=pERDaYo9MqA\">What's new in Continuous Authorization and Monitoring (CAM)</a>\n<a href=\"https://www.servicenow.com/products/continuous-authorization-monitoring.html\">Continuous Authorization and Monitoring Product Page</a>",
     "importance": "Medium"
   },
   {
@@ -2511,7 +2696,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>CAM workflow configuration enhancements</strong></p>\n<p>After upgrading to version 22.0.2, control button visibility, UI page access, and related list actions across different workflow steps. Previously, related list actions (such as add or remove buttons for information types or baseline control actions) required manual scripting to support custom workflows.</p>\n<p>The following new state model attributes have been introduced:</p>\n<ul>\n<li>Required Authorization Documents Page</li>\n<li>Required Overlay Page</li>\n<li>Required Information Type Actions</li>\n<li>Required Baseline Actions</li>\n<li>Required Overlay Actions</li>\n<li>Generate OSCAL AP</li>\n<li>Generate OSCAL AR</li>\n<li>Generate OSCAL POAM</li>\n<li>Generate OSCAL SSP</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-continuousauthorizationandmonitoring-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/grc-cam-rn.html?contentId=r6_Fd9KytdOtJ7faZEk7bg\nhttps://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-workflow-configurator.html\nhttps://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/enable-cam-workflow-configuration.html?contentId=kmsBvLWCjNJvisPEw70EJw\nhttps://www.youtube.com/watch?v=pERDaYo9MqA",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-workflow-configurator.html\">CAM workflow configuration - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/enable-cam-workflow-configuration.html\">Enable CAM workflow configuration - ServiceNow Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/3989a3221b246a50a85b16db234bcb49\">Continuous Authorization and Monitoring (CAM) - ServiceNow Store</a>\n<a href=\"https://www.youtube.com/watch?v=pERDaYo9MqA\">What's new in Continuous Authorization and Monitoring (CAM) - YouTube</a>",
     "importance": "High"
   },
   {
@@ -2796,7 +2981,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Customer Success Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -3042,7 +3229,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=import-csm-accounts&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Guided setup access for granular admin roles</a></strong></p>\n<p>Access to foundation data steps in guided setup now aligns with CDF admin roles. This access change enables administrators to delegate specific configuration tasks to users based on their assigned roles, providing greater flexibility in managing setup responsibilities.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/access?context=import-csm-accounts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US\">Guided setup access for granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US\">Granular administrative roles for Customer Data Foundation</a>\n<a href=\"https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US\">Granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-configuration.html\">Configure using guided setup</a>",
     "importance": "Medium"
   },
   {
@@ -3056,7 +3243,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=csm-account-code-account-path&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Extensible account code support</a></strong></p>\n<p>Updated the account code generation logic to support dynamic length scalability. Account codes now automatically expand from 4 digits to 5 or more as needed, ensuring unlimited account growth without manual intervention. Administrators can resolve invalid insert errors by clearing the system property to regenerate codes based on the maximum existing code.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-account-code-account-path.html\">Account codes and account paths</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/customer-service-management/set-csm-account-code-property.html\">Set the account code property</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-data-management.html\">Data management for Customer Service Management</a>",
     "importance": "Medium"
   },
   {
@@ -3085,7 +3272,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=configuring-unified-user&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Unified User configuration enhancements</a></strong></p>\n<p>Added a system property (sn\\_customerservice.consumer.allowed\\_user\\_types) to enhance unified user management. This property specifies which user types (classes) can be associated with consumers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/setting-up-a-contact-as-a-unified-consumer.html?contentId=8B8QFBhicIq2ONZ_c5ZY5Q\">Setting up a contact as a consumer</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/update-system-property.html?contentId=DGUq1fNq9ZMUW9EsfJFLlA\">Update system property for Unified User management</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/setting-up-a-user.html?contentId=e7Oy7F~dR3VNf7p6NZUf~g\">Setting up a user as a Unified Consumer</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/configuring-employee-as-a-consumer.html?contentId=SFsAvxx9L9ajOqkklAvcIg\">Configuring a user as a Unified Consumer</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/associating-users-to-a-consumer-record.html?contentId=eooUDpsqpzSIKksQubI7mQ\">Create and link unified consumer user</a>",
     "importance": "Low"
   },
   {
@@ -3100,7 +3287,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=customer-life-cycle-management-workflows&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Customer Life Cycle Management Workflows</a></strong></p>\n<p>Added core primitives to support price and quantity ramps, enabling flexible, time‑based changes across the sold product lifecycle. The feature delivers scalable pricing aligned with usage, simplifies post-sale workflows, and improves revenue forecasting without custom scripts.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/customer-life-cycle-management-workflows.html\">Customer Life Cycle Management Workflows</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/defining-products-with-ramps.html\">Price and quantity ramps</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/add-price-ramps-on-a-quote-line-item.html\">Add price ramps on a quote line item</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/using-customer-cnt-ent-wf.html\">Using Contracts and Entitlements Workflows</a>\n<a href=\"https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-customer-lifecycle-workflows-in-sales-and-order-management.pdf\">Customer Lifecycle Workflows in Sales and Order Management (Datasheet)</a>",
     "importance": "Medium"
   },
   {
@@ -3116,7 +3303,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=sold-product-form&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Sold product form</a></strong></p>\n<p>Create future‑dated subscription products in a <strong>Pending Activation</strong> state to improve the Add‑Order‑to‑Sold‑Product process. It also ensures lifecycle accuracy, predictable billing, and fair access for customers while improving revenue recognition for businesses.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/sold-product-form.html\">Sold product form</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/customer-life-cycle-management-workflows.html\">Customer Life Cycle Management Workflows</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-data-management.html\">Data management for Customer Service Management</a>",
     "importance": "Medium"
   },
   {
@@ -3131,7 +3318,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=real-time-protection&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Real-time alerting and blocking of sensitive data</a></strong></p>\n<p>Analyze user input in real time at the field level to identify sensitive data and alert users about potential sensitive data entry. You can also choose to block users from saving this information.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/alert-data-patterns.html\">ServiceNow Documentation: Real-time Protection and Alerting</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-data-privacy.html\">ServiceNow Documentation: Data Privacy Overview</a>\n<a href=\"https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-servicenow-data-privacy.pdf\">ServiceNow Data Sheet: Data Privacy</a>\n<a href=\"https://www.servicenow.com/community/platform-privacy-security-blog/washington-release-mitigating-the-risk-of-inadvertent-sensitive/ba-p/2901118\">ServiceNow Community: Mitigating Risk of Sensitive Data Exposure</a>\n<a href=\"https://www.youtube.com/watch?v=VHz-JPqI6dY\">YouTube: Enhance Your Data Privacy Expertise</a>",
     "importance": "High"
   },
   {
@@ -3145,7 +3332,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=dps-data-privacy-overview&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Data logs for real-time sensitive data</a></strong></p>\n<p>Leverage real-time alerting and blocking capabilities to obtain insights into where sensitive data is being entered into the instance and by which users.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/real-time-protection-policies.html\">Real time protection policies</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/user-sensitive-data-logs.html\">User sensitive data logs</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-landing.html\">Data Privacy</a>\n<a href=\"https://community.servicenow.com/community?id=community_article&sys_id=e84c269dbd691300200f0b55ca961957\">Administration: Security & Data Privacy Resources</a>\n<a href=\"https://www.youtube.com/watch?v=-6CX0IbWQvU\">Platform Sensitive Data Discovery and Real Time Data Protection</a>",
     "importance": "High"
   },
   {
@@ -3160,7 +3347,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=attachment-quarantine-policies&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Real-time sensitive data-scanning for attachments</a></strong></p>\n<p>Scan attachments for sensitive data during user uploads into fields. If sensitive data is detected, the attachment is quarantined. This restricts the access and download of the file to the original document owner and authorized users until the admin reviews the files.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-attachment-scanning.html\">Attachment Scanning Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/attachment-quarantine-policies.html\">Attachment Quarantine Policies Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-landing.html\">Data Privacy Application Documentation</a>\n<a href=\"https://www.servicenow.com/standard/resource-center/data-sheet/ds-servicenow-data-privacy.html\">ServiceNow Data Privacy Data Sheet</a>\n<a href=\"https://www.youtube.com/watch?v=irrqFJlPDK8\">AI Academy: Data Privacy & Sensitive Data Controls</a>",
     "importance": "High"
   },
   {
@@ -3175,7 +3362,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=default-data-patterns&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New Named Entity Recognition (NER) model data patterns</a></strong></p>\n<p>Employ new AI/ML-based model data patterns (Address, City, State, Country, Job Position, and Salary) to detect and anonymize sensitive data.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-servicenow-data-privacy.pdf\">ServiceNow Data Privacy Data Sheet</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/contextual-based-discovery.html\">Contextual based discovery</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/default-data-patterns.html\">Default data patterns</a>\n<a href=\"https://store.servicenow.com/store/app/340d23a21b646a50a85b16db234bcbf8\">Data Discovery (ServiceNow Store)</a>\n<a href=\"https://www.servicenow.com/community/platform-privacy-security-blog/ai-and-platform-security-zurich-innovations/ba-p/3324841\">AI and Platform Security Zurich Innovations</a>",
     "importance": "High"
   },
   {
@@ -3191,7 +3378,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=dps-create-anonymization-policies&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Anonymization support for catalog variables</a></strong></p>\n<p>Anonymize sensitive data in catalog items (including record producers) using anonymization jobs (in production and during cloning).</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-data-anonymization.html\">Data anonymization</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-create-anonymization-policies.html\">Create anonymization policies</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-configure-data-anonymization-clone.html\">Configure data anonymization clone request</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-supported-data-types.html\">Supported field types for anonymization</a>\n<a href=\"https://www.servicenow.com/community/community-central-forum/data-privacy-and-field-encryption-in-service-catalog/m-p/3481682\">Data Privacy and Field Encryption in Service Catalog</a>",
     "importance": "High"
   },
   {
@@ -3205,7 +3392,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=dds-review-discovery-findings&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New base system Regular Expression (RegEx) data patterns</a></strong></p>\n<p>Employ new base system regular expression data patterns to detect and anonymize sensitive data in line with global compliance requirements.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/data-discovery/configure-data-discovery-patterns.html\">Configure Data Discovery patterns</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/alert-data-patterns.html\">Alert data patterns</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.html\">Data Privacy for Now Assist</a>\n<a href=\"https://www.servicenow.com/community/developer-blog/data-privacy-reinvented-servicenow-ai-security-powered-by/ba-p/3461725\">Data Privacy Reinvented: ServiceNow AI Security</a>\n<a href=\"https://www.youtube.com/watch?v=-6CX0IbWQvU\">Platform Sensitive Data Discovery and Real Time Data Protection</a>",
     "importance": "High"
   },
   {
@@ -3660,7 +3847,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Upgraded Process Overrides Report</strong></p>\n<p>System and domain administrators can now track and review process overrides that are affected by global process upgrades. A new admin dashboard provides a comprehensive list of impacted overrides with filtering and sorting by date and process type. Use the scriptable API to build custom integrations or automations on top of the override tracking data.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-domainseparation-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/domain-sep-landing-page.html\">Domain separation for service providers</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/domain-separation-center.html\">Domain Separation Center</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-landing-page.html\">Upgrade Center</a>\n<a href=\"https://community.servicenow.com/\">ServiceNow Community</a>",
     "importance": "Medium"
   },
   {
@@ -3755,13 +3942,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-approvals-with-approvals-agent&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Approve your requests with AI Agent</a></strong></p>\n<p>Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-employeecenter-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.html\">Approve your requests with AI Agent</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-your-approvals-using-now-assist-virtual-agent-emp-exp.html\">Check your approvals by using Now Assist in Virtual Agent</a>\n<a href=\"https://www.servicenow.com/community/employee-center-articles/now-assist-for-employee-center-an-introductory-guide/ta-p/3477027\">Now Assist for Employee Center: An introductory guide</a>\n<a href=\"https://www.servicenow.com/products/ai-agents.html\">ServiceNow AI Agents</a>",
     "importance": "High"
   },
   {
     "name": "Employee Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Employee Center",
       "UI / UX"
@@ -3774,7 +3963,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Employee Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Employee Center",
       "Service Catalog",
@@ -3863,13 +4054,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ex-fdback-ovrvw&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Integrated experience and service feedback</a></strong></p>\n<p>Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-employeecenterpro-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-employee-service-management/page/product/employee-center/concept/ex-fdback-ovrvw.html\">Integrated experience and service feedback</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-employee-service-management/page/product/employee-center/task/config-employee-ex-fdbck.html\">Set up the feedback configuration</a>\n<a href=\"https://www.servicenow.com/community/employee-center-articles/integrated-experience-and-service-feedback-employee-center-pro/ta-p/2877669\">Integrated Experience and Service Feedback (Employee Center Pro)</a>\n<a href=\"https://www.youtube.com/watch?v=YdHKsaaEjMY\">Employee Center Academy: Integrated Services and Experience Feedback</a>",
     "importance": "Medium"
   },
   {
     "name": "Employee Center Pro",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Employee Center",
       "AI / Machine Learning",
@@ -3884,7 +4077,11 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Employee Center Pro",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)",
+      "ITSM (IT Service Management)",
+      "Workplace Service Delivery"
+    ],
     "tags": [
       "Employee Center",
       "Upgrade / Patching"
@@ -3993,7 +4190,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Enhancements to the <a href=\"https://www.servicenow.com/docs/access?context=eaw-manage-value-streams&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Value stream</a> and <a href=\"https://www.servicenow.com/docs/access?context=eaw-manage-value-stream-stages&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Value stream stage</a> related lists</strong></p>\n<ul>\n<li>Value stream: View associated value stream stages and application models as related lists. You can add, edit, or remove the associated value stream stages and application models.</li>\n<li>Value stream stage: View associated business processes and business capabilities. Add or remove business processes and business capabilities. You can also view the value stream stage as a related list in the business process and business capability records.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-value-streams.html\">Exploring value streams</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/application-portfolio-management/eaw-value-stream-stage.html\">Manage value stream stages</a>\n<a href=\"https://www.servicenow.com/community/enterprise-architecture-forum/how-can-we-use-value-streams-and-value-stream-steps-when-they/m-p/3443284\">How can we use Value Streams and Value Stream steps</a>\n<a href=\"https://www.youtube.com/watch?v=Zzfgdq8wvC8\">Demystifying Value Stream Mapping and Management</a>",
     "importance": "Low"
   },
   {
@@ -4009,7 +4206,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eaw-manage-business-processes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enhancements to the Business Process related lists</a></strong></p>\n<p>View the value stream stage as a related list of a business process.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-vs-stages-assoc-with-bp.html\">View value stream stages associated with a business process</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-manage-business-processes.html\">Manage business processes in Enterprise Architecture Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/ea-workspace.html\">Enterprise Architecture Workspace Documentation</a>\n<a href=\"https://www.youtube.com/watch?v=n7bX0cPmq90\">Enterprise Architecture Workspace | Overview</a>\n<a href=\"https://www.youtube.com/watch?v=KV9qe_U-A58\">Enterprise Architecture Workspace | Enterprise Modeling and Visualization</a>",
     "importance": "Low"
   },
   {
@@ -4025,7 +4222,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eaw-manage-business-capabilities&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enhancements to the Business Capability related lists</a></strong></p>\n<p>View the value stream stage as a related list of a business capability.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.html\">View value stream stages associated with a business capability</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/application-portfolio-management/eaw-view-all-value-stream-stages.html\">View all value stream stages</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/application-portfolio-management/create-a-business-capability.html\">Create a business capability</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-using-business-architecture.html\">Using business architecture</a>",
     "importance": "Low"
   },
   {
@@ -4039,7 +4236,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-documents-for-diagrams&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create documents for the Enterprise Modeling and Visualization diagrams</a></strong></p>\n<ul>\n<li>Save diagram as a document using the Generate document option from the Enterprise Modeling and Visualization diagrams page.</li>\n<li>Define templates for the documents that can be created and used from the Diagrams page.</li>\n<li>Tag components that can be included in the templates to generate documents.</li>\n<li>View associated documents from the Diagrams page.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/generate-doc-from-diagram.html?contentId=Jafp27bIpBamIaARozr72w\">Exploring generating documents from diagrams</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-work-with-ent-model-and-visual.html\">Working with Enterprise Modeling and Visualization</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/application-portfolio-management/eaw-modeling.html\">Explore Enterprise Modeling and Visualization</a>\n<a href=\"https://www.youtube.com/watch?v=KV9qe_U-A58\">Enterprise Architecture Workspace | Enterprise Modeling and Visualization</a>",
     "importance": "Low"
   },
   {
@@ -4054,7 +4251,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eaw-explore-arch-analyzer&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Exploring the architecture analyzer</a></strong></p>\n<p>The Architectural Analyzer helps you to analyze architecture data without creating or maintaining custom diagrams. You can visually explore relationships across applications, services, and infrastructure to quickly understand dependencies and collaborate on architecture decisions. You can also understand the potential impact of architectural changes across applications and services.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-explore-arch-analyzer.html\">Exploring the architecture analyzer - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.html\">Create an exploration in the architecture analyzer - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/products/enterprise-architecture.html\">Enterprise Architecture - ServiceNow Product Page</a>\n<a href=\"https://www.servicenow.com/community/enterprise-architecture/ct-p/application-portfolio-management\">Enterprise Architecture - ServiceNow Community</a>\n<a href=\"https://www.youtube.com/watch?v=Dx1DWq7N3pw\">Introducing ServiceNow Enterprise Architecture - YouTube</a>",
     "importance": "Medium"
   },
   {
@@ -4069,7 +4266,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eaw-rationalize-business-applications&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Application rationalization page enhancements</a></strong></p>\n<p>Added an Overall score indicator to show the overall average score of a business application. Use this indicator to determine the bubble size of a business application on the Bubble Chart page. You can compare the overall scores of different business applications using their individual bubble sizes.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-bubble-chart-view.html\">Bubble chart view of application rationalization</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-rationalize-business-applications.html\">Rationalization of business applications</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-analyze-applications-by-capability.html\">Analyze applications using the bubble chart</a>\n<a href=\"https://www.servicenow.com/community/developer-blog/application-scoring-and-application-assessment-in-enterprise/ba-p/3362433\">Application Scoring and Application Assessment in Enterprise Architecture</a>",
     "importance": "Low"
   },
   {
@@ -4085,7 +4282,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eaw-gran-admin-role-changes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Granular admin role changes in Enterprise Architecture</a></strong></p>\n<p>Added the granular level admin role (sn\\_apm.apm\\_admin) to the following system properties in the Enterprise Architecture:</p>\n<ul>\n<li><strong>sn\\_apm\\_trm.is\\_product\\_life\\_cycle\\_tech\\_debt\\_enabled</strong>: Make this property false to disable calculating level 2 technical debt.</li>\n<li><strong>glide.ui.sn\\_apm\\_trm\\_product\\_request\\_activity.fields</strong>: TRM Product Request activity formatter fields.</li>\n<li><strong>sn\\_apm\\_trm.noOfPublishersPerTRMPage</strong>: The number of publishers to show per page.</li>\n<li><strong>glide.ui.sn\\_apm\\_trm\\_product\\_lifecycle\\_request\\_activity.fields</strong>: TRM Product Lifecycle Request activity formatter fields.</li>\n<li><strong>sn\\_apm.noOfSoftwareModelsPerTPMPage</strong>: The number of software models to show per page. This property is used for client-side pagination.</li>\n<li><strong>sn\\_apm.discoveryModelProductTypesForTPMSuggestions</strong>: Product types of discovery models to consider for TPM software suggestions.</li>\n<li><strong>sn\\_apm.noOfSDLCComponentPerTPMPage</strong>: The number of SDLC components to show per page.</li>\n<li><strong>glide.ui.cmdb\\_ci\\_business\\_app\\_activity.fields</strong>: Business application activity formatter fields.</li>\n<li><strong>sn\\_apm.startRangeOfTPMLifecycle</strong>: The number of years prior to the current date is included when displaying software model lifecycle phases in the TPM timeline.</li>\n<li><strong>sn\\_apm.endRangeOfTPMLifecycle</strong>: The number of years beyond the current date is included when displaying software model lifecycle phases in the TPM timeline.</li>\n<li><strong>noOfBusinessAppsPerTPMPage</strong>: The number of business applications to show per page.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/application-portfolio-management/eaw-trm-technical-debt-calc.html\">TRM Technical Debt calculation in Enterprise Architecture</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/application-portfolio-management/configure-apm.html\">Configuring Application Portfolio Management</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/application-portfolio-management/apm-information-architecture.html\">Information portfolio</a>\n<a href=\"https://www.servicenow.com/products/application-portfolio-management.html\">Application Portfolio Management (APM)</a>",
     "importance": "Medium"
   },
   {
@@ -4099,7 +4296,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-requests-certs-assessments&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enhancements to the My certifications section</a></strong></p>\n<p>View only the certifications that are relevant to you in the <strong>My certifications</strong> tab on the Enterprise Architecture Workspace home page.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/application-portfolio-management/manage-requests-certs-assessments.html\">Manage requests, certifications, and assessments</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-overview.html\">Enterprise Architecture Workspace Overview</a>\n<a href=\"https://store.servicenow.com/store/app/541b232a1b246a50a85b16db234bcb3b\">Enterprise Architecture Workspace on ServiceNow Store</a>\n<a href=\"https://www.youtube.com/watch?v=n7bX0cPmq90\">Enterprise Architecture Workspace | Overview</a>",
     "importance": "Low"
   },
   {
@@ -4114,7 +4311,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eaw-work-with-application-portfolio&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enhancements to the Application Portfolio</a></strong></p>\n<p>Business applications with the Retired state or Lifecycle stage as End of life are no longer displayed in the Business Portfolio section.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-business-portfolio-mod.html\">Working with the business portfolio module</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/manage-business-portfolio.html\">Manage a business portfolio</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/application-portfolio-management-landing-page.html\">Enterprise Architecture (formerly Application Portfolio Management)</a>\n<a href=\"https://www.servicenow.com/community/enterprise-architecture-articles/enterprise-architecture-frequently-asked-questions/ta-p/3204843\">Enterprise Architecture Frequently Asked Questions</a>",
     "importance": "Low"
   },
   {
@@ -4128,7 +4325,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Navigate the interface using the keyboard on the Enterprise Modeling and Visualization pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-work-with-ent-model-and-visual.html\">Working with Enterprise Modeling and Visualization</a>\n<a href=\"https://store.servicenow.com/store/app/193bab2a1b246a50a85b16db234bcbf7\">Enterprise Modeling and Visualization (Store)</a>\n<a href=\"https://www.servicenow.com/docs/r/accessibility/servicenow-keyboard-shortcuts.html\">ServiceNow Keyboard Shortcuts</a>\n<a href=\"https://www.servicenow.com/community/enterprise-architecture/ct-p/application-portfolio-management\">ServiceNow Community: Enterprise Architecture</a>\n<a href=\"https://www.youtube.com/watch?v=KV9qe_U-A58\">Enterprise Architecture Workspace | Enterprise Modeling and Visualization</a>",
     "importance": "Low"
   },
   {
@@ -4142,7 +4339,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Access the shape context menu using the keyboard on the Enterprise Modeling and Visualization canvas. On navigating to a particular shape context menu button, the selected button gets highlighted.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling.html\">Exploring Enterprise Modeling and Visualization in the EA Workspace</a>\n<a href=\"https://store.servicenow.com/store/app/193bab2a1b246a50a85b16db234bcbf7\">Enterprise Modeling and Visualization</a>\n<a href=\"https://www.youtube.com/watch?v=KV9qe_U-A58\">Enterprise Architecture Workspace | Enterprise Modeling and Visualization</a>",
     "importance": "Low"
   },
   {
@@ -4157,7 +4354,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>See pop-over menus when hovering over connector lines on the Enterprise Modeling and Visualization canvas.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling.html\">Exploring Enterprise Modeling and Visualization in the EA Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-work-with-ent-model-and-visual.html\">Working with Enterprise Modeling and Visualization</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.html\">Add labels to connector lines between shapes in a diagram</a>\n<a href=\"https://www.youtube.com/watch?v=KV9qe_U-A58\">Enterprise Architecture Workspace | Enterprise Modeling and Visualization</a>\n<a href=\"https://store.servicenow.com/store/app/193bab2a1b246a50a85b16db234bcbf7\">Enterprise Modeling and Visualization Store Page</a>",
     "importance": "Low"
   },
   {
@@ -4171,7 +4368,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Reflow- The Enterprise Architecture Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-user-interface/auto-reflow.html\">Reflow for Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/bundle/xanadu-application-portfolio-management/page/product/application-portfolio-management/concept/ea-workspace.html\">Enterprise Architecture Workspace Documentation</a>\n<a href=\"https://horizon.servicenow.com/guidelines/accessibility/reflow\">Reflow - Horizon Design System</a>\n<a href=\"https://www.youtube.com/watch?v=YyTvGRw2MQs\">Reflow for Configurable Workspaces (YouTube)</a>",
     "importance": "Low"
   },
   {
@@ -4185,7 +4382,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/yokohama/platform-user-interface/auto-reflow.html\">Reflow for Configurable Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/disable-auto-reflow-for-configurable-workspace.html?contentId=JFQC0iSzf0jZMUGCws4z_Q\">Disable reflow</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/ea-workspace.html\">Enterprise Architecture Workspace</a>\n<a href=\"https://www.youtube.com/watch?v=YyTvGRw2MQs\">Reflow for configurable workspaces</a>",
     "importance": "Low"
   },
   {
@@ -4200,7 +4397,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-work-order-plans&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Define, schedule, and track complex asset-centric work tasks through work order plans</a></strong></p>\n<p>Manage complex asset-centric work tasks with unified work order plans that can be applied across assets, asset groups, or locations. The work order plans offer the following benefits:</p>\n<ul>\n<li>Save work order plans as reusable templates for use across assets.</li>\n<li>Organize sequential operations—shutdowns, safety inspections, calibrations, asset conditions, and restarts—using the structured playbook.</li>\n<li>Assign, schedule, and track work order tasks for technicians within the playbook.</li>\n<li>Enable technicians to receive assigned work order tasks and update task status through the ServiceNow Mobile Agent application.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-work-plan-eam.html\">Create a work plan for your enterprise assets</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/it-asset-management/enterprise-asset-management/create-eam-work-order.html\">Create a work order for an enterprise asset</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/asset-onboarding-eam.html\">Playbooks for Enterprise Asset Management</a>\n<a href=\"https://www.youtube.com/watch?v=d1HlVriPoHg\">EAM HOTLINE: Maintenance Plans and Work Orders</a>",
     "importance": "High"
   },
   {
@@ -4214,13 +4411,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-model-eam&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Manage multimedia production equipment models and assets</a></strong></p>\n<p>Create, track, and manage multimedia production equipment models and assets in the Enterprise Asset Workspace. Get a comprehensive view of these models and assets so that you can manage them effectively throughout their life cycles.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-model-categories.html\">Enterprise model categories and corresponding classes</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.html\">Expanded Model and Asset Classes</a>\n<a href=\"https://www.servicenow.com/products/enterprise-asset-management.html\">ServiceNow Enterprise Asset Management Product Page</a>\n<a href=\"https://www.youtube.com/watch?v=us99cCH_Anc\">Enterprise Asset Management on the NOW Platform (Video)</a>",
     "importance": "Medium"
   },
   {
     "name": "Enterprise Asset Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Asset Management",
       "Roles / Permissions",
@@ -4228,7 +4427,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=eam-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Replace broad admin checks with granular admin roles and ACL updates</a></strong></p>\n<p>Manage admin access precisely with granular admin roles. Instead of giving full admin privileges to the users, you can assign specific roles based on the tasks they perform.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-roles.html\">Enterprise Asset Management roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html\">Granular admin roles</a>\n<a href=\"https://www.servicenow.com/community/eam-articles/enterprise-asset-management-welcome-guide/ta-p/2529236\">Enterprise Asset Management Welcome Guide</a>",
     "importance": "High"
   },
   {
@@ -4243,7 +4442,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=audit-eam-assetinventory&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enhanced and unified hardware asset inventory auditing experience</a></strong></p>\n<p>Streamline and improve your inventory auditing experience with the enhanced and unified hardware asset inventory process:</p>\n<ul>\n<li>Initiate a single audit that covers both hardware and enterprise assets assigned to a specific location or stockroom, eliminating the need to switch between multiple workspaces.</li>\n<li>Include consumable assets in the inventory audit to avoid asset shrinkage and ensure that inventory data remains accurate.</li>\n<li>The ServiceNow Agent app features selectable audit results, enabling you to view a real-time list of all scanned assets.</li>\n<li>When new assets are identified during the single scan audit, essential information is collected in real time through the ServiceNow Agent app to initiate asset creation.</li>\n<li>Scanned asset locations are automatically updated to reflect their precise aisle, space, or sub location during the audit, supporting the accuracy and quality of inventory records.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.html\">Audit enterprise asset inventory</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-enterprise-asset-inventory-audit.html\">Manage enterprise asset inventory audit using the ServiceNow Agent mobile app</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/audit-enterprise-asset-location-mobile-agent-app.html\">Scan enterprise assets for location inventory audits</a>\n<a href=\"https://www.servicenow.com/products/enterprise-asset-management.html\">ServiceNow Enterprise Asset Management</a>\n<a href=\"https://www.youtube.com/watch?v=us99cCH_Anc\">Enterprise Asset Management on the NOW Platform</a>",
     "importance": "Medium"
   },
   {
@@ -4258,7 +4457,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-eam-work-order-task&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Multiple assets and asset groups in a work order</a></strong></p>\n<p>A work order and work order task can now be created for asset groups in addition to individual assets. Additionally, the sn\\_eam.enterprise\\_asset\\_manager role can add more assets to tasks while they're in the draft stage. When technicians start the task, they can take action on all included assets. The Deploy Asset, Swap Asset, and Remove Asset actions within work order tasks support multiple assets and asset groups.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-assets-in-wot-eam.html\">Manage assets in a work order task</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-work-order-plan-eam.html\">Create a work order plan</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-groups-eam.html\">Asset groups in Enterprise Asset Management</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-work-order.html\">Create a work order for an enterprise asset</a>",
     "importance": "Medium"
   },
   {
@@ -4272,7 +4471,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-eam-work-order-task&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Shutdown and Startup work types</a></strong></p>\n<p>The <strong>Shutdown</strong> and <strong>Startup</strong> work types available in the work order tasks enable you to manage asset shutdown and restart tasks.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/shutdown-assets-eam.html\">Shut down assets for maintenance</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/startup-eam-assets.html\">Start up assets after maintenance</a>\n<a href=\"https://store.servicenow.com/store/app/0349abae1be06a50a85b16db234bcbda\">ServiceNow Store: Enterprise Asset Management</a>",
     "importance": "Medium"
   },
   {
@@ -4289,19 +4488,21 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=complete-eam-work-order&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Multiple calibration playbooks</a></strong></p>\n<p>When a calibration work order is created for multiple assets or an asset group, the system generates a separate calibration playbook for each asset in the Affected assets list.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/asset-onboarding-eam.html\">Playbooks for Enterprise Asset Management</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/work-order-plans-eam-assets.html\">Asset work order plans</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-work-order-task.html\">Create a work order task for an Enterprise Asset Management work order</a>\n<a href=\"https://www.youtube.com/watch?v=oc-RwlW3WYE\">ServiceNow Xanadu - Enterprise Asset Management: Asset Calibrations</a>",
     "importance": "Low"
   },
   {
     "name": "Enterprise Asset Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "ITAM (IT Asset Management)"
+    ],
     "tags": [
       "Asset Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=perform-condition-assessment-webui&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Multiple condition lines</a></strong></p>\n<p>When an asset condition work order is created for multiple assets or an asset group, the system generates a separate condition line for each asset in the Affected assets list. All condition lines must be evaluated before the work order can be completed.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-conditions-eam.html\">Asset conditions in Enterprise Asset Management</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/work-order-plans-eam-assets.html\">Asset work order plans</a>\n<a href=\"https://www.servicenow.com/community/eam-articles/enterprise-asset-management-welcome-guide/ta-p/2529236\">Enterprise Asset Management Welcome Guide</a>\n<a href=\"https://www.servicenow.com/community/eam/ct-p/enterprise-asset-management\">ServiceNow Enterprise Asset Management Community</a>\n<a href=\"https://www.youtube.com/watch?v=us99cCH_Anc\">Enterprise Asset Management on the NOW Platform</a>",
     "importance": "Medium"
   },
   {
@@ -4315,7 +4516,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Install the following applications by requesting them from the ServiceNow Store:</p>\n<ul>\n<li>Enterprise Asset Management</li>\n<li>Enterprise Asset Management for Healthcare</li>\n<li>Enterprise Asset Management for Facilities</li>\n<li>OT Asset Management</li>\n<li>Enterprise Asset Management for Data Center and Network Asset Management (DCNAM)</li>\n<li>Enterprise Asset Management for Providers</li>\n<li>Expanded Model and Asset Classes</li>\n</ul>\n<p>Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/washingtondc/it-asset-management/enterprise-asset-management/request-enterprise-asset-management.html\">Install Enterprise Asset Management</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-otam.html\">Install OT Asset Management</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-eam-dcnam.html\">Install Enterprise Asset Management for DCNAM</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.html\">Install Enterprise Asset Management for Healthcare</a>\n<a href=\"https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-eam-providers.html\">Install Enterprise Asset Management for Providers</a>",
     "importance": "Low"
   },
   {
@@ -4329,7 +4530,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Unified alert grouping across Event Management and HLA</a></strong></p>\n<p>Improve alert quality, reduce noise, and achieve higher compression to act faster on issues by grouping Health Log Analytics and Event Management alerts.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-eventmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/Alert-Groups.html\">Alert grouping types</a>\n<a href=\"https://www.youtube.com/watch?v=b8Vgi9FHgjM\">What's New in the Zurich release for ITOM AIOps</a>",
     "importance": "High"
   },
   {
@@ -4344,7 +4545,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create Enrich automation</a></strong> <strong>Explicit node-based control for CI binding</strong></p>\n<p>Increase binding accuracy and reliability and improve alert-to-CI binding with explicit node-based control, configurable node-field usage, enhanced mapping logic, and backward-compatible updates.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-eventmanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/event-management-rn.html\nhttps://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.html\nhttps://www.servicenow.com/docs/r/it-operations-management/event-management/ci-binding-alert.html\nhttps://www.youtube.com/watch?v=monEy2zn65o",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.html\">Create Enrich automation</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-binding-alert.html\">Binding alerts to CIs</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/bind-ci-event-mapping.html\">Bind alerts to CIs using event field mapping</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/event-management/c_EMConfiguration.html\">Event Management setup</a>",
     "importance": "High"
   },
   {
@@ -4359,7 +4560,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Alert Clustering Definitions (ACD) have been deprecated and fully replaced by Alert Automation in Service Operations Workspace. All existing configurations remain supported with full feature parity.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-eventmanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/event-management-rn.html?contentId=ijkIV5FFIk~dphPhmXQqRA\nhttps://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.html\nhttps://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-tag-based-alert-clustering-engine.html\nhttps://www.youtube.com/watch?v=UaMyO6WK5zM",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.html\">Alert Automation in Service Operations Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/view-alert-workspace-itom.html\">Alerts in Service Operations Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-definitions.html\">Create an Alert Clustering Definition</a>\n<a href=\"https://www.youtube.com/watch?v=monEy2zn65o\">Alert Automation for ITOM | Event Management</a>",
     "importance": "Medium"
   },
   {
@@ -4373,7 +4574,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Service Management Dashboard is now deprecated and no longer supported or available for new activation. For details, see the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184\" target=\"_blank\" rel=\"noopener noreferrer\">Deprecation Process KB0867184</a> article in the Now Support knowledge base.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-eventmanagement-release-notes.html",
-    "resources": "https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184\nhttps://www.servicenow.com/docs/r/release-notes/event-management-rn.html\nhttps://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-deprecated-info.html\nhttps://www.servicenow.com/docs/r/zurich/delta-washingtondc-zurich/zurich-washingtondc-eventmanagement-release-notes.html",
+    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184\">Application/Plugin Deprecation Process (KB0867184)</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/event-management/c_EM.html\">Event Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-ui-landing-page.html\">Service Operations Workspace Documentation</a>\n<a href=\"https://www.servicenow.com/products/service-operations-workspace.html\">Service Operations Workspace Product Page</a>",
     "importance": "Medium"
   },
   {
@@ -4389,7 +4590,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Dispatcher Workspace</a></strong></p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Dispatcher Workspace</a> now enables you to perform the following tasks:</p>\n<ul>\n<li>Show multiple time zones on the map in Dispatcher Workspace with a segmented time indicator to see which time zone each Field Service technician is in. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=time-zones-dispatcher&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Time zones</a>.</li>\n<li>Quickly see a work order task in the task panel and find it on the calendar rather than having to search through multiple days. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=open-task-platform-list&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Open tasks from the task list</a>.</li>\n<li>See live traffic on the map in Dispatcher Workspace. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=map-overlay-dispatcher&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Show map overlays in Dispatcher Workspace</a>.</li>\n<li>Flag multiple tasks at once. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=flag-task-list-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Flag or unflag tasks from the list</a>.</li>\n<li>Quickly find tasks in the calendar from the task list. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=flag-task-list-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Flag or unflag tasks from the list</a>.</li>\n<li>View analytics, including the number of technicians without a work schedule or valid location. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=scheduling-health-dashboard&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Scheduling Health dashboard</a>.</li>\n<li>Show an overtime indicator on the calendar to visually see which technicians have overtime tasks. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=dispatcher-wrkspc-settings&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Show overtime indicator</a>.</li>\n<li>Control the size of the cells on the calendar to see shorter tasks more easily. For more information, see <a href=\"https://www.servicenow.com/docs/access?context=calendar-zoom-dispatcher&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Zoom in or out on the calendar</a>.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://docs.servicenow.com/bundle/xanadu-release-notes/page/release-notes/field-service-management/field-service-management-rn.html\nhttps://docs.servicenow.com/bundle/xanadu-field-service-management/page/product/field-service-management/concept/dispatcher-workspace-landing-page.html\nhttps://docs.servicenow.com/bundle/xanadu-field-service-management/page/product/field-service-management/concept/scheduling-health-dashboard.html\nhttps://docs.servicenow.com/bundle/xanadu-field-service-management/page/product/field-service-management/task/configure-dispatcher-workspace.html\nhttps://docs.servicenow.com/bundle/xanadu-field-service-management/page/product/field-service-management/task/use-dispatcher-workspace.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/time-zones-dispatcher.html\">Time zones</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/map-overlay-dispatcher.html\">Show map overlays in Dispatcher Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/flag-task-list-workspace.html\">Flag or unflag tasks from the list</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/scheduling-health-dashboard.html\">Scheduling Health dashboard</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/calendar-zoom-dispatcher.html\">Zoom in or out on the calendar</a>",
     "importance": "Medium"
   },
   {
@@ -4404,7 +4605,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manager-mobile-app&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Manager Mobile</a></strong></p>\n<p>Field Service Managers can do their work from anywhere on their mobile device, including the following tasks:</p>\n<ul>\n<li><a href=\"https://www.servicenow.com/docs/access?context=mange-agents-mobile&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Manage Field Service technicians from Field Service Manager mobile</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=create-task-manager-mobile&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create a work order task</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=event-manager-mobile&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create a personal event</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=view-analytics-manager&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View analytics from Field Service Manager Mobile</a></li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/field-service-management/work-order-management/manager-mobile-app.html\nhttps://www.servicenow.com/docs/r/field-service-management/work-order-management/create-task-manager-mobile.html\nhttps://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/creating-an-event.html\nhttps://www.servicenow.com/docs/r/field-service-management/work-order-management/view-analytics-manager.html\nhttps://www.servicenow.com/docs/r/field-service-management/mobile-experience-fsm.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/manager-mobile-app.html?contentId=bH_jch6yqwUn0703xugB8A\">Field Service Manager Mobile Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-task-manager-mobile.html?contentId=BlsBDJhvVSg58qpvdR0N6w\">Create a Work Order Task on Mobile</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/creating-an-event.html\">Create a Personal Event on Mobile</a>\n<a href=\"https://www.youtube.com/watch?v=QJACgw0AHuc\">Getting Started with Field Service Management Mobile (Video)</a>",
     "importance": "Medium"
   },
   {
@@ -4419,7 +4620,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-personal-event&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Locations on personal events</a></strong></p>\n<p>See locations for personal events regardless of where they’re created in Field Service Management applications including Dispatcher Workspace and Field Service Manager Mobile.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/using-dispatcher-workspace.html\">Using Dispatcher Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-personal-events-on-the-team-calendar.html\">View personal events on the Team calendar</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/events-now-mobile-application.html\">Personal events in ServiceNow Agent</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-personal-event.html\">Show that an agent is busy with a personal event</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dispatch-map-in-dispatcher-workspace.html\">Viewing agents and tasks in the Dispatcher Workspace map</a>",
     "importance": "Low"
   },
   {
@@ -4435,7 +4636,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=Use-mobile-app-fsm&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Agent mobile app</a></strong></p>\n<ul>\n<li>Generate work summary reports and capture signatures in them at the work order task level along with the existing work order level. Additionally, you can view responses and score information for the smart assessment questionnaires in the work summary report.</li>\n<li>Perform asset audits for the technician's personal stockroom to verify and reconcile assets between a physical stockroom and the data on the ServiceNow instance.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/field-service-management/work-order-management/enable-pdf-summary.html\nhttps://www.servicenow.com/docs/r/field-service-management/work-order-management/perform-asset-audit.html\nhttps://www.servicenow.com/docs/r/field-service-management/smart-assessment-questionnaire.html\nhttps://www.servicenow.com/docs/r/release-notes/field-service-management-rn.html\nhttps://www.servicenow.com/docs/r/field-service-management/work-order-management/Use-mobile-app-fsm.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/perform-asset-audit.html\">Perform asset audit for personal stockrooms</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/enable-pdf-summary.html\">Enable PDF summaries at work order task level</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-wo-pdf-summary.html\">Create signed PDF summary</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management/activate-smart-assessment.html\">Activate Smart Assessment for Field Service Questionnaire</a>",
     "importance": "Medium"
   },
   {
@@ -4450,7 +4651,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=respond-task-review-mobile&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Respond to a reviewed work order task</a></strong></p>\n<p>View and resubmit smart assessment questionnaire responses that need additional information, enabling more informed and timely corrections of responses from job sites.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/close-wo-wot-mobile.html\">Respond to a reviewed work order task</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/smart-assessment-questionnaire.html\">Smart Assessment Questionnaires</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/review-send-task-back.html\">Review a task</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management/activate-smart-assessment.html\">Activate Smart Assessment</a>",
     "importance": "Medium"
   },
   {
@@ -4467,7 +4668,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=schedule-optimization-engine&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Schedule Optimization</a></strong></p>\n<p>Enhance scheduling accuracy and performance with <a href=\"https://www.servicenow.com/docs/access?context=schedule-optimization-engine&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Schedule Optimization</a></p>\n<ul>\n<li>View comprehensive details for all optimization runs to quickly identify issues. Access standardized information about run status, included tasks and qualifiers, unassigned tasks with explanations, and the objectives and constraints applied during each optimization.</li>\n<li>Manage integrations more easily by configuring options to enable or disable third-party map providers beyond the default provider.</li>\n<li>Leverage all available trainers to reduce processing time and accelerate end-to-end scheduling for high-volume scenarios by splitting qualifiers into non-overlapping sets and running multiple optimization jobs in parallel.</li>\n<li>Improve scheduling accuracy by introducing a <strong>Window End Buffer Duration</strong> field on the Work Order task record that enables you to configure a buffer duration that extends optimization beyond the defined window end so tasks are retained in the schedule.</li>\n<li>Ensure that only specified technicians can be assigned to the task, overriding all other assignment preferences, by marking technicians as <strong>Required</strong> when creating work order tasks.</li>\n<li>Maintain consistency by removing intraday events that do not meet the defined condition for both scheduled and prioritized optimization runs. When an event is removed from prioritized optimization, it's also removed from the scheduled intraday run.</li>\n<li>Improve optimization control by applying matching rules to intraday events by accessing them in the <strong>Table</strong> field on Matching Rules.</li>\n<li>View how qualifiers are grouped for efficient creation of multiple ML jobs using the <strong>Job Distribution</strong> column in both batch and intraday runs.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/xanadu/release-notes/field-service-management-rn.html\nhttps://www.servicenow.com/products/schedule-optimization.html\nhttps://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/schedule-optimization-example.html\nhttps://www.youtube.com/watch?v=4amHlbHCvO4\nhttps://www.youtube.com/watch?v=63w3Ry5R2HQ",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/setting-up-scheduling-methods.html\">Setting up a Field Service scheduling method</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/schedule-optimization-properties.html\">Schedule optimization properties</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/schedule-optimization-components.html\">Schedule Optimization components</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/work-order-management/t_CreateAWorkOrderTask.html\">Create a work order task</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.html\">Travel estimate provider</a>",
     "importance": "High"
   },
   {
@@ -4482,7 +4683,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=appointment-booking-administer&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Appointment Booking</a></strong></p>\n<p>Use <a href=\"https://www.servicenow.com/docs/access?context=appointment-booking-administer&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Appointment Booking</a> to perform the following tasks:</p>\n<ul>\n<li>Ensure better alignment with your operations by defining advanced lead time and cut-off logic through APIs or extension points. You can implement a custom script through an extension point based on job type, time of day, and day of week.</li>\n<li>Accommodate emergencies or priorities even if the capacity or appointment slots are full by enabling overbooking of appointments.</li>\n<li>Configure appointment slots to consider the holiday settings for a territory and display the available slots accordingly.</li>\n<li>Ensure guaranteed appointment slots by configuring availability checks to be performed at the time of slot retrieval so that any slot displayed is assured to be bookable without needing further capacity validation during the appointment booking.</li>\n<li>Ensure an accurate calculation of the duration for a task while booking an appointment by defining work and travel duration either in the appointment schedule configuration or in the schedule override configuration.</li>\n<li>Determine appointment availability using territory and demand channel mapping when contact or location details are not provided.</li>\n<li>Consider task dependencies while booking or rescheduling appointments and display the slots for the successor tasks after the estimated completion time including the defined lag time for the predecessor task.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/field-service-management-rn.html\nhttps://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-advanced-appointment-booking.html\nhttps://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-advanced-appointment-booking.html\nhttps://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appt-booking-create-service-config.html\nhttps://www.youtube.com/watch?v=_jGxW904l_4",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appointment-booking-administer.html\">Configuring Appointment Booking</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-advanced-appointment-booking.html\">Configure Advanced Appointment Booking</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/extension-points-field-service.html\">Extension points in Field Service Management</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/enable-and-configure-appointment-slot-recommendation.html\">Enable and configure appointment slot recommendation</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appt-booking-create-service-config.html\">Create or modify an appointment booking service configuration</a>",
     "importance": "High"
   },
   {
@@ -4501,7 +4702,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>The following plugins are planned for deprecation in the C release. Beginning with the Australia release this plugin will be migrated to a store application. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed.</p>\n<p>Beginning with the Australia release, the following applications have been moved to the <https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US>. Any application enhancements will be delivered through the related store app.</p>\n<ul>\n<li><a href=\"https://www.servicenow.com/docs/access?context=appintment-booking-day-level-config&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Appointment Booking</a> (com.snc.advanced\\_appointment\\_booking)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=configuring-fsm-contractor-management&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Contractor Management</a> (com.snc.fsm\\_contractor\\_management)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=configuring-contractor-marketplace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Marketplace</a> (com.snc.fsm\\_marketplace)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=configuring-territory-planning-fsm&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Territory Planning</a> (com.snc.fsm\\_territory\\_planning)</li>\n<li>Field Service Advanced Capacity and Reservations management (com.snc.fsm\\_advanced\\_capacity\\_management)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=configuring-capacity-management&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Capacity and Reservations Management</a> (com.snc.fsm\\_capacity\\_management)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=Configuring-service-location&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service with Service Locations Support</a> (com.snc.fsm\\_service\\_locations)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=create-opportunity&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Technician driven sales with Field Service</a> (com.snc.fsm\\_technician\\_sales)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=schedule-optimization-engine-plugin&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Schedule Optimization</a> (com.snc\\_schedule\\_optimization)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=config-quality-mgmt&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Quality Management</a></li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=setting-up-field-service-mobile-agent&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Mobile Agent</a></li>\n<li>Map Integrations for Field Service (com.snc.app\\_fsm\\_map\\_integr)</li>\n<li>Beans.ai plugin (com.sn\\_beans\\_ai\\_spoke)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=activate-intelligent-task-recommendation&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Intelligent Task Recommendations</a> (sn\\_fsm\\_task\\_rec)</li>\n<li><a href=\"https://www.servicenow.com/docs/access?context=activate-intraday-scheduling-plugin&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Field Service Management Scheduling Automations</a> (sn\\_fsm\\_sched\\_flws)</li>\n<li>Application Common Configuration (sn\\_app\\_cmn\\_config): This is a component of Dispatcher Workspace.</li>\n<li>Intelligent Task Recommendations (sn\\_task\\_recommend): This is a component of Intelligent Task Recommendations.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/field-service-management-rn.html\nhttps://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html\nhttps://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html\nhttps://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/712c276e1b246a50a85b16db234bcbb7\">ServiceNow Store: Field Service Management</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/field-service-additional-plugins.html?contentId=zPhdD~OLhMUK_UQ39J25Vg\">Field Service Management Additional Plugins</a>\n<a href=\"https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html?contentId=WNtUtnBtUkpmMj~HEREe4w\">Plugin information for all Australia features and products</a>\n<a href=\"https://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html\">Changes to Australia features and products</a>",
     "importance": "High"
   },
   {
@@ -4516,7 +4717,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=r_PropInstallWFieldServMgmnt&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Google maps ID</a></strong></p>\n<p>The <strong>google.maps.map\\_id</strong> system property enables Field Service Management to use Google Maps for cloud-based map styling, vector mapping, and advanced markers. You must obtain your own map ID.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-fieldservicemanagement-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-administration/set-up-google-maps-api.html\nhttps://www.servicenow.com/docs/r/release-notes/field-service-management-rn.html\nhttps://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/google-maps-apis-and-fsm-capabilities.html\nhttps://www.servicenow.com/community/fsm-articles/fsm-and-google-maps/ta-p/2306825",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/set-up-google-maps-api.html\">Set up Google Maps API</a>\n<a href=\"https://www.servicenow.com/docs/r/field-service-management/r_PropInstallWFieldServMgmnt.html\">Properties installed with Field Service Management</a>\n<a href=\"https://www.servicenow.com/community/fsm-articles/fsm-and-google-maps/ta-p/2306825\">FSM and Google Maps</a>",
     "importance": "Low"
   },
   {
@@ -4533,7 +4734,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=chargeback-stage-mastercard&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automated document submission in Mastercard transaction dispute process</a></strong></p>\n<p>Streamline the submission of supporting documents to Mastercard in the Mastercard Dispute Management workflow through document attachment and validation. Attached files are automatically checked against Mastercard requirements for file type and size. This update reduces the need for manual intervention, minimizes rework, and helps avoid rejection risk.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicescardoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.html\">Financial Services Operations Integration with Mastercard</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/work-on-disputes-integrated-with-mc.html\">Resolving disputes with Mastercard</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/processing-mastercard-dispute-case.html\">Processing a Mastercard dispute</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/mastercard-image-and-document-requirements.html\">Mastercard document requirements</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.html\">Dispute Rules Content Pack for Mastercard</a>",
     "importance": "High"
   },
   {
@@ -4548,7 +4749,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=card-data-security&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New subflow and action to support Card data security</a></strong></p>\n<p>Support attaching documents to a specified table record using the following subflow and action in Card data security:</p>\n<ul>\n<li>Attach Document to Table Record</li>\n<li>Attach Tokenized Document to Table Record</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicescardoperations-release-notes.html",
-    "resources": "https://docs.servicenow.com/bundle/xanadu-financial-services-operations/page/product/financial-services-card-operations/concept/card-data-security.html\nhttps://docs.servicenow.com/bundle/xanadu-financial-services-operations/page/product/financial-services-card-operations/reference/installed-with-card-operations.html\nhttps://docs.servicenow.com/bundle/xanadu-financial-services-operations/page/product/financial-services-card-operations/concept/fso-card-operations.html\nhttps://store.servicenow.com/sn_appstore_store.do#!/store/application/0a63636253b2001032b7ddeeff7b12f0",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/card-data-security.html\">Card Data Security</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/financial-services-operations/financial-services-card-operations/fso-card-operations.html\">Financial Services Card Operations</a>\n<a href=\"https://www.servicenow.com/community/fso-articles/leverage-mid-server-to-retrieve-and-tokenize-pan/ta-p/3500228\">Leverage MID Server to Retrieve and Tokenize PAN</a>\n<a href=\"https://www.youtube.com/watch?v=DeoZ2wW6VaA\">Feature Short: Card Data Security</a>",
     "importance": "High"
   },
   {
@@ -4564,7 +4765,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Install Financial Services Card Operations by requesting it from the ServiceNow Store. Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicescardoperations-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/washingtondc/financial-services-operations/financial-services-card-operations/card-ops-landing-page.html\nhttps://www.servicenow.com/docs/r/release-notes/financial-services-card-operations-rn.html\nhttps://store.servicenow.com/store/app/d95c63ae1b246a50a85b16db234bcb43\nhttps://www.servicenow.com/community/fso-articles/financial-services-operations-fso-for-banking-application/ta-p/3489154\nhttps://www.youtube.com/watch?v=89YnLUlPE-s",
+    "resources": "<a href=\"https://www.servicenow.com/products/financial-services-operations.html\">Financial Services Operations Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-card-operations/card-ops-landing-page.html\">Financial Services Card Operations Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/d95c63ae1b246a50a85b16db234bcb43\">Financial Services Card Operations - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/community/fso-articles/financial-services-operations-fso-for-banking-application/ta-p/3489154\">Financial Services Operations (FSO) for Banking - Community</a>",
     "importance": "Low"
   },
   {
@@ -4580,7 +4781,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>​ <a href=\"https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Integration components for the Mastercard document attachment and validation enhancement</a></strong></p>\n<p>Simplify dispute document submission to Mastercard with improved document attachment and validation feature. The application compresses multiple attachments into a single zipped file, validates files for type and size, and alerts you to non-compliant files. This capability adds the following integration subflow and action:</p>\n<ul>\n<li>Mastercom - Validate and Process Attachments of Card Disputes Task</li>\n<li>Create a Zip Attachment from Uploaded Documents</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithmastercard-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/financial-services-operations-integration-with-mastercard-rn.html\nhttps://www.servicenow.com/docs/r/financial-services-operations/fso-overview.html\nhttps://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba\nhttps://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithmastercard-release-notes.html?contentId=7_M2kwZC_5VtymUGfiDshQ",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba\">Financial Services Operations Integration with Mastercard - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.html\">Financial Services Operations Integration with Mastercard subflows</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/exploring-financial-services-operations-integration-with-mastercard.html\">Explore Financial Services Operations Integration with Mastercard</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/fso-integrate-other-applications.html\">Integrate Financial Services Operations with other applications</a>\n<a href=\"https://www.youtube.com/watch?v=9Xt5y6tO5og\">What's New in the Zurich release for Financial Services Operations</a>",
     "importance": "Medium"
   },
   {
@@ -4596,7 +4797,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Updated subflows</a></strong></p>\n<p>The following subflows were updated to support integration with the Card data security application:</p>\n<ul>\n<li>Mastercom - Look up Case Documents</li>\n<li>Mastercom - Look up Chargeback Documents</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithmastercard-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/financial-services-operations-integration-with-mastercard-rn.html\nhttps://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.html\nhttps://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.html?contentId=8YRQRdpWWrmRiORe53JKLQ\">Integration with Mastercard subflows</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/card-data-security.html?contentId=f67JGaJVzr50dduU5Vs~vw\">Card Data Security</a>\n<a href=\"https://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba\">Financial Services Operations Integration with Mastercard</a>",
     "importance": "High"
   },
   {
@@ -4612,7 +4813,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Updated subflows for the Mastercard document attachment and validation enhancement</a></strong></p>\n<p>The following subflows were updated to support the document attachment and validation enhancement:</p>\n<ul>\n<li>Mastercom - Create Case Filing</li>\n<li>Mastercom - Create Chargeback</li>\n<li>Mastercom - Take Action on Case</li>\n<li>Mastercom - Update Chargeback</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithmastercard-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/financial-services-operations-integration-with-mastercard-rn.html\nhttps://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.html\nhttps://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-operations-integration-with-mastercard-subflows.html?contentId=8YRQRdpWWrmRiORe53JKLQ\">Integration with Mastercard subflows</a>\n<a href=\"https://store.servicenow.com/store/app/81f36a8e1b876e5424cd41d1b24bcbba\">Financial Services Operations Integration with Mastercard</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.html?contentId=~sIpQIe~SyZXLOEBAEaXZA\">Financial Services Operations Integration with Mastercard Landing Page</a>",
     "importance": "Medium"
   },
   {
@@ -4627,7 +4828,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Updated subflows</a></strong></p>\n<p>The following subflows have been updated to support integration with the Card data security application:</p>\n<ul>\n<li>Look up Associated Transactions</li>\n<li>Look up Dispute Pre Arbitration Details</li>\n<li>Look up Dispute Filing Details</li>\n<li>Look up Dispute Response Details</li>\n<li>Look up Dispute Pre Arbitration Response Details</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithvisa-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/financial-services-operations-integration-with-visa-rn.html\nhttps://www.servicenow.com/docs/r/xanadu/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.html\nhttps://www.servicenow.com/docs/r/release-notes/card-data-security-rn.html\nhttps://www.servicenow.com/docs/r/financial-services-operations/install-financial-services-operations-integration-with-visa.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/card-data-security.html\">Card Data Security</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.html\">Integration with Visa subflows</a>\n<a href=\"https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.html\">Financial Services Operations Integration with Visa</a>",
     "importance": "High"
   },
   {
@@ -4766,7 +4967,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Strengthen your instance security and maintain backward compatibility through enhanced protections for read‑only fields across the ServiceNow AI Platform®. These back-end changes include a new “read\\_only\\_option” field with granular control levels, including “strict\\_read\\_only” and “client\\_script\\_modifiable\". If you have custom client scripts that modify read‑only fields on the ServiceNow AI Platform® using g\\_form.setValue() or g\\_form.clearValue(), see the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122\" target=\"_blank\" rel=\"noopener noreferrer\">Remediation for strict read-only fields preventing client side updates KB2718122</a> article in the Now Support Knowledge Base. This article provides additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see <a href=\"https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring read-only security options</a>.</p>\n<p>If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-healthcareandlifesciencesservicemanagementcore-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/read-only-option.html\">Configuring read-only security options</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-assign-serv-mgmt-core-roles.html\">Assign roles for Healthcare and Life Sciences Service Management Core</a>\n<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-core-app.html\">Healthcare and Life Sciences Service Management Core</a>\n<a href=\"https://www.servicenow.com/community/itsm-articles/new-read-only-options-australia-release/ta-p/3511146\">New Read-only options Australia Release</a>",
     "importance": "High"
   },
   {
@@ -4798,7 +4999,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Strengthen your instance security and maintain backward compatibility through enhanced protections for read‑only fields across the ServiceNow AI Platform®. These back-end changes include a new “read\\_only\\_option” field with granular control levels, including “strict\\_read\\_only” and “client\\_script\\_modifiable\". If you have custom client scripts that modify read‑only fields on the ServiceNow AI Platform® using g\\_form.setValue() or g\\_form.clearValue(), see the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122\" target=\"_blank\" rel=\"noopener noreferrer\">Remediation for strict read-only fields preventing client side updates KB2718122</a> article in the Now Support Knowledge Base. This article provides additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see <a href=\"https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring read-only security options</a>.</p>\n<p>If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-healthcareoperationscore-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-operations/hcls-cto-app.html\">Healthcare Operations Core</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/read-only-option.html\">Configuring read-only security options</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122\">Remediation for strict read-only fields preventing client side updates</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/care-team-operations/hcls-cto-configuring.html\">Configuring Healthcare Operations Core</a>",
     "importance": "High"
   },
   {
@@ -5056,7 +5257,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Impact",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Performance",
       "Upgrade / Patching"
@@ -5305,7 +5508,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=task-authoring-configuration-settings&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Authoring Guided Tasks</a></strong></p>\n<p>Design structured workflows with sections, steps, assessments, and conditional paths by using an authoring interface that enforces consistency and quality.</p>\n<p>Built‑in rules help to maintain consistency by following correct steps sequence, naming, and safety requirements. Authors can preview the guided tasks’ end‑user experience before publishing.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.html\">Using Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-industrial-guided-task.html\">Create an Industrial Guided Task from the Standards hub</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/task-authoring-configuration-settings.html\">Task authoring configuration settings</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.html\">Exploring Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.html\">Industrial Guided Tasks reference</a>",
     "importance": "Medium"
   },
   {
@@ -5321,7 +5524,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=scoring-industrial-guided-tasks&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Assessment-driven scoring, evaluation, and execution</a></strong></p>\n<p>Capture and evaluate task data by using multiple assessment types, including numeric inputs, selections, measurements, and conditional evaluations. Supports multiple assessment types including numeric inputs, selections, measurements, and conditional evaluations.</p>\n<p>Automatic scoring determines the following task outcomes based on configured thresholds: Successful, Unsuccessful, or Not Scored. Assessment data is captured for reporting, quality control, and continuous improvement.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.html\">Scoring in Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/configure-scoring-automation-igt.html\">Configure Scoring and Automation</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.html\">Using Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.html\">Industrial Guided Tasks Overview</a>",
     "importance": "Medium"
   },
   {
@@ -5336,7 +5539,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=industrial-guided-tasks-reference&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automation and Smart Actions</a></strong></p>\n<p>Reduce manual intervention by configuring automation features that trigger follow‑up work, standard tasks, or actions based on assessment results.</p>\n<p>Complex logic can route execution flows, creating dynamic experiences that adapt to operator input. This reduces manual intervention and maintains consistent responses to equipment or process conditions. You need an additional plugin to use this functionality.</p>\n<p>Template capabilities for duplication of task structures.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/configuring-industrial-guided-tasks.html?contentId=EkvwsSeK1FWZyTBo2aL2oA\">Configuring Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/use-automation-create-standard-tasks.html?contentId=kBAr7HOUM7j9oziBnPoVGw\">Create an Industrial Guided Task using automation</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.html?contentId=ckyp04sZ7QCm3~mcJKPxww\">Using Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.html?contentId=zn1WrAT7exE8Qv0lH9UmgA\">Industrial Guided Tasks reference</a>",
     "importance": "Medium"
   },
   {
@@ -5351,7 +5554,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=execute-igt-icw-mobile&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Easy accessibility and execution</a></strong></p>\n<p>Execute guided tasks through a clean step‑by‑step interface that supports images, instructions, validations, and attachments for accurate task completion.</p>\n<p>Integrated barcode or QR scanning helps identify parts, equipment, or materials during task execution.</p>\n<p>Offline access to guided tasks in the ICW mobile application. Offline mode minimizes interruption in your work, even in low‑connectivity industrial environments.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.html?contentId=9w4eofQq4SikRA8YAuhIjw\">Exploring Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.html?contentId=ckyp04sZ7QCm3~mcJKPxww\">Using Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.html?contentId=mLuEGwvYpfZodiCdX12m_g\">Exploring the Industrial Connected Workforce Mobile Experience</a>\n<a href=\"https://store.servicenow.com/store/app/fcb74fb4473dfa9482f632c4f16d4304\">ServiceNow Store: Industrial Guided Task</a>\n<a href=\"https://store.servicenow.com/store/app/6150ee741b996ed47d31ed7a234bcbc7\">ServiceNow Store: ICW Mobile</a>",
     "importance": "High"
   },
   {
@@ -5367,7 +5570,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=industrial-guided-task-life-cycle&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">IGT Lifecycle Governance</a></strong></p>\n<p>Govern your guided tasks through separated life-cycle states that provide clearer oversight and a better audit trail.</p>\n<p>Review and approval workflows helps in maintaining quality, safety, and operational standards of guided tasks before release. Historical versions are archived for audits, root cause analysis (RCA) investigations, and long‑term reporting.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-life-cycle.html\">IGT standard and task life cycles</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/publish-industrial-guided-task-standard.html\">Publish an IGT standard</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.html\">Industrial Guided Tasks Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.html\">Using Industrial Guided Tasks</a>",
     "importance": "High"
   },
   {
@@ -5381,7 +5584,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=creating-standards-from-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create standards using templates</a></strong></p>\n<p>Accelerate guided task creation by duplicating existing tasks or using them as reusable templates.</p>\n<p>Structural components such as steps, assessments, and conditional logic can be reused across multiple workflows, which maintains consistency while reducing authoring time.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.html?contentId=qvysLfjMvMAwFl7TrSmCqA\">Using templates to create standards</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-standard-from-template.html?contentId=h61cvnyjZrQqwPA5I3CpTg\">Create a standard from a template</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.html?contentId=ckyp04sZ7QCm3~mcJKPxww\">Industrial Guided Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-industrial-guided-task.html?contentId=l1_WFIqWcme1RN01QKhnnQ\">Create an Industrial Guided Task from the Standards hub</a>",
     "importance": "Low"
   },
   {
@@ -5395,7 +5598,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Industrial Guided Tasks is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialguidedtasks-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.html?contentId=9w4eofQq4SikRA8YAuhIjw\">Industrial Guided Tasks Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-exp-landing-page.html?contentId=mpUQyu~1l3o4VFl_gQNOhg\">Industrial Connected Workforce Mobile Experience Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-igt-icw-mobile.html?contentId=6OSr4M9QvidWYm935EJFcw\">Create an Industrial Guided Task</a>\n<a href=\"https://store.servicenow.com/store/app/fcb74fb4473dfa9482f632c4f16d4304\">Industrial Guided Task - ServiceNow Store</a>\n<a href=\"https://store.servicenow.com/store/app/6150ee741b996ed47d31ed7a234bcbc7\">ICW Mobile - ServiceNow Store</a>",
     "importance": "Low"
   },
   {
@@ -5410,7 +5613,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=automate-mappings-between-ot-assets-and-equipment-model-entity&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Discovered subnets supported by the AMAZING feature</a></strong></p>\n<p>Use the AMAZING feature, which uses discovered subnets, to identify OT devices and assign them to the correct equipment model entity during OT subnet mapping.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialprocessmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.html\">Automated Mapping Across Zone-based IP Network Groups</a>\n<a href=\"https://store.servicenow.com/store/app/0999e7221b246a50a85b16db234bcbda\">Industrial Process Manager - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-manager/industrial-core-plugin.html?contentId=uhHRmZ0hu0ZRZvCTxE_wSA\">Industrial Core plugin Documentation</a>",
     "importance": "Medium"
   },
   {
@@ -5425,7 +5628,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=map-ot-devices-in-iw&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Map OT devices from the Equipment Model Manager</a></strong></p>\n<p>Map OT devices to equipment model entities using the <strong>Unmapped OT Devices</strong> and the <strong>All Devices</strong> tabs in the Equipment Model Manager of the Industrial Workspace.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialprocessmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/map-ot-devices-in-iw.html\">Map OT devices from the Equipment Model Manager</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-unmapped-ot-devices.html\">View unmapped OT devices</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-equipment-model-ot-device-map.html\">View the equipment model OT device map</a>\n<a href=\"https://www.youtube.com/watch?v=AVpHGdhLyGM\">Operational Technology | Industrial Process Manager overview</a>\n<a href=\"https://store.servicenow.com/store/app/0999e7221b246a50a85b16db234bcbda\">Industrial Process Manager</a>",
     "importance": "Medium"
   },
   {
@@ -5439,39 +5642,45 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-location-hierarchy-isa&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate a location hierarchy</a></strong></p>\n<p>Generate a complete location hierarchy for an ISA equipment model entity tree when no locations exist to establish location references that match the ISA hierarchy.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialprocessmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/industrial-process-manager-overview.html\">Industrial Process Manager</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/isa-95-equipment-model.html\">ISA-95 equipment model</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-equipment-model-template-levels.html\">Create hierarchical sorting levels</a>\n<a href=\"https://store.servicenow.com/store/app/0999e7221b246a50a85b16db234bcbda\">Industrial Process Manager Store App</a>\n<a href=\"https://www.youtube.com/watch?v=AVpHGdhLyGM\">Operational Technology | Industrial Process Manager overview</a>",
     "importance": "Low"
   },
   {
     "name": "Industrial Process Manager",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=utilizing-ot-network-map&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use the OT Network Map to visualize your OT network</a></strong></p>\n<p>Visualize your OT network, subnets, and device-to-device connections with the OT Network Map in the Industrial Workspace.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialprocessmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/unified-maps-experience-iw.html\">Operational Technology Unified Map experience in the Industrial Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/using-industrial-workspace.html\">Using the Industrial Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.html\">Automated Mapping Across Zone-based IP Network Groups</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.html\">Industrial Workspace for Operational Technology</a>",
     "importance": "Medium"
   },
   {
     "name": "Industrial Process Manager",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Admin role dependency</a></strong></p>\n<p>Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialprocessmanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.html\">Assign Industrial Process Manager user roles</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/industrial-process-manager-overview.html\">Industrial Process Manager</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.html\">Configuring the Industrial Process Manager</a>\n<a href=\"https://www.youtube.com/watch?v=AVpHGdhLyGM\">Operational Technology | Industrial Process Manager overview</a>",
     "importance": "Medium"
   },
   {
     "name": "Industrial Standards",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Security / Access Control",
       "Knowledge Management",
@@ -5480,46 +5689,52 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=industrial-standards-library&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Standards hub</a></strong></p>\n<p>Browse and compare standards using an upgraded hub that provides tile and list views with filters for state, scope, category, functional location, and equipment model.</p>\n<p>Users can quickly compare similar standards and see linked tasks, skills, and knowledge.</p>\n<p>Access policies differentiate enterprise and site standards to help prevent misapplication.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialstandards-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-library.html?contentId=OlDYrsFDobj0Z5fsSRn6DA\">Standards hub</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.html?contentId=OQiogjhid94YlzJL3544Cg\">Industrial Standards Application Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.html?contentId=i7BbHvhypbEv5fdrYr5jnA\">Using Industrial Standards</a>\n<a href=\"https://store.servicenow.com/store/app/c4abb1781b596e50a85b16db234bcb63\">Industrial Standard - ServiceNow Store</a>",
     "importance": "Medium"
   },
   {
     "name": "Industrial Standards",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Asset Management",
       "Automation / Orchestration"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=scheduling-standards&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Scheduling</a></strong></p>\n<p>Generate recurring work from standards by configuring daily, weekly, monthly, and custom scheduling patterns to maintain a consistent operational cadence.</p>\n<p>A system property (for example, an offset in minutes) lets admins align task creation with shift handovers or production calendar boundaries.</p>\n<p>Runtime tracing improves visibility into created tasks, their status, and exceptions.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialstandards-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.html?contentId=LLQW5~ZKHMUB4mHXRtTTHg\">Scheduling Standards</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/icw-shift-based-scheduling.html?contentId=tu9rWJdNknwBqOhrh855_Q\">Shift-based scheduling for manufacturing standards</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.html?contentId=i7BbHvhypbEv5fdrYr5jnA\">Industrial Standards</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.html?contentId=OQiogjhid94YlzJL3544Cg\">Industrial Standards Landing Page</a>",
     "importance": "Medium"
   },
   {
     "name": "Industrial Standards",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Roles / Permissions",
       "Approvals / Delegation"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=skill-based-task-management&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Skill-based task management</a></strong></p>\n<p>Define required skills or certifications within standards to ensure that only qualified operators execute safety‑critical tasks. Supervisors can request waivers or alternative routing when skills are missing.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialstandards-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/skill-based-task-management.html\">Skill-based task management</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.html\">Industrial Standards</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.html\">Action Management</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.html\">Industrial Standards Landing Page</a>",
     "importance": "High"
   },
   {
     "name": "Industrial Standards",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB",
       "Mobile"
     ],
     "details": "<p>Industrial Standards is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store. Visit the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the <a href=\"https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store version history release notes</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialstandards-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.html\">Industrial Standards Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.html\">Using Industrial Standards</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-exp-landing-page.html\">Industrial Connected Workforce Mobile Experience</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/standards-hub-mobile.html\">Standards Hub Mobile Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/6150ee741b996ed47d31ed7a234bcbc7\">ServiceNow Store: ICW Mobile</a>",
     "importance": "Low"
   },
   {
@@ -5533,127 +5748,147 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Log rotation is automatically enabled for the Replication Payload Error [idr\\_replication\\_payload\\_error] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table that are created before the upgrade are automatically truncated.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-instancedatareplication-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.html\">Industrial Standards Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/instance-data-replication.html\">Instance Data Replication (IDR) Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/c_TableRotation.html\">Table Rotation Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/c4abb1781b596e50a85b16db234bcb63\">Industrial Standards - ServiceNow Store</a>",
     "importance": "Medium"
   },
   {
     "name": "Industrial Standards",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Import / Export / Data"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=test-IDR-connectivity&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">IDR Diagnostics page improvements</a></strong></p>\n<p>Access detailed test descriptions and results on the redesigned IDR Diagnostics page.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-instancedatareplication-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/common-issues-idr.html\">Instance Data Replication (IDR) Diagnostics</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-standards-library.html\">Industrial Standards Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/c4abb1781b596e50a85b16db234bcb63\">Industrial Standard Store Page</a>",
     "importance": "Low"
   },
   {
     "name": "Instance Scan",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Developer Tools",
       "Performance"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hs-parallel-scan&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Parallel execution of scans</a></strong></p>\n<p>Enable parallel execution of scans instead of sequential processing, eliminating bottlenecks and significantly reducing completion times.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-instancescan-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-parallel-scan.html\">Parallel Scans</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-sys-properties.html\">Instance Scan Properties</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-full-scan.html\">Execute a Full Scan</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-using-scans.html\">Using Instance Scan</a>",
     "importance": "Medium"
   },
   {
     "name": "Instance Scan",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Roles / Permissions",
       "Developer Tools"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hs-getting-started&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New role to write checks in Instance Scan</a></strong></p>\n<p>Experience the new scan\\_check\\_writer role that has the privilege to write checks on the scan\\_check table.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-instancescan-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-getting-started.html?contentId=NuRZj9X0umPlVfcXp6eFAA\">Exploring Instance Scan</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/instance-scan-roles.html\">Instance Scan roles</a>\n<a href=\"https://www.servicenow.com/community/developer-blog/creating-your-own-instance-scan-scan-checks/ba-p/2278735\">Creating your own Instance Scan, Scan Checks</a>\n<a href=\"https://www.youtube.com/watch?v=gd5iGN3PWGw\">Platform Academy Session #5: Getting Started with Instance Scan</a>",
     "importance": "Medium"
   },
   {
     "name": "Instance Scan",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Developer Tools",
       "Scripting"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hs-is-ide&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Instance Scan extension for IDE</a></strong></p>\n<p>You can now access Instance Scan from integrated development environment (IDE) on the ServiceNow AI Platform.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-instancescan-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/bd0ea583977ab6503b7e30d71153aff3\">ServiceNow IDE Instance Scan extension</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.html\">ServiceNow IDE User Interface</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/servicenow-ide-landing.html\">ServiceNow IDE Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-landing-page.html\">Instance Scan Documentation</a>",
     "importance": "Low"
   },
   {
     "name": "Instance Scan",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Developer Tools"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hs-sys-properties&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Scan execution of inactive and base system checks</a></strong></p>\n<p>You can now execute scans on inactive checks by setting the glide.scan.inactive\\_records property to true. Add and enable glide.scan.base\\_system\\_records property to execute scans on base system checks.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-instancescan-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-sys-properties.html?contentId=oKzlLW0N78X467pEWNnK_g\">Instance Scan properties</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/platform-administration/instance-scan/hs-intro-scans.html\">Configuring Instance Scan</a>\n<a href=\"https://www.servicenow.com/community/servicenow-studio-forum/issue-with-instance-scan-table-check-for-inactive-users-in-sys/m-p/3223664\">ServiceNow Community: Inactive Records Check</a>\n<a href=\"https://www.youtube.com/watch?v=ucfk-sudFxo\">How to run an instance scan in ServiceNow</a>",
     "importance": "Low"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Automation / Orchestration"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=direct-kafka&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use Direct Kafka to integrate your on-premise ServiceNow instance with your local Kafka environment</a></strong></p>\n<p>Configure a custom Kafka connection to enable your on-premise instance to connect directly to your local Kafka environment.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/direct-kafka.html\">ServiceNow Documentation: Direct Kafka</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka.html\">ServiceNow Documentation: Using Stream Connect for Apache Kafka</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-kafka-connection.html\">ServiceNow Documentation: Configure a Kafka connection</a>\n<a href=\"https://www.servicenow.com/community/developer-forum/integration-of-servicenow-with-kafka-spokes-implementation/td-p/2342609\">ServiceNow Community: Integration of ServiceNow with Kafka</a>\n<a href=\"https://www.youtube.com/watch?v=ZnmXPXyzE8E\">YouTube: IntegrationHub Kafka Trigger - Technical demo</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-topic-alias&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create topic aliases for Stream Connect topics</a></strong></p>\n<p>Use topic aliases to simplify topic management in Stream Connect. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and, wherever they’re moved, connected to an underlying topic.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/manage-topic-alias.html\">Topic aliases</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka.html\">Using Stream Connect for Apache Kafka</a>\n<a href=\"https://www.servicenow.com/community/workflow-data-fabric-blog/stream-connect-implementation-tips/ba-p/3420184\">Stream Connect Implementation Tips</a>\n<a href=\"https://www.youtube.com/watch?v=rCj0t4iAJRw\">ServiceNow - Deep Dive - Stream Connect for Apache Kafka</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=stream-connect-dashboard&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Stream Connect Dashboard updates</a></strong></p>\n<ul>\n<li>The Topics menu displays topic aliases, Hermes topics, and Direct Kafka topics.</li>\n<li>The <strong>Data usage</strong> tab shows data for the Hermes cluster or the Direct Kafka cluster. Use the <strong>Kafka Cluster</strong> list to select which cluster data to display.</li>\n<li>The Consumers and Producers menus reference topic aliases instead of Hermes topics.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-dashboard.html\">Using the Stream Connect Dashboard</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka.html\">Using Stream Connect for Apache Kafka</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/manage-topic-alias.html\">Topic aliases</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-kafka-connection.html\">Configure a Kafka connection</a>",
     "importance": "Low"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=remote-process-sync-dashboard&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View the Remote Process Sync Dashboard</a></strong></p>\n<p>View detailed statistics and monitor the health of your Remote Process Sync (RPS) integrations. The Remote Process Sync Dashboard provides real-time visibility into key metrics, including records processed, queue sizes, processing times, and system status. Use this dashboard to identify issues, track performance trends, and promote smooth operation of your RPS integrations.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-dashboard.html\">Remote Process Sync Dashboard</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.html\">Integration Hub Remote Process Sync</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.html\">Getting started with Remote Process Sync</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.html\">Build your first Remote Process Sync integration</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Automation / Orchestration",
@@ -5661,75 +5896,87 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=MID-hermes-API&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Produce messages to Hermes via a MID Server</a></strong></p>\n<p>Send message payloads to Hermes with MID script includes.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/MID-hermes-API.html\">MID Hermes API extension</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/MIDHermesProducerAPI.html\">MIDHermesProducer API Reference</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.html\">Produce and consume messages to Hermes</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/exploring-hermes-messaging-service.html\">Exploring Hermes Messaging Service</a>\n<a href=\"https://www.youtube.com/watch?v=N87f2OrY1Ho\">ServiceNow Kafka Integration: MID Server Replication (YouTube)</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Automation / Orchestration"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=direct-kafka-usage-metrics&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View usage metrics for Direct Kafka</a></strong></p>\n<p>Track data usage between your instance and Direct Kafka systems. The Direct Kafka Usage metrics table provides administrators with visibility into data transfer volumes for bytes produced and consumed. View metrics aggregated by hour, day, or month at the cluster and topic level. Usage records are automatically retained for 13 months.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/direct-kafka-usage-metrics.html\">Direct Kafka usage metrics</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/integration-hub-reference.html\">Integration Hub reference</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/kafka-subscriptions-statistics.html\">Viewing Kafka subscriptions and statistics</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/producer-statistics.html\">Viewing producer statistics</a>\n<a href=\"https://www.youtube.com/watch?v=rCj0t4iAJRw\">ServiceNow - Deep Dive - Stream Connect for Apache Kafka</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Roles / Permissions"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use the read-only role for Stream Connect</a></strong></p>\n<p>Use the new read-only role for Stream Connect to grant users view-only access to Stream Connect resources. Users with this role can view Stream Connect configurations and runtime statistics across all related modules, but can’t create, modify, or delete any Stream Connect settings.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka-roles.html\">Stream Connect Roles</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-quick-start.html\">Stream Connect Quick Start Guide</a>\n<a href=\"https://www.servicenow.com/community/workflow-data-fabric-blog/stream-connect-implementation-tips/ba-p/3420184\">Stream Connect Implementation Tips</a>",
     "importance": "Low"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=producer-statistics&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View logs for Stream Connect producers</a></strong></p>\n<p>Get detailed log information for producers in the Stream Connect logs. Use the <strong>glide.ih.kafka.producer.message\\_bytes\\_to\\_log</strong> property to specify how much of the message to display in the logs.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/producer-statistics.html?contentId=GUjo9pObZE_ILcNn6ItgmA\">Viewing producer statistics</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka.html?contentId=Iq06rsct_sTqlpLHMVyMgg\">Using Stream Connect for Apache Kafka</a>\n<a href=\"https://www.servicenow.com/community/workflow-data-fabric-blog/stream-connect-implementation-tips/ba-p/3420184\">Stream Connect Implementation Tips</a>\n<a href=\"https://www.youtube.com/watch?v=F8PshKXsoL4\">Stream Connect for Apache Kafka - Real-Time Kafka Integration</a>",
     "importance": "Low"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=sc-alert-properties&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure alert thresholds for undelivered messages in Stream Connect</a></strong></p>\n<p>Set alert thresholds for undelivered messages based on how long a topic has gone without receiving new messages. Use this configuration to trigger INFO, WARNING, or CRITICAL alerts when message delivery stops for a specified period.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/administer/integrationhub-store-spokes/reference/sc-alert-properties.html\">Stream Connect Alerting Properties</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/administer/integrationhub-store-spokes/concept/stream-connect-alert.html\">Stream Connect Alerting</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/administer/integrationhub-store-spokes/task/stream-connect-dashboard.html\">Using the Stream Connect Dashboard</a>\n<a href=\"https://www.youtube.com/watch?v=49ZkCYz40vA\">Stream Connect | Creator Toolbox</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=sc-alert-properties&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure alert thresholds for unprocessed messages in Stream Connect</a></strong></p>\n<p>Set alert thresholds for messages that remain unprocessed in a topic. You can trigger alerts based on how long messages sit in a topic without being consumed, helping to identify lagging or failing consumers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sc-alert-properties.html\">Stream Connect Alerting properties</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-alert.html\">Stream Connect alerting</a>\n<a href=\"https://www.youtube.com/watch?v=49ZkCYz40vA\">Stream Connect | Creator Toolbox</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Automation / Orchestration",
@@ -5737,26 +5984,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-script-consumer&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Get metadata information for Stream Connect consumers</a></strong></p>\n<p>View the partition, offset, datacenter ID, and timestamp epoch for the script consumer and Kafka Message trigger.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-script-consumer.html?contentId=9QKqSUJfM2wBsZIvBTbfTw\">Configure a script consumer</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/integrate-applications/integration-hub/use-kafka-trigger-script-consumer.html\">Use the Kafka Message trigger and Script consumer</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-dashboard.html\">Using the Stream Connect Dashboard</a>\n<a href=\"https://www.servicenow.com/community/workflow-data-fabric-blog/stream-connect-implementation-tips/ba-p/3420184\">Stream Connect Implementation Tips</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Scripting"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-script-consumer&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View message timestamps in the Stream Connect script consumer</a></strong></p>\n<p>Get the message timestamp in the script consumer as a UTC time-zone string. You can use the UTC time-zone string to convert the timestamp to a <strong>GlideDateTime</strong> object.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-script-consumer.html\">Configure a script consumer</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka.html\">Using Stream Connect for Apache Kafka</a>\n<a href=\"https://www.youtube.com/watch?v=bTp6Lf9yexI\">ServiceNow Stream Connect for Apache Kafka - Kafka Script Consumer</a>\n<a href=\"https://www.youtube.com/watch?v=49ZkCYz40vA\">Stream Connect | Creator Toolbox</a>",
     "importance": "Low"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Workflows / Flow Designer",
@@ -5764,13 +6015,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=getting-started-with-remote-process-sync&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use an error subflow template to create your own error subflows in Remote Process Sync</a></strong></p>\n<p>Copy and modify the RPS Error Subflow Template to create error subflows. The template enables you to select notification methods for when the Inbound and Outbound States are errored.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-subflows.html\">Remote Process Sync sample subflows</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.html\">Integration Hub Remote Process Sync</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.html\">Build your first Remote Process Sync integration</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.html\">Getting started with Remote Process Sync</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Workflows / Flow Designer",
@@ -5778,13 +6031,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Specify attachment details in Remote Process Sync actions</strong></p>\n<p>Specify the max attachment size and allowed attachment extensions in the <a href=\"https://www.servicenow.com/docs/access?context=identify-new-attachments-action&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Identify New Attachments action</a> and the <a href=\"https://www.servicenow.com/docs/access?context=get-attachment-metadata-local-record-action&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Get Attachment Metadata for Local Record action</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/identify-new-attachments-action.html\">Identify New Attachments action</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/get-attachment-metadata-local-record-action.html\">Get Attachment Metadata for Local Record action</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.html\">Integration Hub Remote Process Sync Documentation</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-forum/integrationhub-remote-process-sync-syncing-attachments/td-p/1070419\">ServiceNow Community: IntegrationHub - Remote Process Sync</a>\n<a href=\"https://www.youtube.com/watch?v=5qbB6XYJjes\">What is Integration Hub Remote Process Sync in ServiceNow</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Automation / Orchestration",
@@ -5792,13 +6047,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Use a new retry policy for Remote Process Sync actions</strong></p>\n<p>Retry failed requests at specified intervals with the RPS Push Attachment Policy. This policy works with the <a href=\"https://www.servicenow.com/docs/access?context=identify-new-attachments-action&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Identify New Attachments action</a> and the <a href=\"https://www.servicenow.com/docs/access?context=get-attachment-metadata-local-record-action&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Get Attachment Metadata for Local Record action</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/identify-new-attachments-action.html\">Identify New Attachments action</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/get-attachment-metadata-local-record-action.html\">Get Attachment Metadata for Local Record action</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.html\">Integration Hub Remote Process Sync</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.html\">Getting started with Remote Process Sync</a>",
     "importance": "Medium"
   },
   {
     "name": "Integration Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "API / Integrations",
       "Automation / Orchestration",
@@ -5806,39 +6063,45 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hla-data-input-kafka-credentials&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">SASL authentication support for Apache Kafka connections</a></strong></p>\n<p>Configure SASL authentication for your Apache Kafka connections with support for SASL\\_SSL and SASL\\_PLAINTEXT security protocols. Kafka credentials now support multiple SASL mechanisms: PLAIN- SCRAM-SHA-256, SCRAM-SHA-512.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-kafka-ssl-credentials.html\">Create Kafka SSL credentials</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-kafka-consumer-connector.html?contentId=NzOzffZPK432ovkT5u6IEw\">Configure the Apache Kafka Consumer connector</a>Kafka SSL credentials fields</a>",
     "importance": "High"
   },
   {
     "name": "Intelligence for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ra-configure-contextual-filtering&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Recommended Actions – Configure contextual filtering of AI search results</a></strong></p>\n<p>Enhance search accuracy by ensuring results are contextually relevant to the record being viewed by the agent. Search results are dynamically filtered based on contextual information passed through additional context parameters. To configure the contextual filtering of the Search results, enable the dynamic filter for a search source in a Search profile and then create the AisDynamicFilter implementation for the source which holds the filtering conditions.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-intelligenceforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-configure-contextual-filtering.html\">Configure AI Search contextual filter preprocessing for Recommended Actions</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-configuring-ai-search.html\">Configuring AI search in Recommended Actions</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-csm-ai-search.html\">AI search in Recommended Actions</a>\n<a href=\"https://www.youtube.com/watch?v=hlzTedqkxcM\">Video Shorts: AI Search in Recommended Actions</a>",
     "importance": "Medium"
   },
   {
     "name": "Intelligence for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "AI / Machine Learning",
       "UI Builder"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ra-csm-create-context-inputs&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Recommended Actions – Support for mandatory Contextual Inputs</a></strong></p>\n<p>As an RA author, you can mark specific context inputs as mandatory by selecting the Mandatory check box in the Context Inputs form. When one or more context inputs are configured as mandatory, you must set the values for these contextual inputs directly on Recommended Actions component on the record page in the UI Builder for the recommendations to be generated.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-intelligenceforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-csm-dynamic-context-inputs.html\">Context inputs in Recommended Actions</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-csm-create-context-inputs.html\">Create a context input in Recommended Actions</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/configure-recommended-actions.html\">Configuring the Recommended Actions application</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/nba.html\">Recommended Actions configuration</a>",
     "importance": "Low"
   },
   {
     "name": "Intelligence for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Roles / Permissions",
       "Developer Tools",
@@ -5846,51 +6109,60 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ra-csm-installed-components&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Recommended Actions - Manage and conﬁgure metadata with delegated developer approach</a></strong></p>\n<p>Grant granular admin users delegated developer privileges and required roles to manage and configure metadata. This includes the Manage update set permission, domain\\_picker role, and metadata\\_scope\\_viewer role for viewing and modifying the application scope of metadata records.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-intelligenceforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-csm-installed-components.html\">Components installed with Recommended Actions</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/configure-recommended-actions.html\">Configuring the Recommended Actions application</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/nba.html\">Recommended Actions configuration</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/ra-csm-configure.html\">Recommended Actions for Customer Service</a>",
     "importance": "Medium"
   },
   {
     "name": "Intelligence for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=interaction-wrapup-ai-generated&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AI interaction wrap-up</a></strong></p>\n<p>Provides agents with AI assistance during the interaction wrap-up period. This feature generates wrap-up content for interaction records, such as the wrap-up code and notes.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-intelligenceforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/interaction-wrapup-ai-generated.html?contentId=tml2rcO4omR47cjhcdV6DA\">AI interaction wrap-up</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/create-interaction-wrap-up-config.html?contentId=60mChZGXXu8O2eYB3lOgQA\">Create an interaction wrap-up configuration</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/interaction-wrapup-modeless-dialog.html\">Interaction wrap up with modeless dialog</a>\n<a href=\"https://www.youtube.com/watch?v=pobIffjD4D8\">Feature Shorts : Interaction wrap-up</a>",
     "importance": "Medium"
   },
   {
     "name": "Intelligence for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=process-opt-csm&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Process mining - Pre‑configured templates for CSM Process Mining Projects</a></strong></p>\n<p>Select pre‑configured templates from the Process Mining Content Pack for CSM to quickly set up customer service case projects with default settings already applied. These templates help accelerate project creation by providing standardized configurations tailored for common Customer Service Management scenarios.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-intelligenceforcsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/process-opt-csm.html\">Integrating with Process Mining for CSM</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/process-mining/example-po-csm.html\">Example of Process Mining for CSM</a>\n<a href=\"https://store.servicenow.com/store/app/1ab927621b246a50a85b16db234bcb84\">Process Mining Content Pack for CSM</a>\n<a href=\"https://www.servicenow.com/community/process-and-task-mining-blog/process-mining-for-customer-service-management/ba-p/3055563\">Process Mining for Customer Service Management</a>",
     "importance": "Medium"
   },
   {
     "name": "ITOM Visibility",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "Discovery"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=powershell-remoting&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">PowerShell 7 support for Discovery</a></strong></p>\n<p>Discovery now supports PowerShell 7, while maintaining backward compatibility with PowerShell 5.1. This update enhances security, accelerates onboarding, and reduces deployment blockers through improved runtime detection and comprehensive test coverage.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itomvisibility-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/r_PowerShellForDiscovery.html\">PowerShell for Discovery and Service Mapping</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/powershell-remoting.html\">PowerShell remoting for Discovery</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/powershell-cmdlets-run-by-discovery.html\">PowerShell commands run by Discovery</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0868418\">ServiceNow Discovery Landing Page</a>",
     "importance": "High"
   },
   {
     "name": "ITOM Visibility",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "Discovery",
       "Security / Access Control",
@@ -5898,39 +6170,45 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=code-sign-disco-probes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Discovery on Code Signing instances</a></strong></p>\n<p>Discovery now enforces code signing for probes, parameters, and sensors to guarantee authenticity, integrity, and secure execution on MID Servers. This update blocks unsigned or tampered payloads, provides signature validation, and strengthens compliance by helping prevent audit gaps without impacting discovery performance.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itomvisibility-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/code-sign-disco-probes.html\">Discovery on Code Signing instances</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/config-cloud-disco-code-sign.html\">Configure Cloud Discovery for code-signed instances</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/code-signing-landing.html\">Code Signing Overview</a>",
     "importance": "High"
   },
   {
     "name": "ITOM Visibility",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "CMDB",
       "Discovery"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=disco-generic-attributes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Discovery generic attributes</a></strong></p>\n<p>Enhance Configuration Management Database (CMDB) data accuracy with new Discovery capabilities that auto-populate non-discoverable attributes using a schedule-based mechanism. This update simplifies configuration item (CI) management by propagating generic attribute values across schedules and ranges, reducing manual effort and improving usability.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itomvisibility-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-generic-attributes.html?contentId=Z3rmymLRUZgh4G9_sPk0DQ\">Discovery generic attributes</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/ci-field-disco-attributes.html?contentId=1EnOrrZxUeBmMrYpVqhl_A\">Automatic CI field population</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/define-ci-attributes.html?contentId=9~rmiLml3csp4bS4SAF~Zw\">Define CI field attributes</a>\n<a href=\"https://www.servicenow.com/community/itom-blog/discovery-schedule-attributes/ba-p/2629148\">Discovery Schedule Attributes</a>",
     "importance": "Medium"
   },
   {
     "name": "ITOM Visibility",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "CMDB",
       "Discovery"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=mapping-k8s-sm-kva&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use Kubernetes Visibility Agent (KVA) and Service Mapping to create service maps for extended services beyond Kubernetes</a></strong></p>\n<p>Service Mapping complements Kubernetes Visibility Agent (KVA) capabilities to map services that include Kubernetes and all related service resources beyond the Kubernetes environment. Install the latest version of Kubernetes Visibility Agent (KVA) to detect the latest changes in your Kubernetes cluster and run Service Mapping to have an up to date visualization of your services across Kubernetes and related resources.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itomvisibility-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/acc-kubernetes-visibility-landing-page.html\">Kubernetes Visibility Agent Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-configuring.html\">Configuring Kubernetes Visibility Agent</a>\n<a href=\"https://www.servicenow.com/community/itom-articles/kubernetes-visibility-agent/ta-p/3309421\">Kubernetes Visibility Agent Community Article</a>\n<a href=\"https://www.youtube.com/watch?v=DA2V9Oh91QU\">ITOM Academy: Kubernetes Visibility Leading Practices</a>",
     "importance": "High"
   },
   {
     "name": "ITOM Visibility",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "CMDB",
       "Discovery",
@@ -5938,25 +6216,29 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=quick-start-tests-service-mapping&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Quick start tests for Service Mapping</a></strong></p>\n<p>After upgrades and deployments of new applications or integrations, run quick start tests to verify that Service Mapping works as expected. If you customized Service Mapping, copy the quick start tests and configure them for your customizations.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itomvisibility-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/service-mapping/quick-start-tests-service-mapping.html?contentId=A~EB9OCSApO7R_0HM~PURw\">Quick start tests for Service Mapping</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/available-quick-start-tests.html\">Available quick start tests by application or feature</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/service-mapping/service-mapping-get-started.html\">Exploring Service Mapping</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/service-mapping/service-mapping-setup.html\">Configuring Service Mapping</a>",
     "importance": "Medium"
   },
   {
     "name": "ITOM Visibility",
     "type": "Deprecation",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "Discovery"
     ],
     "details": "<p>Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It’s hidden and no longer activated on new instances but continues to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184\" target=\"_blank\" rel=\"noopener noreferrer\">Application/Plugin Deprecation Process KB0867184</a> article in the Now Support knowledge base.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itomvisibility-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/cloud-discovery-workspace/cloud-ops-wrksp-dashboard.html\">Cloud Discovery Workspace Dashboard (Deprecation Notice)</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-workspace.html\">Discovery Admin Workspace Documentation</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184\">Application/Plugin Deprecation Process (KB0867184)</a>\n<a href=\"https://www.servicenow.com/community/itom-blog/discovery-admin-workspace-may-2025-release-updates/ba-p/3253832\">Discovery Admin Workspace - May 2025 Updates</a>",
     "importance": "Medium"
   },
   {
     "name": "Key Management",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption",
       "Scripting",
@@ -5965,76 +6247,88 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>In pre-Zurich releases, the GlideEncrypter API used the three-key Triple Data Encryption Standard (3DES) encryption standard, which <a href=\"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">NIST 800-131A Rev 2</a> has recommended against using after 2023. The following changes are taking place in the Australia release in preparation for a full deprecation of GlideEncrypter/3DES in the future:</p>\n<p>    - New Australia instances can’t use GlideEncrypter. All base system scripts have been changed to use alternative encryption processes.</p>\n<p>    - if you’re upgrading your Australia instances, you can still GlideEncrypter, which has been updated to use AES256-GCM encryption via the Key Management Framework.</p>\n<p>    - Learn more about 3DES deprecation in <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481\" target=\"_blank\" rel=\"noopener noreferrer\">KB1704481</a>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-keymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideEncrypterAPI.html\">GlideEncrypter API Documentation (Australia Release)</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/glideencrypter-deprecation.html\">GlideEncrypter Deprecation and Migration Guide</a>\n<a href=\"https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-encryption-release-notes.html\">Australia Release Encryption Release Notes</a>\n<a href=\"https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-encryptionkeymanagement-release-notes.html\">Key Management Framework Upgrade Notes</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481\">KB1704481: 3DES Deprecation Information</a>",
     "importance": "High"
   },
   {
     "name": "Key Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption",
       "Scripting"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=c_GlideDigestScopedAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Added SHA512 support for message digests</a></strong></p>\n<p>GlideDigest has been updated to allow creation and verification of message digests using the SHA512 cryptographic hash function.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-keymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/c_GlideDigestScopedAPI.html\">GlideDigest Scoped API</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/explore-kmf.html\">Exploring the Key Management Framework</a>\n<a href=\"https://servicenowguru.com/system-definition/demystifying-cryptography-servicenow/\">Demystifying Cryptography in ServiceNow</a>\n<a href=\"https://www.servicenow.com/community/itsm-articles/sha-512-hashing-script-include/ta-p/2313538\">SHA 512 Hashing - Script Include</a>",
     "importance": "Medium"
   },
   {
     "name": "Key Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption",
       "Security / Access Control"
     ],
     "details": "<p><strong>Offline key exchange to share module keys between instances</strong></p>\n<p>Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-keymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/kmf-key-exchange-overview.html\">Key Management Framework Key Exchange</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-key-exchange.html\">Configure Key Exchange</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-kmf.html\">Configuring the Key Management Framework</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/understanding-kmf.html\">Key Management Framework Reference</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-forum/using-kmf-to-send-encrypted-data-between-instances/td-p/2837503\">Using KMF to send encrypted data between instances</a>",
     "importance": "Medium"
   },
   {
     "name": "Key Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption",
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=KMFCryptoOperationBothAPI&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Sign and verify JSON web tokens (JWT) through KMFCryptoOperation</a></strong></p>\n<p>The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-keymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/server-api-reference/KMFCryptoOperationBothAPI.html\">ServiceNow API Reference: KMFCryptoOperation</a>\n<a href=\"https://www.servicenow.com/docs/bundle/washingtondc-platform-security/page/administer/key-management-framework/concept/understanding-kmf.html\">ServiceNow Documentation: Key Management Framework</a>\n<a href=\"https://www.servicenow.com/community/developer-forum/verify-a-jwt-signature-using-a-jwks-object/td-p/2836976\">ServiceNow Community: Verify a JWT Signature</a>",
     "importance": "High"
   },
   {
     "name": "Key Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption"
     ],
     "details": "<p><strong>Centralized Crypto Management console</strong></p>\n<p>Use the new Crypto Management Console to streamline and track the certificate management lifecycle. The new console scans your instance for certificates and displays their details in a central location,</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-keymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/platform-encryption/explore-kmf.html\">Key Management Framework (KMF) Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-explore.html\">Certificate Inventory and Management Documentation</a>\n<a href=\"https://www.servicenow.com/products/certificate-management.html\">ServiceNow Certificate Management Product Page</a>\n<a href=\"https://www.youtube.com/watch?v=GGZcoU4ar3Y\">TechTalk: Discover and manage TLS certificates in ServiceNow</a>",
     "importance": "High"
   },
   {
     "name": "Key Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption"
     ],
     "details": "<p><strong>Clone and restore support for on-premise instances</strong></p>\n<p>Support for cloning and restoring on-premise instances. Support has also been added from migrating a commercial instance to on-premise instances, and vice-versa.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-keymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/cloning-and-secrets-mgmt.html\">Cloning and Secrets Management</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/encryption.html\">Key Management Framework</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/system-clone-landing.html\">System Clone</a>",
     "importance": "High"
   },
   {
     "name": "Key Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption"
     ],
@@ -6046,7 +6340,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Key Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption"
     ],
@@ -6058,7 +6354,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Key Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Security / Access Control",
       "Scripting",
@@ -6072,7 +6370,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Key Management",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Certificates / Encryption"
     ],
@@ -6084,7 +6384,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Knowledge Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Knowledge Management"
     ],
@@ -6096,7 +6398,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Legacy Application Manager",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Developer Tools",
       "Update Sets / Deployments"
@@ -6109,7 +6413,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Localization Workspace",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Localization / Translations"
     ],
@@ -6163,27 +6469,31 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Localization Workspace",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Localization / Translations",
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=lw-estimate&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use intelligent due date suggestions based on the size and scope of your requests</a></strong></p>\n<p>Use intelligent due date suggestions, which provide an estimated completion date for your translations, based on the size and scope of your translation request. You can accept the suggested due date when submitting your request.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-localizationworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-estimate.html?contentId=XSnhFuwdV9w2egBcaOYQiw\">Request translations in Localization Workspace: Estimate</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/localization-workspace/requesting-translations-localization-workspace.html?contentId=YpsVLFjy0VXmD1UHpxhcWg\">Requesting translations in Localization Workspace</a>\n<a href=\"https://www.servicenow.com/in/platform/localization.html\">ServiceNow Localization Product Page</a>\n<a href=\"https://www.servicenow.com/community/international-localization-blog/localization-workspace/ba-p/3389408\">Localization Workspace - ServiceNow Community</a>\n<a href=\"https://www.youtube.com/watch?v=ZwNultCajYA\">Platform Academy - Introducing the Localization Workspace</a>",
     "importance": "Low"
   },
   {
     "name": "Manufacturing Commercial Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Workflows / Flow Designer"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=mco-product-non-conformances&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">MCO product non-conformances</a></strong></p>\n<p>It’s a unified, AI-assisted life-cycle management from submission to resolution, helping teams capture quality inputs, identify duplicates early, take faster informed actions, and maintain control throughout.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-manufacturingcommercialoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/products/manufacturing-commercial-operations.html\">Manufacturing Commercial Operations Product Page</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/mco-non-conformance-report.html\">Product Non-conformance Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/mco-create-product-non-conformance.html\">Create a Product Non-conformance</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/manufacturing-overview.html\">Manufacturing Commercial Operations Overview</a>\n<a href=\"https://www.servicenow.com/in/standard/resource-center/data-sheet/ds-manufacturing-commercial-operations.html\">Manufacturing Commercial Operations Data Sheet</a>",
     "importance": "High"
   },
   {
@@ -6202,7 +6512,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Manufacturing Commercial Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management",
+      "Now Assist"
+    ],
     "tags": [
       "Agent Workspace",
       "Workflows / Flow Designer",
@@ -6306,7 +6619,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Mobile Platform",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Mobile",
       "Forms / Lists",
@@ -6346,7 +6661,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=pin-timeout&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configurable timing for PIN application timeout</a></strong></p>\n<p>Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users are can remain inactive before being required to reenter their PIN.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-mobileplatform-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/mobile/pin-timeout.html?contentId=wzeYIZkU5BHcdQBXhwodcg\">PIN timeout</a>\n<a href=\"https://www.servicenow.com/docs/r/mobile/mobile-app-pin-settings.html?contentId=p19RuhempfsCEH02dWIOww\">App PIN settings for mobile</a>\n<a href=\"https://www.servicenow.com/docs/r/mobile/mobile-properties.html?contentId=hrOgdKgWopRDVdxG3uD6xw\">Mobile properties</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/mobile/additional-mobile-configuration.html\">Mobile system property configurations</a>",
     "importance": "Medium"
   },
   {
@@ -6414,7 +6729,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Mobile Platform",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "Mobile",
       "AI / Machine Learning",
@@ -6465,7 +6782,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Markdown support for tables in Virtual Agent</a></strong></p>\n<p>Render tables in Virtual Agent with markdown support to keep table sizing consistent.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-mobileplatform-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/table-bot-response.html?contentId=bIl1Jpgtg8hhWCFNqgWEOA\">Table bot response control</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.html?contentId=W5_ZIm23qQNcAm6FvQjyAw\">Configure Virtual Agent for a ServiceNow mobile application</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-bot-responses.html?contentId=Oj3hMV9kYWXa_7U387TEsQ\">Virtual Agent Designer bot responses</a>",
     "importance": "Low"
   },
   {
@@ -6537,7 +6854,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Activity timer</strong></p>\n<p>Tracks time spent on an activity, such as working on a record, and creates time log entries for reporting.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-activity-timer.html?contentId=bluPXxo8z104X3z4snchoQ\">Activity Timer release notes</a>\n<a href=\"https://store.servicenow.com/store/app/422fbf4e97633614c8c33ef11153af00\">Activity Timer Store Page</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/ui-builder/work-components.html\">Customize UI Builder pages using components</a>",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/422fbf4e97633614c8c33ef11153af00\">Activity Timer - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/time-configuration/c_TimeWorked.html\">Time Worked Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/next-experience-landing-page.html\">Next Experience UI Documentation</a>",
     "importance": "Low"
   },
   {
@@ -6554,7 +6871,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Card data security container</strong></p>\n<p>Provides secure, encrypted handling of card details and supports uploading and viewing sensitive documents.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "https://store.servicenow.com/store/app/00bc378a476bba503d01112a636d43ec\nhttps://www.servicenow.com/docs/r/release-notes/card-data-security-rn.html\nhttps://www.servicenow.com/docs/r/financial-services-operations/fso-overview.html\nhttps://www.servicenow.com/docs/r/release-notes/next-experience-components-rn.html",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/00bc378a476bba503d01112a636d43ec\">Card data security container (ServiceNow Store)</a>\n<a href=\"https://docs.servicenow.com/bundle/financial-services-operations/page/product/financial-services-operations/concept/components-installed-with-card-data-security.html\">Components installed with Card Data Security</a>\n<a href=\"https://docs.servicenow.com/bundle/financial-services-operations/page/product/financial-services-operations/concept/exploring-card-data-security.html\">Exploring Card Data Security</a>",
     "importance": "High"
   },
   {
@@ -6599,7 +6916,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Sheet</strong></p>\n<p>Container that slides in from the edge of the screen to present related content or actions, designed for mobile experiences.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://horizon.servicenow.com/workspace/components/now-sheet\">Sheet Component - Horizon Design System</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/ui-builder/work-components.html\">Customize UI Builder Pages Using Components</a>\n<a href=\"https://www.servicenow.com/products/mobile-app-builder.html\">Mobile App Builder Product Page</a>",
     "importance": "Low"
   },
   {
@@ -6627,7 +6944,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Data visualization library</strong></p>\n<p>Includes all data visualizations available to users. Users can filter dashboards by various criteria, such as bookmarked, certified, and ones that the user owns. The Library section also lets users create dashboards. Users with analytics admin roles have an enhanced library view, enabling them to access usage data and other metadata. Admins can also deactivate, activate, or delete dashboards from this view.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "Data visualizations in Platform Analytics</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/find-dashboard-library.html\">Dashboards in the library</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/add-db-data-viz-to-library.html\">Add a dashboard data visualization to the library</a>Analytics Center Overview</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/find-dashboard-library.html\">Dashboards in the library</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/add-db-data-viz-to-library.html\">Add a dashboard data visualization to the library</a>",
     "importance": "Medium"
   },
   {
@@ -6685,7 +7002,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Button</strong></p>\n<p>Add AI variants with updated color palettes for generative AI workflows.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/release-notes/next-experience-components-rn.html?contentId=NIGCjFYVT8DJcB30mNtBBQ\">Next Experience Components Release Notes</a>\n<a href=\"https://horizon.servicenow.com/workspace/components/now-button\">Horizon Design System: Button Component</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/difference-themes-variants.html\">Core Styles, Variants, and Alternate Color Palettes</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/next-experience-landing-page.html\">Next Experience UI Documentation</a>",
+    "resources": "<a href=\"https://horizon.servicenow.com/workspace/components/now-button\">Button - Horizon Design System</a>\n<a href=\"https://developer.servicenow.com/dev.do#!/reference/next-experience/now-components/now-button/overview\">Button Component Developer Reference</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/next-experience-landing-page.html\">Next Experience UI Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/platform-user-interface/configuring-da-buttons.html\">Configure Action Buttons</a>",
     "importance": "Low"
   },
   {
@@ -6732,7 +7049,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Card base container</strong></p>\n<p>Add AI variants with updated color palettes for generative AI workflows.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://horizon.servicenow.com/workspace/components/now-card\">Card Base Container - Horizon Design System</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/difference-themes-variants.html\">Core styles, variants, and alternate color palettes</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/config-next-experience-themes-prefs.html\">Configuring Next Experience themes</a>",
     "importance": "Low"
   },
   {
@@ -6747,7 +7064,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Date-time</strong></p>\n<p>Customize the background color.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "Based on your request, here are the most relevant resources for customizing the **Date-time** component (specifically the `now-date-time` component) in ServiceNow's Next Experience and UI Builder. The customization of the background color typically involves using CSS custom properties (variables) or applying styles to the component wrapper within UI Builder.\n\n<a href=\"https://horizon.servicenow.com/workspace/components/now-date-time\">Date-Time Component - Horizon Design System</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-application-development/page/administer/ui-builder/task/add-styling-to-component.html\">Customize UI Builder Component Styling</a>\n<a href=\"https://www.servicenow.com/community/next-experience-forum/ui-builder-dynamic-background-color-when-using-repeater/m-p/3026140\">Community: Dynamic Background Color in UI Builder</a>\n<a href=\"https://www.youtube.com/watch?v=UpYPilXnzpo\">YouTube: UI Builder | Date-Time Components</a>\n<a href=\"https://www.servicenow.com/community/developer-forum/configure-date-time-component-in-ui-builder/m-p/3489493\">Community: Configure Date/Time Component in UI Builder</a>",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/washingtondc-application-development/page/administer/ui-builder/task/work-components.html\">Customize UI Builder pages using components</a>\n<a href=\"https://docs.servicenow.com/bundle/washingtondc-platform-user-interface/page/administer/ui-builder/concept/working-with-component-styles.html\">Component styles</a>\n<a href=\"https://www.youtube.com/watch?v=UpYPilXnzpo\">UI Builder | Date-Time components</a>\n<a href=\"https://www.youtube.com/watch?v=5mgx2__nq5Q\">UI Builder | Change the default appearance of components</a>",
     "importance": "Low"
   },
   {
@@ -6763,7 +7080,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Dropdown</strong></p>\n<p>Add AI variants with updated color palettes for generative AI workflows.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/release-notes/next-experience-components-rn.html?contentId=NIGCjFYVT8DJcB30mNtBBQ\">Next Experience Components Release Notes</a>\n<a href=\"https://horizon.servicenow.com/workspace/components/now-dropdown\">Dropdown - Horizon Design System</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/difference-themes-variants.html\">Core Styles, Variants, and Alternate Color Palettes</a>",
+    "resources": "<a href=\"https://horizon.servicenow.com/workspace/components/now-dropdown\">Dropdown - Horizon Design System</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/next-experience-landing-page.html\">Next Experience UI Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/config-next-experience-themes-prefs.html\">Configuring Next Experience Themes</a>\n<a href=\"https://www.servicenow.com/community/next-experience-forum/how-to-set-up-dropdown-component-in-ui-builder/m-p/3204342\">ServiceNow Community: Dropdown Component Setup</a>\n<a href=\"https://www.youtube.com/watch?v=-GgP98ZdU24\">YouTube: Add Alternate Color Palette to Theme Builder</a>",
     "importance": "Low"
   },
   {
@@ -6779,7 +7096,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Dropdown list\t</strong></p>\n<p>The mobile version uses the sheet component instead of a popover.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperiencecomponents-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/release-notes/next-experience-components-rn.html?contentId=NIGCjFYVT8DJcB30mNtBBQ\">Next Experience Components Release Notes</a>\n<a href=\"https://horizon.servicenow.com/workspace/components/now-dropdown-list\">Dropdown List - Horizon Design System</a>\n<a href=\"https://www.servicenow.com/community/next-experience-forum/how-to-set-up-dropdown-component-in-ui-builder/m-p/3204342\">How to set up Dropdown component in UI Builder (Community)</a>\n<a href=\"https://www.youtube.com/watch?v=Kg8iH-03ans\">Dropdown component & Client Script Call (YouTube)</a>",
+    "resources": "<a href=\"https://horizon.servicenow.com/workspace/components/now-dropdown-list\">ServiceNow Horizon Design System: Dropdown List Component</a>\n<a href=\"https://horizon.servicenow.com/workspace/components/now-sheet\">ServiceNow Horizon Design System: Sheet Component</a>\n<a href=\"https://www.servicenow.com/community/next-experience-forum/how-to-set-up-dropdown-component-in-ui-builder/m-p/3204342\">ServiceNow Community: How to set up Dropdown component in UI Builder?</a>\n<a href=\"https://www.youtube.com/watch?v=Kg8iH-03ans\">YouTube: Dropdown component & Client Script Call | UI Builder Day 11</a>",
     "importance": "Low"
   },
   {
@@ -7301,7 +7618,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Notifications",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Notifications / Email",
       "API / Integrations"
@@ -7345,7 +7664,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Notifications",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Notifications / Email"
     ],
@@ -7472,7 +7793,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Collaborative Work Management (CWM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Forms / Lists"
@@ -7516,7 +7840,11 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Configuration Management Database (CMDB)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "ITOM (IT Operations Management)",
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "CMDB",
       "AI / Machine Learning"
@@ -7529,14 +7857,16 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Configuration Management Database (CMDB)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "CMDB",
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=na-cmdb-awf-search&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">CMDB searches can include relationships</a></strong></p>\n<p>Search queries can depend on relationships between CIs and can span multiple tables. For example, you might ask: \"Search for servers that depend on databases - only Linux servers running Redhat\".</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforconfigurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html\">Now Assist for Configuration Management Database (CMDB)</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.html\">Search the CMDB with Now Assist</a>\n<a href=\"https://store.servicenow.com/store/app/b9fe6f2e1b646a50a85b16db234bcba7\">Now Assist for CMDB Application</a>\n<a href=\"https://www.servicenow.com/community/cmdb-articles/ai-search-in-servicenow-five-now-assist-for-cmdb-use-cases-for/ta-p/3499348\">Now Assist for CMDB Use Cases</a>",
     "importance": "Medium"
   },
   {
@@ -7552,13 +7882,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=na-cmdb-awf-ci-creator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New role required for the Create configuration item agentic workflow</a></strong></p>\n<p>The sn\\_cmdb\\_admin role is now required to use the 'Create configuration item' agentic workflow (was sn\\_cmdb\\_editor).</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforconfigurationmanagementdatabasecmdb-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ci-creator.html\">Create a CI using Now Assist</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configure.html\">Set up Now Assist for CMDB</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html\">Now Assist for CMDB Documentation</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Configuration Management Database (CMDB)",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "CMDB",
       "AI / Machine Learning",
@@ -7572,7 +7904,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Configuration Management Database (CMDB)",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "ITOM (IT Operations Management)"
+    ],
     "tags": [
       "CMDB",
       "AI / Machine Learning"
@@ -7585,7 +7920,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Creator",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Developer Tools"
@@ -7614,7 +7951,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Creator",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "App Engine"
+    ],
     "tags": [
       "AI / Machine Learning",
       "UI Builder",
@@ -7641,26 +7981,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New vibe coding documentation</a></strong></p>\n<p>Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforcreator-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-development/vibe-coding-landing.html\">Vibe coding and AI-assisted development</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/vibe-code-with-build-agent.html\">Get started vibe coding</a>\n<a href=\"https://www.servicenow.com/products/vibe-coding.html\">ServiceNow Build Agent: Enterprise Vibe Coding</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/now-assist-for-creator-landing.html\">Now Assist for Creator</a>\n<a href=\"https://www.servicenow.com/community/developer-articles/vibe-coding-on-the-nbsp-servicenow-ai-nbsp-platform-your-new-go/ta-p/3507713\">Vibe coding on the ServiceNow AI Platform</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Creator",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Developer Tools"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=sns-app-gen-use-app-gen-skill&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use the app generation skill to generate apps</a></strong></p>\n<p>Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforcreator-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/bundle/xanadu-application-development/page/build/now-assist-app-gen/concept/sns-now-assist-app-gen-landing.html\">Now Assist for app generation in ServiceNow Studio</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/servicenow-studio/build-agent-in-servicenow-studio.html?contentId=ZIh~M3IOzKjqTsR~NNU0aQ\">Build Agent in ServiceNow Studio</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/vibe-code-now-assist-creator.html\">Now Assist for Creator</a>\n<a href=\"https://www.servicenow.com/community/now-assist-for-creator/ct-p/creator-now-assist\">Now Assist for Creator Community</a>\n<a href=\"https://www.youtube.com/watch?v=ZuaGk-gksHI\">Now Assist for app generation in ServiceNow Studio | Overview</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Creator",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "API / Integrations",
@@ -7668,13 +8012,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Spoke generation has been removed from Now Assist for Creator. See the <a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/home\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a> website for additional information.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforcreator-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/779bebaa1b246a50a85b16db234bcbab\">Now Assist for Creator - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/now-assist-for-creator-landing.html?contentId=iEgmVHcSdYYQLAmwlQbMPw\">Now Assist for Creator Documentation</a>\n<a href=\"https://www.servicenow.com/community/now-assist-for-creator-forum/bd-p/now-assist-for-creator-forum\">Now Assist for Creator Community Forum</a>\n<a href=\"https://www.youtube.com/watch?v=-Xz-tLf8HIc\">Now Assist for Creator Overview</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Employee Center Pro",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "Employee Center",
       "AI / Machine Learning",
@@ -7682,7 +8028,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Now Assist for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforemployeecenterpro-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-ec-pro-landing.html\">Now Assist for Employee Center Pro</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.html\">Exploring Now Assist for Employee Center Pro</a>\n<a href=\"https://store.servicenow.com/store/app/bfa5ea7693603690a0f2fc1d6cba1072\">Now Assist for Employee Center Pro - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/community/employee-center-blog/september-2025-enhancements-to-now-assist-for-employee/ba-p/3377938\">Enhancements to Now Assist for Employee Center Pro</a>\n<a href=\"https://www.youtube.com/watch?v=ddsm5_FiU5Q\">AI Enabled ServiceNow Employee Center Portal with Now Assist</a>",
     "importance": "Low"
   },
   {
@@ -7698,7 +8044,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=manage-approvals-with-approvals-agent&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Approve your requests with AI Agent</a></strong></p>\n<p>Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforemployeecenterpro-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.html?contentId=EyWIeOEnLoXeTUSFfqTeGA\">Approve your requests with AI Agent</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.html?contentId=I8pbmf4A7bRecTxE1ABxtA\">Exploring Now Assist for Employee Center Pro</a>\n<a href=\"https://www.servicenow.com/community/employee-center-blog/september-2025-enhancements-to-now-assist-for-employee/ba-p/3377938\">September 2025 enhancements to Now Assist for Employee Center</a>\n<a href=\"https://store.servicenow.com/store/app/bfa5ea7693603690a0f2fc1d6cba1072\">Now Assist for Employee Center Pro (ServiceNow Store)</a>\n<a href=\"https://www.servicenow.com/blogs/2024/knowledge-news-expanded-genai-automation\">Knowledge News: Expanded GenAI, Automation</a>",
     "importance": "High"
   },
   {
@@ -7714,7 +8060,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=quick-start-tests-employee-center&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Quick start tests for Employee Center</a></strong></p>\n<p>After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforemployeecenterpro-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center-pro.html\">Quick start tests for Employee Center Pro</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.html\">Quick start tests for Employee Center</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/atf-employee-center.html\">Run quick start tests for Employee Center</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/available-quick-start-tests.html\">Available quick start tests by application or feature</a>",
     "importance": "Low"
   },
   {
@@ -7730,7 +8076,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=generate-insights-into-ba&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Business application summarization skill enhancements</a></strong></p>\n<p>Generate context-sensitive business application summaries from the following pages:</p>\n<ul>\n<li>Business capability hierarchy page: On generating a business application summary from this page, information such as the associated primary and secondary capabilities and the position in the capability hierarchy are displayed along with the general information about the business application.</li>\n<li>Application rationalization list view page: On generating a business application summary from this page, information such as the indicator scores (actual and normalized scores), and associated demand details are displayed along with the general information about the business application.</li>\n<li>Application rationalization bubble chart page: On generating a business application summary from this page, information such as x and y-axis details, and planned disposition details are displayed along with the general information about the business application.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforenterprisearchitectureea-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/generate-insights-into-ba.html?contentId=nT5eUl0w4f9BER9S2Oi77w\">Generate insights into business applications</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-ea.html?contentId=vUk6MbCn7a~XSYfghdFemA\">Now Assist for Enterprise Architecture (EA) Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/4afc6f621b646a50a85b16db234bcbe0\">Now Assist for Enterprise Architecture (EA) Store Page</a>\n<a href=\"https://www.youtube.com/playlist?list=PLkGSnjw5y2U5K2Vg8WINuwt-mqYvG3ljV\">ServiceNow Enterprise Architecture (EA) YouTube Playlist</a>",
     "importance": "Medium"
   },
   {
@@ -7746,7 +8092,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=generate-insights-ea-dashboard&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate insights for Enterprise Architecture Workspace dashboard widgets</a></strong></p>\n<p>Generate insights for the widgets available on the Enterprise Architecture Dashboard page using the Now Assist Explorer icon available on the header of each widget.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforenterprisearchitectureea-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/generate-insights-ea-dashboard.html\">Generate insights for Enterprise Architecture Workspace dashboard widgets</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-ea.html\">Now Assist for Enterprise Architecture (EA)</a>\n<a href=\"https://www.servicenow.com/docs/r/application-portfolio-management/generate-insights-into-ba.html\">Generate insights into business applications</a>\n<a href=\"https://store.servicenow.com/store/app/4afc6f621b646a50a85b16db234bcbe0\">Now Assist for Enterprise Architecture (EA) Store Page</a>",
     "importance": "Low"
   },
   {
@@ -7763,7 +8109,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=compare-modeling-diagrams&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Diagram change analysis skill enhancements</a></strong></p>\n<ul>\n<li>Compare any two versions of a diagram and generate a summary of the changes.</li>\n<li>Select any version as a primary or secondary version to compare.</li>\n<li>Generate a summary for real-time changes made to the primary version while already comparing it to another diagram version.</li>\n<li>Modify diagram versions to compare using the Diagram comparison icon on the diagram comparison page.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforenterprisearchitectureea-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/6k4g_5wX4~40dsUynycZuQ/zK07e8yYwbtM2D7e_lGndA\">Now Assist for Enterprise Architecture (EA) Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills.html\">Now Assist Skills List</a>\n<a href=\"https://store.servicenow.com/store/app/4afc6f621b646a50a85b16db234bcbe0\">Now Assist for Enterprise Architecture (EA) Store Page</a>\n<a href=\"https://www.youtube.com/watch?v=Dx1DWq7N3pw\">Introducing ServiceNow Enterprise Architecture</a>",
     "importance": "Medium"
   },
   {
@@ -7780,7 +8126,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=analyze-a-dashboard-in-service-observability&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Analyze Service Observability dashboard skill</a></strong></p>\n<p>The analyze Service Observability dashboard skill uses generative AI to summarize a single Service Observability dashboard and calls out insights found in charts. This summary helps operators quickly orient to and understand a particular dashboard. Once activated, this skill is available on all Service Observability dashboards.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforitoperationsmanagementitom-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.html\">Analyze a dashboard in Service Observability</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-observability-dashboard-skill.html\">Activate the analyze Service Observability dashboard skill</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.html\">Now Assist for IT Operations Management (ITOM)</a>",
     "importance": "Medium"
   },
   {
@@ -7798,20 +8144,23 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=analyze-service-health-in-service-observability&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Analyze service health</a></strong></p>\n<p>The analyze service health skill uses generative AI to analyze all available Service Observability dashboards for the selected service in the Service Operations Workspace (SOW). It generates a summary of a service’s health and calls out any found insights. Once activated, this skill is available from the header of a service record in the SOW and runs automatically in incident investigation.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforitoperationsmanagementitom-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-health-skill.html\">Activate the analyze service health skill</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.html\">Use generative AI in Now Assist for ITOM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.html\">Now Assist for IT Operations Management</a>\n<a href=\"https://www.youtube.com/watch?v=sK8JKrWkaqQ\">Learn About Now Assist for ITOM</a>",
     "importance": "High"
   },
   {
     "name": "Now Assist for Manufacturing Commercial Operations (MCO)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Sales and Order Management"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Asset Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=mco-plan-and-execute-recall-campaign-phases-and-subphases&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">MCO plan and execute recall campaign phases and subphases</a></strong></p>\n<p>Use the plan and execute recall campaign phases and sub-phases AI agent for recall campaign planning and execution through multiple phases and sub-phases. The AI agent generates phases based on parts availability, asset location, operational readiness, and regulatory approvals, with key actions including phase plan creation, modification, recall manager approval, and impacted asset assignment.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistformanufacturingcommercialoperationsmco-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/manufacturing/now-assist-for-MCO.html\">Now Assist for Manufacturing Commercial Operations</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/mco-phases-and-subphases.html\">Phases and Sub-phases</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/mco_recall_campaign_phases.html\">Recall a campaign sub-phase</a>\n<a href=\"https://www.youtube.com/watch?v=Lb3bOK0Mx7E\">Introducing Manufacturing Commercial Operations</a>",
     "importance": "High"
   },
   {
@@ -7829,13 +8178,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=mco-report-an-issue&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">MCO report an issue</a></strong></p>\n<p>It’s a playbook-driven portal with AI capabilities for description refinement, field prediction, entity extraction, duplicate identification via intelligent search, and pre-submission correction details for improved resolution.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistformanufacturingcommercialoperationsmco-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/manufacturing/mco-report-an-issue_AI.html\">Report an issue using Now Assist for MCO</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/now-assist-for-MCO.html\">Now Assist for Manufacturing Commercial Operations</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/mco-report-a-product-non-conformance.html\">Report a product non-conformance</a>\n<a href=\"https://www.servicenow.com/docs/r/manufacturing/manufacturing-overview.html\">Manufacturing Commercial Operations Overview</a>\n<a href=\"https://www.youtube.com/watch?v=Lb3bOK0Mx7E\">Introducing Manufacturing Commercial Operations</a>",
     "importance": "High"
   },
   {
     "name": "Now Assist for Operational Sustainability Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Automation / Orchestration",
@@ -7843,19 +8194,21 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=ai-driven-document-intelligence-for-utility-invoices&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Document intelligence for utility invoices</a></strong></p>\n<p>After upgrading Now Assist for Operational Sustainability Management to version 22.0.1, the system automatically extracts unit values from invoices and updates metric data accordingly. This automation reduces manual data entry and improves data accuracy.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforoperationalsustainabilitymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.html\">Document intelligence for utility invoices</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.html\">Activate document intelligence for utility invoices skill</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/environmental-social-governance/now-assist-for-esg.html\">Now Assist for Operational Sustainability</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Operational Sustainability Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Some Now Assist skills, agents, and agentic workflows are turned on by default</a></strong></p>\n<p>The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:</p>\n<ul>\n<li>New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.</li>\n<li>Existing customers who are upgrading (starting with Australia Early Access): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically (the AI asset was never configured and turned on, then turned off again). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforoperationalsustainabilitymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.html\">AI assets on by default</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/environmental-social-governance/now-assist-for-esg.html?contentId=kPpFXszRGERmbm6PtAA3gg\">Now Assist for Operational Sustainability</a>\n<a href=\"https://www.servicenow.com/solutions/esg-solutions.html\">ServiceNow ESG Management Solutions</a>",
     "importance": "Medium"
   },
   {
@@ -7871,26 +8224,32 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Summarize an OT incident</a></strong></p>\n<p>Automatically summarize an OT incident using the <strong>Summarize</strong> UI action to produce a concise summary of the incident.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/summarize-ot-incident-now-assist.html\">Summarize an OT incident</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-otm-landing.html\">Now Assist for OTM</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/operational-technology-incident-management.html\">Operational Technology Incident Management</a>\n<a href=\"https://www.servicenow.com/products/operational-technology-management.html\">Operational Technology Management Product Page</a>\n<a href=\"https://www.youtube.com/watch?v=zvjEd1GKdAQ\">Operational Technology Service Management | Overview</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Operational Technology Service Management (OTSM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Incident Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate resolution notes</a></strong></p>\n<p>Automatically generate resolution notes for an OT incident using the <strong>Generate resolution notes</strong> UI action to produce a concise summary of the incident.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-operational-technology-service-management.html\">Now Assist for Operational Technology Service Management Documentation</a>\n<a href=\"https://www.servicenow.com/products/operational-technology-management.html\">Operational Technology Management Product Page</a>\n<a href=\"https://store.servicenow.com/store/app/760ff746872bfa14a6c6fc48cebb35f6\">Now Assist for OTSM Store App</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Operational Technology Service Management (OTSM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Knowledge Management",
@@ -7898,26 +8257,32 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=agent-ot-knowledge-generator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate OT KB articles</a></strong></p>\n<p>Automatically generate a KB article for an OT incident when the state of the incident is set to <strong>Resolved</strong>. The article contains the following information:</p>\n<ul>\n<li>Site</li>\n<li>OT Device</li>\n<li>Equipment model entity</li>\n<li>Summarization</li>\n<li>Resolution notes</li>\n<li>KB Base</li>\n<li>Author</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/agent-ot-knowledge-generator.html\">Generate OT KB articles</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-operational-technology-service-management.html\">Now Assist for Operational Technology Service Management</a>\n<a href=\"https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/exploring-operational-technology-knowledge-management.html\">Exploring Operational Technology Knowledge Management</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Sales and Order Management for Telecommunications (SOMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Sales and Order Management"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Virtual Agent / Chatbot"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Move Order Voice AI agent</a></strong></p>\n<p>Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.</p>",
     "link": "Now Assist for Sales and Order Management for Telecommunications (SOMT)",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-move-order-somt.html\">Move order voice AI agent</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/somt-now-assist.html\">Now Assist for Sales and Order Management for Telecommunications (SOMT)</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/standalone-agents-somt.html\">AI agents in SOMT</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/using-aiagents-somt.html\">Use agentic workflows</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Source-to-Pay Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Virtual Agent / Chatbot",
@@ -7927,13 +8292,16 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-spo&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Now Assist for SPO</a></strong></p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=analyze-sentiments-na-spo&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Analyze sentiment in procurement cases</a>Helps procurement specialists to analyze procurement case fields and live agent chats to determine the tone of the fulfiller.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=email-response-na-spo&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate email responses</a>Analyze procurement case, sourcing request, purchase requisition, sourcing event, negotiation, and stretch items like procurement, sourcing, and receipt tasks to generate professional email response. This eliminates the need to manually look up information across multiple records and allows procurement specialists to handle inquiries effectively.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=now-assist-spo-upload-sow&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Upload a Statement of Work (SOW) to request a purchase</a> Upload SOW documents to submit purchase requests. AI agents parse your documents, extract relevant data, and prepopulate your request, enabling you to focus on reviewing and approving submissions instead of manual data entry.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=spo-help-fulfill-pr-agentic&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Conversational intake for sourcing and procurement agentic workflow</a> Streamline end‑to‑end procurement workflows with a conversational intake experience powered by AI agent support. AI agents guide you through relevant steps while providing contextual recommendations and real-time progress updates.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=automatically-assign-categories&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically assign categories during SR and PR creation</a> Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the spend categorization AI agent.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsourcetopayoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.html\">Now Assist for Sourcing and Procurement Operations (SPO)</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-help-fulfill-pr-agentic.html\">Conversational intake for sourcing and procurement agentic workflow</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-upload-sow.html\">Upload a Statement of Work (SOW) to request a purchase</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/analyze-sentiments-na-spo.html\">Analyze sentiment in procurement cases</a>\n<a href=\"https://store.servicenow.com/store/app/294d67e21b646a50a85b16db234bcb9a\">Now Assist for Sourcing and Procurement Operations (SPO) Store App</a>",
     "importance": "High"
   },
   {
     "name": "Now Assist for Source-to-Pay Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Agent Workspace",
@@ -7945,13 +8313,16 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-slo&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Now Assist for SLO</a></strong></p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=supplier-onboarding-agentic-workflow&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">AI driven supplier onboarding</a> Use theAI driven supplieronboarding workflow to automate data validation, duplicate checking, task generation, and supplier communication. Key enhancements include:</p>\n<ul>\n<li>Extract banking information from uploaded documents to reduce information mismatch.</li>\n<li>Use the document strategy generator AI agent to generate a customized onboarding task list using all published knowledge base articles.</li>\n<li>View a list of AI-suggested suppliers while reviewing supplier onboarding requests initiated through sourcing requests.</li>\n<li>Supplier relationship managers can manually approve or reject supplier onboarding requests.</li>\n<li>Resolve duplicate supplier onboarding requests from the Now Assist panel by updating the supplier legal name, contact email, or both.</li>\n</ul>\n<p><a href=\"https://www.servicenow.com/docs/access?context=automated-supplier-case-creation-from-emails&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automate supplier case creation from emails</a> Convert supplier emails into cases automatically when registered supplier contacts send emails to a supplier inbox. Supplier cases are created for all SLO related queries and assigned to the supplier relationship manager. For queries unrelated to SLO, a universal request is created for resolution.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=summarize-supp-perf&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Summarize supplier performance in Source-to-Pay Workspace</a> Generate comprehensive supplier performance summaries, including performance data, trends, and actionable insights, using the supplier performance summarization skill.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=slo-analyze-sentiments&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Analyze sentiments in supplier cases</a> Use the sentiment analysis skill to analyze supplier case fields and determine the tone or sentiment of the fulfiller.</p>\n<p><a href=\"https://www.servicenow.com/docs/access?context=generate-email-response-for-supplier-case&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate an email response for supplier cases</a> Use the email response skill to analyze the supplier case details and generate professional email response regardless of the record type using past email responses, KB articles, and related tasks.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsourcetopayoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.html\">Now Assist for Supplier Lifecycle Operations</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-document-strategy-generator-ai-agent.html\">Supplier Document Strategy Generator AI Agent</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/case-creation-from-emails.html\">Automatic Case Creation from Emails</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.html\">Summarize a Record in Source-to-Pay Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.html\">Source-to-Pay Workspace Overview</a>",
     "importance": "High"
   },
   {
     "name": "Now Assist for Source-to-Pay Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Notifications / Email",
@@ -7959,13 +8330,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=source-to-pay-common-skills&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Source-to-Pay Operations common skills</a></strong></p>\n<p>The Email response generation skill uses generative AI to automatically draft professional, context-aware email responses for supplier inquiries, procurement communications, and AP case management across Source-to-Pay workflows (APO, SPO, SLO), reducing manual effort and improving response consistency.</p>\n<p>The Sentiment analysis skill uses large language models to detect emotional tone (Positive, Negative, or Neutral) in cases across Source-to-Pay workflows (APO, SPO, SLO).</p>\n<p>The AI Data Explorer for Source-to-Pay (APO, SPO, SLO) supports AI-driven prompt understanding, recommended queries, and drill-down capabilities within a unified interface.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsourcetopayoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/source-to-pay-common-skills.html\">Source-to-Pay Operations common skills</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/using-ai-data-explorer-in-source-to-pay.html\">Using AI Data Explorer in Source-to-Pay Operations</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/analyze-sentiments-na-spo.html\">Analyze sentiment in procurement cases</a>\n<a href=\"https://www.servicenow.com/community/s2p-articles/enabling-ai-agents-in-source-to-pay-operations-companion-article/ta-p/3461004\">Enabling AI Agents in Source-to-Pay Operations</a>\n<a href=\"https://www.youtube.com/watch?v=S7Ww0Sv-00E\">Enabling AI Agents in Source-to-Pay Operations</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Source-to-Pay Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents",
@@ -7973,13 +8346,16 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-apo&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Now Assist for APO</a></strong></p>\n<p>Use the accounts payable document classification skill to identify and categorize email attachments, such as invoices, credit memos, and supporting documents, that were sent by suppliers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsourcetopayoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo.html\">Now Assist for Accounts Payable Operations (APO)</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.html\">Invoice Processing use case</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-skill.html\">Customize a Now Assist for Accounts Payable Operations skill</a>\n<a href=\"https://learning.servicenow.com/lxp/en/source-to-pay-operations/now-assist-for-accounts-payable-operations-apo?id=learning_course_prev&course_id=a5b405574756be5cb21a62c9e16d4321\">Now Assist for Accounts Payable Operations (APO) Essentials</a>\n<a href=\"https://www.youtube.com/watch?v=S7Ww0Sv-00E\">Enabling AI Agents in Source-to-Pay Operations</a>",
     "importance": "High"
   },
   {
     "name": "Now Assist for Source-to-Pay Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Workflows / Flow Designer",
@@ -7987,25 +8363,31 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-for-purch-order-magmt&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Now Assist for POM</a></strong></p>\n<p>Convert supplier emails into purchase order exceptions automatically when a registered supplier contact sends emails to a supplier inbox. Purchase order exceptions are created for all purchase order queries and assigned to the operational buyer. For queries unrelated to purchase order exceptions, a universal request is created.</p>\n<p>Use the define PO exception mitigation strategy agentic workflow in Now Assist for POM to identify and execute mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsourcetopayoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/using-agentic-wf-na-for-pom.html?contentId=Km8up~Uv2mUvM8TaLux1kQ\">Using agentic workflows in Now Assist for Purchase Order Management (POM)</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/convert-emails-to-exceptions.html?contentId=OCU~IBUAnv0lwODiUeip_Q\">Automated purchase order exception creation from emails</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html?contentId=duaO7BSmcgm4Ke6Q55RCTg\">Review the define PO exception mitigation strategy workflow</a>\n<a href=\"https://store.servicenow.com/store/app/b6bbf74e8727b254e95f40c5cebb350b\">Now Assist for Purchase Order Management (POM) Store App</a>\n<a href=\"https://www.youtube.com/watch?v=S7Ww0Sv-00E\">Enabling AI Agents in Source-to-Pay Operations</a>",
     "importance": "High"
   },
   {
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=demand-summarization-skill&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Summarize demand records with the demand summarization skill</a></strong></p>\n<p>Generate a concise, structured summary of any demand using the demand summarization skill through the <strong>Summarize</strong> button in the demand form. The skill reviews the demand fields and helps create a clear summary of the demand.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforstrategicportfoliomanagementspm-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/demand-summarization-skill.html?contentId=D0Xe5fOX6~F0d1C0rhrMfg\">Summarize demands using Now Assist for SPM</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.html\">Now Assist for Strategic Portfolio Management (SPM)</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/strategic-planning/now-assist-skills-in-demand-workspace.html?contentId=xDfN7JIZJdIvKhFUuJiaDQ\">Now Assist skills for Next Experience for Demand</a>\n<a href=\"https://www.servicenow.com/community/spm-articles/quick-start-guide-for-now-assist-for-spm/ta-p/3006963\">Quick Start Guide for Now Assist for SPM</a>\n<a href=\"https://www.youtube.com/watch?v=IE9r6i0EfbQ\">Start your GenAI journey with Now Assist for SPM</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Reporting / Platform Analytics"
@@ -8018,7 +8400,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Reporting / Platform Analytics",
@@ -8032,7 +8417,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -8044,7 +8432,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -8056,7 +8447,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -8068,7 +8462,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -8080,20 +8477,25 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Notifications / Email"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Product release email communication</a></strong></p>\n<p>Automatically draft, refine, and publish release announcement emails. It identifies the right stakeholders, helps to ensure consistent messaging, and streamlines distribution.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-product-release-email-communication.html\">Product release email communication</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/telecom-media-tech-landing.html\">Telecommunications, Media, and Technology (TMT) Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/918a67661b246a50a85b16db234bcb99\">Now Assist for Telecommunications, Media and Technology (TMT) Store Page</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Automation / Orchestration",
@@ -8113,13 +8515,16 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Create product adoption roadmaps using Now Assist</strong></p>\n<p>Use generative AI to create product adoption roadmaps by analyzing customer characteristics, identifying similar products, and matching customer goals. Provide contract-level insights to support more effective renewal conversations and expansion opportunities.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-par-roadmap.html\">ServiceNow Documentation: Generate a product adoption roadmap</a>\n<a href=\"https://www.servicenow.com/docs/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.html\">ServiceNow Documentation: Now Assist for Telecommunications, Media and Technology</a>\n<a href=\"https://store.servicenow.com/store/app/918a67661b246a50a85b16db234bcb99\">ServiceNow Store: Now Assist for Telecommunications, Media and Technology (TMT)</a>\n<a href=\"https://www.youtube.com/watch?v=CR6qnszY1aQ\">YouTube: Now Assist for Telecom, Media, and Technology</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Reporting / Platform Analytics"
@@ -8132,7 +8537,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning",
       "API / Integrations",
@@ -8147,7 +8555,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Automation / Orchestration",
@@ -8169,38 +8580,46 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-sentiment-spc-adr&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Analyze the sentiment of a service problem case</a></strong></p>\n<p>Generates the customer's sentiment and the reasoning behind it on the complaint cases. Make informed decisions on complaint cases based on sentiment and link them to the Alternative Dispute Resolution (ADR) case record.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-telecom-media-technology/page/product/tmt-now-assist/task/now-assist-tmt-analyze-sentiment-spc-adr.html\">Analyze the sentiment of a service problem case</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-telecom-media-technology/page/product/tmt-now-assist/concept/now-assist-tmt.html\">Now Assist for Telecommunications, Media and Technology</a>\n<a href=\"https://www.youtube.com/watch?v=CR6qnszY1aQ\">Now Assist for Telecom, Media, and Technology (YouTube)</a>\n<a href=\"https://www.youtube.com/watch?v=9GDjsoAkuGs\">Feature Shorts: Sentiment Analysis for Case Management (YouTube)</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-linked-record&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Summarize the linked records</a></strong></p>\n<p>Generate a comprehensive summary of the service problem case records that you have linked on the ADR case.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.html\">Now Assist for Telecommunications, Media and Technology (TMT)</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/customer-service-problem-management/view-adr-case.html\">View ADR record</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-case.html\">Summarize a service problem case</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-analyze-sentiment-spc-adr.html\">Analyze the sentiment of a service problem case</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution-notes-ad&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Generate ADR resolution notes</a></strong></p>\n<p>Enables you to generate resolution for the customer dispute in the ADR case record. You can propose this resolution to the customer and get the customer feedback.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution-notes-ad.html\">Generate resolution notes for Alternative Dispute Resolution case using Now Assist for TMT</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html\">Configure Now Assist for Telecommunications, Media and Technology (TMT)</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.html\">Now Assist for Telecommunications, Media and Technology (TMT)</a>\n<a href=\"https://www.servicenow.com/docs/r/telecom-media-technology/customer-service-problem-management/alternative-dispute-resolution.html\">Alternative Dispute Resolution (ADR)</a>",
     "importance": "Medium"
   },
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -8212,7 +8631,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Third-party Risk Management (TPRM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -8224,7 +8646,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist in Document Intelligence",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents"
@@ -8237,7 +8661,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist in Document Intelligence",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents"
@@ -8250,20 +8676,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist in Document Intelligence",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-limitations&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Changes to limitations</a></strong></p>\n<p>The file size limit for uploading a file using the attachment summarization feature is changed from 10MB to 20MB.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistindocumentintelligence-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-limitations.html\">ServiceNow Documentation: Now Assist in Document Intelligence Limitations</a>\n<a href=\"https://www.servicenow.com/community/now-assist-articles/building-agentic-flows-that-can-understand-documents-and-images/ta-p/3452870\">ServiceNow Community: Building Agentic Flows with Document Intelligence</a>\n<a href=\"https://www.youtube.com/watch?v=oNt-sSbUApM\">ServiceNow YouTube: Now Assist in Document Intelligence Overview</a>",
     "importance": "Low"
   },
   {
     "name": "Now Assist in Document Intelligence",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents"
@@ -8276,7 +8706,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "On-Call Scheduling",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Incident Management"
     ],
@@ -8288,7 +8720,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "On-Call Scheduling",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
@@ -8300,7 +8734,11 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Resilience",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Platform",
+      "IRM (Integrated Risk Management)",
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "CSDM",
       "CMDB",
@@ -8314,7 +8752,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Resilience",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)",
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "Import / Export / Data",
       "Reporting / Platform Analytics"
@@ -8327,7 +8768,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Resilience",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Import / Export / Data"
@@ -8340,7 +8783,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Sustainability Management (formerly Environmental, Social, and Governance Management)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)",
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data"
@@ -8353,7 +8799,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Sustainability Management (formerly Environmental, Social, and Governance Management)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Automation / Orchestration"
@@ -8366,7 +8814,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology (OT) Discovery",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Discovery",
       "CMDB",
@@ -8380,7 +8830,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology (OT) Discovery",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Discovery",
       "CMDB"
@@ -8393,7 +8845,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology Incident Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Employee Center",
       "Service Catalog",
@@ -8407,20 +8861,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology Incident Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Roles / Permissions",
       "Incident Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Admin role dependency</a></strong></p>\n<p>Several new granular admin roles have been added, which enable developers to complete administrative configuration tasks without requiring the full admin role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-operationaltechnologyincidentmanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.html\">Assign roles to your users</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.html\">Operational Technology Incident Management</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-overview.html\">Operational Technology Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html\">Granular Admin Roles</a>",
     "importance": "Medium"
   },
   {
     "name": "Operational Technology Manager",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB",
       "Agent Workspace"
@@ -8433,7 +8891,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology Manager",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB",
       "Forms / Lists"
@@ -8446,7 +8906,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology Manager",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB"
     ],
@@ -8458,7 +8920,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology Manager",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB"
     ],
@@ -8470,20 +8934,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Operational Technology Manager",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Admin role dependency</a></strong></p>\n<p>Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-operationaltechnologymanager-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/raQacsC6oduHGiafDqmABQ/uoU4Q8UGrJtx7h5ZRumk6g\">Assign Operational Technology Manager roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html?contentId=QtFomAKRXSwaM9ypEGr1XQ\">Granular admin roles</a>\n<a href=\"https://www.servicenow.com/products/operational-technology-management.html\">Operational Technology Management Product Page</a>\n<a href=\"https://www.servicenow.com/community/operational-technology/ct-p/operational-technology\">ServiceNow Community: Operational Technology</a>\n<a href=\"https://www.youtube.com/watch?v=4AuJy17jMgI\">ServiceNow Operational Technology (OT) Implementation</a>",
     "importance": "Medium"
   },
   {
     "name": "Operational Technology Manager",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "Operational Technology Management"
+    ],
     "tags": [
       "CMDB",
       "Forms / Lists",
@@ -8497,7 +8965,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Opportunity Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "UI / UX",
       "Forms / Lists",
@@ -8505,13 +8975,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=opportunity-management-tasks-tab&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View touchpoint records for a task</a></strong></p>\n<p>Gain complete visibility into customer engagement by viewing a complete touchpoint timeline on every opportunity so that teams have context at their fingertips.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-opportunitymanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/opportunity-management.html\">Opportunity Management</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/explore-crm-touchpoints.html\">CRM Touchpoints</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/using-activity-management.html\">Using Activity Management</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/opportunity-management-viewing-an-opportunity.html\">View an existing opportunity</a>",
     "importance": "Low"
   },
   {
     "name": "Opportunity Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Forms / Lists"
     ],
@@ -8523,7 +8995,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog",
       "Workflows / Flow Designer",
@@ -8537,20 +9011,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog",
       "Asset Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=net-pricing-sp-contracts&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Delta pricing on orders</a></strong></p>\n<p>Calculate pricing and quantity changes during MACD activities and renewals by deriving deltas from existing products, contracts, or purchases. This improves accuracy when processing order modifications.</p>\n<ul>\n<li>Defaults contract type and contract line type when empty, based on the order and line actions being performed.</li>\n<li>Adds delta pricing–related header and line fields, along with pricing adjustment rule identifiers and conditions, and supports mapping these fields across order, product instance, and order copy flows.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-ordermanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/net-pricing-sp-contracts.html\">Managing the price basis for MACD products</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/configuring-pricing-plan.html\">Configurable pricing plans</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/field-descriptions-customer-orders.html\">Order details forms</a>\n<a href=\"https://store.servicenow.com/store/app/813bab2a1b246a50a85b16db234bcb8e\">ServiceNow Store: Order Management</a>",
     "importance": "Medium"
   },
   {
     "name": "Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -8562,7 +9040,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Virtual Agent / Chatbot"
@@ -8575,7 +9056,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Order Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "API / Integrations"
     ],
@@ -8587,7 +9070,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Password Reset",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control"
@@ -8600,49 +9085,57 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Performance Analytics",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-ds-automated-indicator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create data snapshots indicators</a></strong></p>\n<p>Create data snapshots indicators and their sources rather than being able to enable data snapshots only on existing indicators. Benefit from the simplicity of data snapshots indicators, including the escape from the two-level breakdown limit. You can create either automated or formula indicators. Access control for these indicator is the same as for classic Performance Analytics indicators.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Create a Data snapshots automated indicator</a>Create a Data snapshots formula indicator</a>Create a Data snapshots source</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>",
+    "resources": "Create a Data snapshots source</a>Create a Data snapshots automated indicator</a>Create a Data snapshots formula indicator</a>Activate Data snapshots</a>",
     "importance": "Medium"
   },
   {
     "name": "Performance Analytics",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-ds-source&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create intraday indicators</a></strong></p>\n<p>Track process changes at a more granular level than daily, such as by work shift. Data snapshots indicator sources support business calendars with intraday periods, which can be as short as per minute.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Create a Data snapshots source</a>Create a Data snapshots automated indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-trend-ds-indicator.html\">Configure trend for a Data snapshots indicator</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-trend-ds-indicator.html\">Configure trend for a Data snapshots indicator</a>",
     "importance": "Medium"
   },
   {
     "name": "Performance Analytics",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=kpi-details-targets&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Explore native data snapshots indicators with KPI Details</a></strong></p>\n<p>KPI Details supports data snapshots indicators that you create, not only those that are enabled from classic indicators. The following features have been created for or extended to native data snapshots indicators:</p>\n<ul>\n<li>Subscriptions for alerts on targets and thresholds, which can be set from the targets and thresholds panels</li>\n<li>Adjustable filtering by breakdown, calendar, or time series aggregation</li>\n<li>Hierarchical breakdowns, with scores rolled up to parent elements</li>\n<li>Customizable score formatting options, such as precision and abbreviation</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Create a Data snapshots automated indicator</a>Data snapshots and multiple breakdowns</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-display-properties-ds-indicator.html\">Configure display properties for a Data snapshots indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/now-intelligence/kpi-details.html\">KPI Details</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-display-properties-ds-indicator.html\">Configure display properties for a Data snapshots indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/now-intelligence/kpi-details.html\">KPI Details</a>",
     "importance": "Low"
   },
   {
     "name": "Performance Analytics",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-ds-automated-indicator&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View data trends in data snapshots as data accumulates</a></strong></p>\n<p>When you select a field by which to trend a data snapshots automated indicator, you have the option to show the trend for incomplete collection periods. This feature shows the trend as it develops for live data without having to wait for the end of the collection period. You can set this behavior either on the automated data snapshot indicator record or in a time series data visualization for a data snapshot indicator.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Configure trend for a Data snapshots indicator</a>Applying time series aggregations</a>Indicator options for gauges</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-trend-ds-indicator.html\">Configure trend for a Data snapshots indicator</a>Create a Data snapshots automated indicator</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>",
     "importance": "Low"
   },
   {
@@ -8656,7 +9149,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=tables-unlimited-breakdowns&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Collect data snapshots scores with confidence</a></strong></p>\n<p>Data mining for data snapshots scores has the following improvements:</p>\n<ul>\n<li>Collect scores for tables with any volume of records.</li>\n<li>The system accurately and automatically handles data gaps when data mining is disabled.</li>\n<li>You are warned of the implications before you manually disable data mining (score collection).</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Performance Analytics snapshots</a>Create a Data snapshots source</a>Activate Data snapshots</a>Data snapshots and multiple breakdowns</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>",
+    "resources": "Data snapshot sources and collection</a>Create a Data snapshots source</a>Activate data snapshots</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>",
     "importance": "Medium"
   },
   {
@@ -8670,7 +9163,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=activate-unlimited-breakdowns&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Activate data snapshots in more cases and with better information</a></strong></p>\n<ul>\n<li>Activate indicators without active data collector jobs.</li>\n<li>Activate indicators regardless of underlying record volume. For example, the INSERT\\_VOLUME\\_EXCEEDED error no longer occurs.</li>\n<li>If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.</li>\n<li>Generic parsing errors have been rewritten into specific, categorized messages.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Performance Analytics Release Notes - Australia Release</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>",
+    "resources": "Activate Data snapshots</a>Limitations and requirements for Data snapshots</a>Create a Data snapshots automated indicator</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>Platform Analytics Academy - Data Snapshots in Platform Analytics</a>",
     "importance": "Medium"
   },
   {
@@ -8698,7 +9191,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Deep linking</strong></p>\n<p>Save and share links that replicate the same view for others.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalyzer-release-notes.html",
-    "resources": "Based on the search results, the **Performance Analyzer** application (available via the ServiceNow Store) includes a **Deep linking** feature that allows users to save and share links replicating the exact view of the analysis (e.g., page load time data, waterfall visualizations) for others. This feature is highlighted in recent release notes (e.g., for the Zurich release).\n\nHere are the relevant resources:\n\n<a href=\"https://www.servicenow.com/docs/r/release-notes/performance-analyzer-rn.html\">Performance Analyzer Release Notes</a>\n<a href=\"https://www.servicenow.com/docs/r/application-development/performance-analyzer/performance-analyzer-landing.html\">Performance Analyzer Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html\">Changes to Features and Products (Performance Analyzer)</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-development/performance-analyzer/performance-analyzer-landing.html\">Performance Analyzer</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/service-portal/analyze-page-performance.html\">Evaluate the performance of a portal page</a>\n<a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/application/8f629202970b6a10fbebb5c6f053af5e\">Performance Analyzer on ServiceNow Store</a>",
     "importance": "Low"
   },
   {
@@ -8713,7 +9206,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Group by variant</strong></p>\n<p>Aggregate pages with data grouped by variant help you to identify performance issues.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalyzer-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/release-notes/performance-analyzer-rn.html\nhttps://www.servicenow.com/docs/r/application-development/performance-analyzer/performance-analyzer-landing.html\nhttps://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-performance-analyzer-page.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/service-portal/analyze-page-performance.html\">Evaluate the performance of a portal page</a>\n<a href=\"https://www.youtube.com/watch?v=69uPcE6Kci8\">What is Performance Analyzer in ServiceNow</a>\n<a href=\"https://www.youtube.com/watch?v=gS7Hztq6UhM\">Performance Analyzer in ServiceNow Zurich | Full Breakdown</a>\n<a href=\"https://www.servicenow.com/community/developer-blog/how-to-disable-performance-analyzer-in-service-portal-system/ba-p/3483635\">How to Disable Performance Analyzer in Service Portal</a>",
     "importance": "Medium"
   },
   {
@@ -8760,7 +9253,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>After upgrading, only admins can create Core UI analytics objects: reports, Performance Analytics widgets, responsive dashboards, and interactive filters. Other users can still view and edit Core UI objects but can create only Platform Analytics objects, such as data visualizations.</p>\n<p>When upgrading, the published status on all Core UI reports changes to <strong>false</strong>, making them unpublished.</p>\n<p>After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Platform Analytics UI artifacts</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/reporting/report-permission-issues.html\">Report permission issues</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/kpi-details-components.html\">Examining indicators with KPI Details</a>Moving from Classic/Core UI reporting to Platform Analytics</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/now-intelligence/reporting/report-permission-issues.html\">Report permission issues</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/kpi-details-components.html\">Examining indicators with KPI Details</a>",
     "importance": "High"
   },
   {
@@ -8775,7 +9268,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=reuse-page-definitions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">New UI Builder templates for Dashboards and Data visualization libraries</a></strong></p>\n<p>Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Platform Analytics pages in workspaces</a>Platform Analytics dashboards</a>Data visualizations in Platform Analytics</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/add-db-data-viz-to-library.html\">Add a dashboard data visualization to the library</a>",
+    "resources": "Platform Analytics pages in workspaces</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/add-dashboard-to-workspace.html\">Add a dashboard to a page</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/add-db-data-viz-to-library.html\">Add a dashboard data visualization to the library</a>",
     "importance": "Low"
   },
   {
@@ -8831,7 +9324,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=config-dv-sing-sc-ind-data&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">View data snapshot indicators in data visualizations</a></strong></p>\n<p>Add indicators that are built from data snapshots sources to data visualizations.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Create a Data snapshots automated indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-display-properties-ds-indicator.html\">Configure display properties for a Data snapshots indicator</a>Data snapshot sources and collection</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/now-intelligence/configure-display-properties-ds-indicator.html\">Configure display properties for a Data snapshots indicator</a>",
     "importance": "Low"
   },
   {
@@ -8845,7 +9338,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=analytics-center&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Manage Platform Analytics in the improved Analytics Overview page</a></strong></p>\n<p>Quickly discover artifacts, access relevant information and key metrics, and take actions to manage the health of the library. The Analytics Overview page (formerly Analytics Center) acts as a one-stop shop and entry point for role-specific access to all important information related to Platform Analytics.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Analytics Overview Documentation</a>Getting Started with Platform Analytics</a>Platform Analytics Community</a>",
+    "resources": "Analytics Overview</a>Getting Started with Platform Analytics</a>Platform Analytics Community</a>",
     "importance": "Medium"
   },
   {
@@ -8859,7 +9352,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=par-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Platform Analytics experience is enabled by default for all users on upgrade to Australia</a></strong></p>\n<p>Create content entirely within Platform Analytics.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Platform Analytics Documentation</a>Platform Analytics Dashboards</a>Getting Ready for Platform Analytics: Value, Gaps, and Fixes</a>Getting Started with Platform Analytics</a>",
+    "resources": "ServiceNow Platform Analytics Documentation</a>Important Update on Legacy Reporting and Analytics</a>Getting Ready for Platform Analytics</a>",
     "importance": "Medium"
   },
   {
@@ -8873,7 +9366,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=guided-tours&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Take role-based tours</a></strong></p>\n<p>Role-based guided tours are added to the Platform Analytics Migration Center and the Dashboards and Data Visualizations library pages.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Platform Analytics experience</a>Platform Analytics dashboards</a>Data visualizations in Platform Analytics</a>",
+    "resources": "Platform Analytics</a>Platform Analytics Migration Central</a>",
     "importance": "Low"
   },
   {
@@ -8887,7 +9380,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-select-filter-workspace&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Filter dashboards by string field values</a></strong></p>\n<p>Filter data by the contents of string-type fields with a single-select or multiple-select filter.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Platform Analytics experience release notes - Filter dashboards by string field values</a>\n<a href=\"https://www.servicenow.com/docs/r/B5UZKOeMGcpyrvR2CNl5Dw/SbO_UaNXvot8poj7hia0WQ\">Filter on multiple string values</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-select-filter-workspace.html\">Configure a Single/Multiple select or cascading filter</a>",
     "importance": "Low"
   },
   {
@@ -8902,7 +9395,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=kpi-details&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Explore native data snapshots indicators in KPI Details</a></strong></p>\n<ul>\n<li>Employ intraday analysis with granularity based on work shifts.</li>\n<li>Customize score formatting options.</li>\n<li>Adjust breakdowns, calendar, and aggregation periods while exploring an indicator.</li>\n<li>Set up subscriptions for alerts on targets and thresholds directly from the targets and thresholds panels.</li>\n<li>Define hierarchical breakdowns with scores rolled up to parent elements.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Create a Data snapshots automated indicator</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/kpi-details.html\">KPI Details</a>Data snapshots and multiple breakdowns</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/kpi-details-targets.html\">Targets and thresholds</a>Create a Data snapshots source</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/now-intelligence/kpi-details.html\">KPI Details</a>Data snapshots and multiple breakdowns</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/kpi-details-targets.html\">Targets and thresholds</a>Create a Data snapshots source</a>",
     "importance": "Medium"
   },
   {
@@ -8916,7 +9409,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-hierarchical-filter&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create hierarchical filters for Industrial Connected Workforce indicators</a></strong></p>\n<p>Create multilevel filters with roll-up aggregation across nested organizational structures, which moves from site, to plan, to department, to functional location.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-platformanalyticsexperience-release-notes.html",
-    "resources": "Platform Analytics experience release notes</a>\n<a href=\"https://www.servicenow.com/docs/r/now-intelligence/create-hierarchical-filter.html?contentId=L8Zh9MFxuCGTSkQY2rS4rw\">Create a hierarchical filter</a>\n<a href=\"https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-overview.html?contentId=9ZG2Gi9op7VGYeMNCwefyw\">Industrial Connected Workforce</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/now-intelligence/create-hierarchical-filter.html\">Create a hierarchical filter</a>\n<a href=\"https://store.servicenow.com/store/app/f4ab75781b596e50a85b16db234bcbf8\">Industrial Connected Workforce Core Application</a>Multi-level filter in Platform Analytics dashboard</a>",
     "importance": "Medium"
   },
   {
@@ -9052,7 +9545,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Playbook",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI / UX",
       "Agent Workspace",
@@ -9082,7 +9577,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Playbook",
     "type": "Change",
-    "products": [],
+    "products": [
+      "App Engine"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control",
@@ -9112,7 +9609,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Policy and Compliance Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)",
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "Workflows / Flow Designer",
       "Forms / Lists",
@@ -9243,7 +9743,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=predictive-intel-usage-analytics&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Predictive Intelligence Usage Analytics dashboard</a></strong></p>\n<p>Usage Analytics dashboard is a central location to understand the adoption, effectiveness, and overall value of all your Predictive Intelligence solutions. Dashboard widgets offer several metrics such as total monthly count of predictions per solution type.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-predictiveintelligence-release-notes.html",
-    "resources": "ServiceNow Documentation: Predictive Intelligence Usage Analytics dashboard</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-predictive-intelligence.html\">ServiceNow Documentation: Using Predictive Intelligence</a>\n<a href=\"https://www.servicenow.com/uk/products/predictive-intelligence.html\">ServiceNow Product Page: Predictive Intelligence</a>\n<a href=\"https://www.youtube.com/watch?v=PLIb9wb8IaI\">ServiceNow Community YouTube: Activate and Configure Predictive Intelligence</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-predictive-intelligence.html\">ServiceNow Documentation: Using Predictive Intelligence</a>\n<a href=\"https://www.servicenow.com/uk/products/predictive-intelligence.html\">ServiceNow Product Page: Predictive Intelligence</a>\n<a href=\"https://www.youtube.com/watch?v=PLIb9wb8IaI\">ServiceNow Community YouTube: Activate and Configure Predictive Intelligence</a>",
     "importance": "Low"
   },
   {
@@ -9310,7 +9810,13 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)",
+      "CSM (Customer Service Management)",
+      "HRSD (HR Service Delivery)",
+      "FSM (Field Service Management)",
+      "App Engine"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Workflows / Flow Designer"
@@ -9323,7 +9829,17 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)",
+      "CSM (Customer Service Management)",
+      "HRSD (HR Service Delivery)",
+      "FSM (Field Service Management)",
+      "SPM (Strategic Portfolio Management)",
+      "ITAM (IT Asset Management)",
+      "SecOps (Security Operations)",
+      "IRM (Integrated Risk Management)",
+      "App Engine"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "AI / Machine Learning"
@@ -9367,13 +9883,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "CSM (Customer Service Management)",
-      "HRSD (HR Service Delivery)",
-      "App Engine",
-      "SPM (Strategic Portfolio Management)",
-      "FSM (Field Service Management)",
-      "ITAM (IT Asset Management)"
+      "Sales and Order Management",
+      "CSM (Customer Service Management)"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -9387,7 +9898,21 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITSM (IT Service Management)",
+      "CSM (Customer Service Management)",
+      "HRSD (HR Service Delivery)",
+      "FSM (Field Service Management)",
+      "App Engine",
+      "ITAM (IT Asset Management)",
+      "SPM (Strategic Portfolio Management)",
+      "Financial Services Operations",
+      "Telecommunications Service Management",
+      "SecOps (Security Operations)",
+      "IRM (Integrated Risk Management)",
+      "Legal Service Delivery",
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "AI / Machine Learning"
@@ -9400,7 +9925,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -9412,7 +9939,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -9424,7 +9953,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -9436,7 +9967,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -9448,7 +9981,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "AI / Machine Learning"
@@ -9461,7 +9996,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
@@ -9473,7 +10010,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Process Mining",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "App Engine"
+    ],
     "tags": [
       "Roles / Permissions",
       "AI / Machine Learning"
@@ -9486,7 +10026,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog",
       "Asset Management"
@@ -9499,7 +10041,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog",
       "Asset Management"
@@ -9512,7 +10056,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -9524,7 +10070,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -9536,20 +10084,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog",
       "Asset Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=using-product-catalog&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Product catalog interface enhancement</a></strong></p>\n<p>Quickly identify products with derived pricing through product tiles that display a message stating that the product price varies. Pricing is calculated and updated automatically based on selections made.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-productcatalogmanagementandpricingmanagement-release-notes.html",
-    "resources": "Based on the details provided, the feature described is a **Product Catalog interface enhancement** introduced in the **ServiceNow Australia** release (and subsequent releases). This enhancement allows users to quickly identify products with derived pricing via a \"price varies\" message on product tiles, with automatic price updates based on selections.\n\nHere are the most relevant and authoritative resources:\n\n<a href=\"https://www.servicenow.com/docs/r/release-notes/product-catalog-pricing-management-rn.html\">Product Catalog Management and Pricing Management Release Notes</a>\n<a href=\"https://www.servicenow.com/docs/bundle/australia-order-management/page/product/tmt-order-mgt/concept/using-product-catalog.html\">Using Product Catalogs</a>\n<a href=\"https://www.servicenow.com/docs/bundle/australia-order-management/page/product/tmt-order-mgt/concept/configuring-related-product-pricing.html\">Derived Product Pricing</a>\n<a href=\"https://www.servicenow.com/docs/bundle/australia-order-management/page/product/tmt-order-mgt/concept/pricing-management.html\">Pricing Management Overview</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/configuring-related-product-pricing.html\">Derived product pricing</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/create-derived-pricing-source.html\">Rules for derived pricing</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/pricing-management.html\">Pricing Management</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/order-management/product-catalog-managment.html\">Product Catalog Management</a>",
     "importance": "Low"
   },
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -9561,7 +10113,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog",
       "Asset Management"
@@ -9574,7 +10128,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -9586,7 +10142,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -9598,20 +10156,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Support for Technology",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Service delivery overview</a></strong></p>\n<p>Use Service Delivery Overview L1 menu to access the analytics dashboards. The Service Delivery Overview enables you to access charts and summary data on metrics such as proactive cases, account escalations, SLAs, channels used, core KPIs, and more. The Service Delivery Overview page is available in Service Operations Workspace in all releases. For CSM/FSM Configurable Workspace, it is available only in the Zurich and Australia releases.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-productsupportfortechnology-release-notes.html",
-    "resources": "Service Delivery Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/proactive-service-exp-workflows/proactive-service-experience-workflows/assurance-workflows.html\">Product Support for Technology Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/proactive-service-exp-workflows/proactive-service-experience-workflows/tech-product-support-case-app.html\">Technology Product Support Case</a>\n<a href=\"https://www.servicenow.com/docs/r/proactive-service-exp-workflows/proactive-service-experience-workflows/configure-product-support-technology.html\">Configure Product Support for Technology</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/proactive-service-exp-workflows/proactive-service-experience-workflows/assurance-workflows.html\">Product Support for Technology Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/proactive-service-exp-workflows/proactive-service-experience-workflows/tech-product-support-case-app.html\">Technology Product Support Case</a>\n<a href=\"https://www.servicenow.com/docs/r/proactive-service-exp-workflows/proactive-service-experience-workflows/configure-product-support-technology.html\">Configure Product Support for Technology</a>",
     "importance": "Medium"
   },
   {
     "name": "Product Support for Technology",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "UI / UX"
@@ -9624,7 +10186,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Product Support for Technology",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "CMDB",
       "Workflows / Flow Designer"
@@ -9637,7 +10201,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Security / Access Control",
       "Roles / Permissions",
@@ -9651,7 +10217,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "AI / Machine Learning",
       "CMDB"
@@ -9664,7 +10232,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -9676,7 +10247,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
@@ -9688,7 +10261,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Roles / Permissions",
       "Notifications / Email",
@@ -9702,7 +10277,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Agent Workspace"
@@ -9715,7 +10292,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Security / Access Control",
       "Roles / Permissions"
@@ -9728,7 +10307,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Security / Access Control",
       "Roles / Permissions",
@@ -9742,7 +10323,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Portfolio Management ",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -9754,7 +10337,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Workspace",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control"
@@ -9767,19 +10352,23 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Project Workspace",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Asset Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-asset-project-requests-pw&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create an Asset Project Request from Project Workspace</a></strong></p>\n<ul>\n<li>Create and track the number of requests with project reference or requests which are created as part of an SPM project.</li>\n<li>Provide portfolio and project managers with visibility into the status of associated hardware requests.</li>\n<li>Enable project-based tracking of hardware requests, improving traceability across project plans.</li>\n<li>Help portfolio or project managers quickly understand which asset requests are tied to the project and track their current status.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-projectworkspace-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/4~5Anqt12idfVzJWPcxoHw/xq3MqHQqaNlNPMEDuswx6w\">Create an Asset Project Request from Project Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/project-workspace/view-asset-project-requests-pw.html\">View asset project requests for a project</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/project-workspace/better-together-with-itam.html\">Integrate Hardware Asset Management with Project Workspace</a>\n<a href=\"https://www.servicenow.com/docs/r/it-business-management/project-workspace/use-projects-pw.html\">Managing projects with Project Workspace</a>",
     "importance": "Medium"
   },
   {
     "name": "Project Workspace",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Approvals / Delegation"
@@ -9792,7 +10381,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Public Sector Digital Services",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Public Sector Digital Services (PSDS)"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists",
@@ -9806,7 +10397,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Public Sector Digital Services",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Public Sector Digital Services (PSDS)"
+    ],
     "tags": [
       "Agent Workspace",
       "Workflows / Flow Designer",
@@ -9821,7 +10414,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Public Sector Digital Services",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Public Sector Digital Services (PSDS)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents"
@@ -9834,7 +10430,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Public Sector Digital Services",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Public Sector Digital Services (PSDS)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Attachments / Documents",
@@ -9848,7 +10447,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Public Sector Digital Services",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Public Sector Digital Services (PSDS)"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control"
@@ -9861,7 +10462,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Purchase Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Asset Management",
       "Workflows / Flow Designer",
@@ -9876,7 +10479,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Purchase Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Asset Management"
     ],
@@ -9888,7 +10493,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Purchase Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists",
@@ -9902,7 +10509,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Purchase Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Notifications / Email"
     ],
@@ -9914,7 +10523,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Purchase Order Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations",
+      "Now Assist"
+    ],
     "tags": [
       "Workflows / Flow Designer",
       "Automation / Orchestration",
@@ -9922,25 +10534,29 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=mitigation-strategies-for-po-exceptions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Identify and execute mitigation strategies for purchase order exceptions</a></strong></p>\n<p>Use the define PO exception mitigation strategy agentic workflow to identify and execute mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-purchaseordermanagement-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/mitigation-strategies-for-po-exceptions.html?contentId=jC4nqXRahSF7ciRyDl_GNg\">Identify and execute mitigation strategies for purchase order exceptions</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html?contentId=duaO7BSmcgm4Ke6Q55RCTg\">Review the define PO exception mitigation strategy workflow</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/using-agentic-wf-na-for-pom.html?contentId=Km8up~Uv2mUvM8TaLux1kQ\">Using agentic workflows in Now Assist for Purchase Order Management (POM)</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/now-assist-for-purch-order-magmt.html?contentId=alNSmx3Hk5D1XGKMkNu~2g\">Now Assist for POM</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/mitigation-strategies-for-po-exceptions.html?contentId=jC4nqXRahSF7ciRyDl_GNg\">Identify and execute mitigation strategies for purchase order exceptions</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html?contentId=duaO7BSmcgm4Ke6Q55RCTg\">Review the define PO exception mitigation strategy workflow</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/using-agentic-wf-na-for-pom.html?contentId=Km8up~Uv2mUvM8TaLux1kQ\">Using agentic workflows in Now Assist for Purchase Order Management (POM)</a>",
     "importance": "Medium"
   },
   {
     "name": "Quote Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Forms / Lists"
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=consolidate-quotes&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Consolidate quotes</a></strong></p>\n<p>Maintain traceability from orders to all originating contract lines when creating orders from consolidated quotes. Additional calculated fields on order lines provide visibility into uplift values derived from consolidation rules.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-quotemanagement-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/354aa3261b246a50a85b16db234bcbc0\">Quote Management Data Model</a>\n<a href=\"https://store.servicenow.com/store/app/6fe967a21b246a50a85b16db234bcbea\">Quote Management Application</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/order-management/quote-management.html\">Quote Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/cpq-admin-settings.html\">CPQ Admin Settings</a>",
     "importance": "Medium"
   },
   {
     "name": "Quote Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
@@ -9952,7 +10568,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Quote Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Approvals / Delegation",
       "Workflows / Flow Designer",
@@ -9961,13 +10579,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://servicenow-preproduction.fluidtopics.net/access?context=explore-advanced-approval-for-sales&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Quote approvals</a></strong></p>\n<p>Use the Advanced Approval Management to create approval workflows for end-to-end visibility and control of quote approvals.</p>\n<ul>\n<li>Track approval status, steps, sequencing, approvers, and comments in real time</li>\n<li>Manage quote states and edit permissions automatically as quotes move through Draft, In Review, Approved, and Rejected states</li>\n<li>Receive email notifications for approvers and requesters as approval actions are taken</li>\n<li>Configure approval conditions and sequencing across quotes, quote lines, and related entities using serial, parallel, or hybrid flows driven by business and compliance rules</li>\n<li>Preserve approval history across submissions and quote versions for a complete audit trail</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-quotemanagement-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/quote-management.html\">ServiceNow Quote Management Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management Store Page</a>\n<a href=\"https://www.servicenow.com/community/csm-forum/discount-approval-in-som-quote-management/td-p/3358202\">Community: Discount Approval in SOM Quote Management</a>\n<a href=\"https://www.youtube.com/watch?v=MKsvEf3zMa0\">YouTube: ServiceNow Sales & Order Management Demo</a>\n<a href=\"https://www.youtube.com/watch?v=4FWRtGlsmbs\">YouTube: ServiceNow Sales and Order Management (SOM) Deep Dive</a>",
+    "resources": "<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management (ServiceNow Store)</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/quote-management.html\">Quote Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/quote-mgmt-using.html\">Using Quote Management</a>\n<a href=\"https://www.youtube.com/watch?v=Pv4IXiCfPFs\">How CRM and CPQ on the Now Platform Can Streamline Sales</a>",
     "importance": "High"
   },
   {
     "name": "Quote Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Forms / Lists"
     ],
@@ -9979,7 +10599,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Recommended Actions for HRSD",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Agent Workspace",
       "AI / Machine Learning",
@@ -9988,13 +10610,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=recommended-actions-hrsd&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Recommended Actions for HRSD</a></strong></p>\n<p>Help HR agents resolve cases more quickly by listing relevant KB articles and similar cases in the context of the current case. Provide agents with an optimal action such as a suggestion to add an approval to the case if needed.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-recommendedactionsforhrsd-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.html\">Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configure-recommended-actions-hrsd.html\">Configure Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/explore-recommended-actions-hrsd.html\">Exploring Recommended Actions for HRSD</a>\n<a href=\"https://store.servicenow.com/store/app/8484b70a47a3fe10f43984f8736d43eb\">ServiceNow Store: Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/community/hrsd-articles/hr-service-delivery-academy-2025-and-beyond-upcoming-amp-past/ta-p/3046578\">ServiceNow Community: HR Service Delivery Academy</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.html?contentId=Ctm4AQZS4psJ4s0DVSJSmg\">Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/explore-recommended-actions-hrsd.html?contentId=shuPbrLAnTnMmLIS3hi7Yw\">Exploring Recommended Actions for HRSD</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html\">Use Recommended Actions</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configure-recommended-actions-hrsd.html?contentId=1Ukz7TSaApHnPJXefWaXZA\">Configure Recommended Actions for HRSD</a>\n<a href=\"https://store.servicenow.com/store/app/8484b70a47a3fe10f43984f8736d43eb\">Recommended Actions for HRSD (ServiceNow Store)</a>",
     "importance": "Medium"
   },
   {
     "name": "Recommended Actions for HRSD",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "HRSD (HR Service Delivery)"
+    ],
     "tags": [
       "Agent Workspace",
       "AI / Machine Learning"
@@ -10007,20 +10631,25 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Recommended Actions for Operational Technology Service Management (OTSM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Operational Technology Management",
+      "Now Assist"
+    ],
     "tags": [
       "Incident Management",
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Contextualize an external document</a></strong></p>\n<p>Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/use-ai-enhanced-ra-otsm.html?contentId=yCUGUdxC8d240aNC4FfMHw\">Contextualize an external document</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-operational-technology-service-management.html?contentId=H1kd5RJG4cN5GKFuw_iK3Q\">Now Assist for OTSM</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.html?contentId=DlOvMOfYVG4iWEDp0_~cXQ\">Recommended Actions for OTSM</a>\n<a href=\"https://store.servicenow.com/store/app/9adb2fea1b246a50a85b16db234bcb6c\">Recommended Actions for OTSM - ServiceNow Store</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/use-ai-enhanced-ra-otsm.html?contentId=yCUGUdxC8d240aNC4FfMHw\">Contextualize an external document</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-operational-technology-service-management.html?contentId=H1kd5RJG4cN5GKFuw_iK3Q\">Now Assist for Operational Technology Service Management</a>\n<a href=\"https://www.servicenow.com/docs/r/B0Z4zoSWAekbvp6dQcybtA/SiLD5KP9bypDZFyzZ5HpGA\">Configure AI Enhanced Recommended Actions for OTSM</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/operational-technology/summarize-ot-incident-now-assist.html?contentId=LKdbT_7ED4pS0CAoAOQhSQ\">Summarize an OT incident</a>",
     "importance": "Low"
   },
   {
     "name": "Retail",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Service Catalog",
       "Mobile",
@@ -10034,7 +10663,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "RPA Hub",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "App Engine"
+    ],
     "tags": [
       "Automation / Orchestration",
       "Upgrade / Patching"
@@ -10047,7 +10678,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "RPA Hub",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Integration Hub"
+    ],
     "tags": [
       "Automation / Orchestration"
     ],
@@ -10059,7 +10692,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Sales Forecasting",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Performance"
@@ -10072,7 +10707,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Sales Forecasting",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -10084,7 +10721,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Sales Forecasting",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -10096,7 +10735,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Sales Forecasting",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sales and Order Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -10152,7 +10793,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Security / Access Control",
       "Roles / Permissions"
@@ -10283,7 +10926,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=mitre-d3fend-framework&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">MITRE D3FEND framework</a></strong></p>\n<p>Security administrators can now ingest MITRE D3FEND data. Security analysts can explore MITRE ATT&CK and D3FEND techniques through an interactive, node-based visualization that maps attack techniques, defense techniques, and related artifacts within a Security Incident Response record.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/security-management/mitre-d3fend-framework.html\">MITRE D3FEND framework</a>\n<a href=\"https://www.servicenow.com/docs/r/security-management/ingest-mitre-defend-data.html\">Ingest MITRE D3FEND data</a>\n<a href=\"https://www.servicenow.com/docs/r/security-management/mitre-defend-tables.html\">MITRE D3FEND tables</a>\n<a href=\"https://www.youtube.com/watch?v=XwnhgVU7vKQ\">Using the MITRE ATT&CK Framework as a Security Analyst (Video)</a>",
     "importance": "High"
   },
   {
@@ -10341,7 +10984,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-quick-filters-for-security-incidents&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Create quick filters for Security Incidents and Response Tasks lists</a></strong></p>\n<p>Enable rapid filtering of security incident lists based on predefined criteria by creating and managing quick filters for the Security incident [sn.si.incident] and Response tasks [sn\\_si\\_task] tables within the SIR Workspace. Filters are stored in the Quick Filters [sn\\_si\\_aw\\_quick\\_filters] table.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/security-management/security-incident-response/create-quick-filters-for-security-incidents.html\">Create quick filters for Security Incidents and Response Tasks</a>\n<a href=\"https://www.servicenow.com/docs/r/security-management/security-incident-response/add_quick_filters.html\">Add or modify quick filters</a>\n<a href=\"https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-quick-filters.html\">Working with quick filters</a>\n<a href=\"https://www.youtube.com/watch?v=sVHTuyEJmxI\">Security Incident Response Workspace Demo</a>",
     "importance": "Low"
   },
   {
@@ -10355,7 +10998,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-auto-refresh-for-security-incident-lists&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure auto refresh interval for security incident lists</a></strong></p>\n<p>Set up refreshing of the security incident list at specified intervals by using the <code>sn_si_incident.auto_refresh_interval</code> system property. The default refresh rate is five minutes.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-auto-refresh-for-security-incident-lists.html\">Configure auto refresh interval for security incident lists</a>\n<a href=\"https://www.servicenow.com/docs/r/security-management/security-incident-response/view-update-sirw-system-properties.html\">View and update Security Incident Response system properties</a>\n<a href=\"https://www.youtube.com/watch?v=iPhKQ-mZI-k\">Security Incident Response | Overview</a>",
     "importance": "Low"
   },
   {
@@ -10370,7 +11013,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=t_CreateResponseTask&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Control external user access to security incident</a></strong></p>\n<p>SOC users can grant read-only access to specific security incidents for defined external users through the <strong>Access to security incident</strong> field in the SIR workspace.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/xanadu-security-management/page/product/security-incident-response/concept/c_SecurityIncidentResponse.html\">Security Incident Response</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-security-management/page/product/security-incident-response/task/t_CreateResponseTask.html\">Create response task</a>\n<a href=\"https://community.servicenow.com/community?id=community_question&sys_id=1316677\">External Access for Security Incident Response Tasks</a>",
     "importance": "High"
   },
   {
@@ -10413,7 +11056,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-default-view-for-contextual-menu&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure default view for contextual menu</a></strong></p>\n<p>Determine whether the contextual menu panel for a security incident is expanded or collapsed by default when a security analyst opens a security incident.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-default-view-for-contextual-menu.html?contentId=PhwIfcaBo8BzYY6M5eGY0w\">Configure default view for contextual menu</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/view-update-sirw-system-properties.html?contentId=zoP7a~U1oQe48UgZLyF9BQ\">View and update Security Incident Response system properties</a>",
     "importance": "Low"
   },
   {
@@ -10427,13 +11070,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-pir-assignment-rules&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Assign groups in PIR user assignment rules</a></strong></p>\n<p>User Assignment Rules for Post-Incident Review (PIR) assessments in the SIR module now support group-based assignment in addition to individual user selection. You can configure assignment rules using groups. The PIR automatically reflects group membership updates without requiring manual edits to the assignment rules configuration.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/washingtondc/security-management/security-incident-response/create-pir-assignment-rules.html?contentId=bMbdC7X6UzcLUbDn9aDYYQ\">Create PIR assignment rules</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/security-management/security-incident-response/assign-pir-roles.html\">Assign post incident review roles</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/security-management/security-incident-response/t_PerformPostIncidentReview.html?contentId=SQL1cELvCHFJ0wKHh2CZVg\">Perform a questionnaire-based post incident review</a>",
     "importance": "Medium"
   },
   {
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "UI / UX",
       "Forms / Lists",
@@ -10445,7 +11090,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure Web Embeddables</a></strong></p>\n<p>Embed ServiceNow components into any third-party website or web application to extend the ServiceNow AI Platform capabilities. You can use a library of default configurable components or create custom components.</p>\n<p>You can configure and embed the following ServiceNow components on the third-party websites:</p>\n<ul>\n<li>Case list: Displays a comprehensive list of cases along with their key details.</li>\n<li>Case view: Shows a detailed view of case and case-related activities. You can display relevant playbooks when created for the case record.</li>\n<li>Case create: Displays a form to create a case to address issues related to products and services.</li>\n<li>Catalog item: Request Service Catalog items or services.</li>\n<li>Knowledge article view: Displays knowledge articles along with key details like title, content, author, view count, read time, and more. You can also rate the article and switch the display language.</li>\n<li>Data visualization: Shows a graphical representation of information from any ServiceNow AI Platform table using visual elements such as single score, pie, donut, and semi donut charts.</li>\n<li>Playbook intake: Enable your users to submit cases using the Playbook guided experience. Systematically capture case details and display stages, and activities involved in resolving the case.</li>\n<li>Catalog browse: Browse and search Service Catalog items from different catalogs and categories within a third-party website.</li>\n<li>Object list: Display records from different tables with their related actions in a list format.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.html\">Configure Web Embeddables</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-web-embeddables.html\">Set up Web Embeddables</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-web-components-third-party-website.html\">Embed ServiceNow components instance on a third-party website</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-module.html\">Configure module in Web Embeddables</a>\n<a href=\"https://www.servicenow.com/community/csm-blog/getting-started-with-web-embeddables-activation-and-setup/ba-p/3502621\">Getting Started with Web Embeddables: Activation and Setup</a>",
     "importance": "High"
   },
   {
@@ -10460,7 +11105,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon Connect for voice calls via ICC</a></strong></p>\n<p>Manage Amazon Connect calls in the CSM Configurable Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/washingtondc/servicenow-platform/integrate-ccc-amazonconnect.html\">Integrate ServiceNow Voice with Amazon Connect</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/integrating-ccc-csm.html\">Integrating ServiceNow Voice with CSM</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-amazonconnect-configurable-csm.html\">Associate Amazon Connect queues for CSM</a>\n<a href=\"https://aws.amazon.com/blogs/apn/enhancing-customer-and-it-service-management-with-amazon-connect-and-servicenow-voice/\">Enhancing CSM with Amazon Connect and ServiceNow Voice</a>\n<a href=\"https://www.youtube.com/watch?v=_YgQag3gse0\">Get Started with Amazon Connect Voice Routing</a>",
     "importance": "Medium"
   },
   {
@@ -10560,7 +11205,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Notifications / Email",
       "Agent Workspace"
@@ -10573,7 +11220,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Agent Workspace",
       "Notifications / Email"
@@ -10586,7 +11235,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "Change",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Service Portal",
       "Knowledge Management",
@@ -10597,13 +11248,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-csm-service-portals&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Customer Service Portal Base</a></strong></p>\n<p>Starting with the Australia release, the Customer Service Portal Base plugin (com.snc.csm\\_portal\\_base) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/customer-service-management/use-the-customer-portal.html\">Use Customer Service Portal</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.html\">Configure the Customer and Consumer Service Portals</a>\n<a href=\"https://www.servicenow.com/products/customer-service-management.html\">Customer Service Management Product Page</a>\n<a href=\"https://www.servicenow.com/community/csm-articles/customer-service-management-csm-welcome-guide/ta-p/2340351\">Customer Service Management (CSM) Welcome Guide</a>",
     "importance": "Medium"
   },
   {
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "Change",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Notifications / Email",
       "Forms / Lists"
@@ -10616,7 +11269,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "Change",
-    "products": [],
+    "products": [
+      "CSM (Customer Service Management)"
+    ],
     "tags": [
       "Service Portal",
       "Agent Workspace",
@@ -10631,20 +11286,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Service Catalog",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=set-up-cat-builder&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Enable editing of catalog items by multiple users</a></strong></p>\n<p>Enable other users, who are added to the <strong>Secondary owner</strong> field, to edit catalog items. To enable these users, add people to the <strong>Secondary owner</strong> user-criteria field in the sc\\_cat\\_item and sc\\_cat\\_item\\_producer tables, enabling others to make changes to catalog items owned by another person.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-item-form.html\">Catalog Item form</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-servicenow-platform/page/product/service-catalog-management/concept/c_CatalogBuilder.html\">Catalog Builder</a>\n<a href=\"https://www.youtube.com/watch?v=MoDuOh5T5G8\">Deep dive into Catalog Builder</a>",
     "importance": "Medium"
   },
   {
     "name": "Service Catalog",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog"
     ],
@@ -10656,20 +11315,24 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Service Catalog",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "Scripting"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=set-up-cat-builder&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Use advanced UI policy capabilities in Catalog Builder</a></strong></p>\n<p>Configure catalog UI policies with scripts and multiple catalog UI policy actions in the Catalog Builder to facilitate the creation of complex catalog items. With these enhancements, catalog item creators can confidently take advantage of advanced options, simplifying and speeding up the entire catalog development process.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.html\">Create UI policies in Catalog Builder</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.html\">UI policy form in Catalog Builder</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-advanced-capabilities.html\">Add advanced capabilities to a catalog item</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-forum/mastering-catalog-ui-policies-a-guide-for-servicenow/m-p/3141173\">Mastering Catalog UI Policies: A Guide for ServiceNow</a>",
     "importance": "Medium"
   },
   {
     "name": "Service Catalog",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "UI / UX",
@@ -10677,26 +11340,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=service-catalog&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure variable visibility on multi-row variable set grids</a></strong></p>\n<p>Configure the visibility of a variable on the grid layout within a multi-row variable set (MRVS) for a catalog item by using the <strong>Hide on grid</strong> check box. By default, the check box is not selected.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.html\">Create a service catalog variable</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0960829\">Hiding Multi-Row Variable Set Variables</a>\n<a href=\"https://www.servicenow.com/community/developer-forum/how-to-hide-fields-in-the-multi-row-variable-set-mrvs-grid/m-p/3331268\">How to hide fields in the Multi-row Variable Set (MRVS) grid</a>\n<a href=\"https://www.youtube.com/watch?v=rsFnuaWJIPU\">Multi-Row Variable Set (MRVS) in ServiceNow</a>",
     "importance": "Low"
   },
   {
     "name": "Service Catalog",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "Update Sets / Deployments"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=service-catalog&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure update set prefix</a></strong></p>\n<p>Configure the update set prefix to set a custom name for the update set that gets generated automatically in Catalog Builder, making update sets easy to identify and track for consistency. Use the <strong>glide.sc.cb.item.update\\_set\\_prefix</strong> property to standardize update set names. By default, the property uses the value <strong>CB\\_${template\\_name}\\_${item\\_name}\\_${timestamp}</strong>.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securityincidentresponse-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/transfer-catalog-items-using-update-sets.html\">Transfer catalog items using update sets</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/r_ServiceCatalogProperties.html\">Service Catalog properties</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/set-up-cat-builder.html\">Setting up the Catalog Builder</a>",
     "importance": "Low"
   },
   {
     "name": "Service Catalog",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "Forms / Lists",
@@ -10710,7 +11377,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Service Exchange (formerly Service Bridge)",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations",
       "Upgrade / Patching",
@@ -10718,13 +11387,15 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong>Important:</strong></p>\n<p>Do not upgrade your ServiceNow® instance to the Australia release if you rely on Service Exchange. A known RPS issue prevents Service Exchange from functioning correctly. Proceed with the upgrade only after Australia Patch 1 becomes available.</p>\n<ul>\n<li>Service Exchange version 2.x.x, which was first released with the Xanadu release, doesn’t support migration of Service Exchange (Legacy) versions.</li>\n<li>Service Exchange (Legacy) version: Before you upgrade to the Australia release, consult the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823\" target=\"_blank\" rel=\"noopener noreferrer\">Service Exchange for Providers (Legacy) - Migration Utility KB1499823</a> article in the Now Support Knowledge Base to find out how to migrate your configuration data.</li>\n<li>Service Exchange version 1.x.x: When upgrading, consult the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387\" target=\"_blank\" rel=\"noopener noreferrer\">Upgrade Guide - Service Exchange for Providers and Consumers application (v2.x.x release) KB1700387</a> article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.</li>\n<li>Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.</li>\n<li>When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.</li>\n<li>If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales and Order Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.</li>\n<li>When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:</li>\n</ul>\n<p>    - Yokohama</p>\n<p>    - Zurich</p>\n<p>    - Australia</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceexchangeformerlyservicebridge-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823\">Service Exchange for Providers (Legacy) - Migration Utility KB1499823</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387\">Upgrade Guide - Service Exchange for Providers and Consumers application KB1700387</a>\n<a href=\"https://store.servicenow.com/store/app/dfcaeba61b246a50a85b16db234bcbec\">Service Exchange for Consumers - ServiceNow Store</a>\n<a href=\"https://www.servicenow.com/docs/r/zurich/service-bridge/install-service-bridge-v2-provider.html\">Install Service Exchange for Providers - ServiceNow Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/service-bridge/service-bridge-configure-customer.html\">Installation and configuration of Service Exchange - ServiceNow Documentation</a>",
     "importance": "High"
   },
   {
     "name": "Service Exchange (formerly Service Bridge)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data"
@@ -10737,7 +11408,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Service Exchange (formerly Service Bridge)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "API / Integrations"
     ],
@@ -10750,9 +11423,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Exchange (formerly Service Bridge)",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
-      "Telecommunications Service Management",
-      "Public Sector Digital Services (PSDS)"
+      "Now Platform"
     ],
     "tags": [
       "API / Integrations",
@@ -10768,9 +11439,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Exchange (formerly Service Bridge)",
     "type": "Activation Information",
     "products": [
-      "Telecommunications Service Management",
-      "Sales and Order Management",
-      "Public Sector Digital Services (PSDS)"
+      "Now Platform"
     ],
     "tags": [
       "API / Integrations",
@@ -11061,7 +11730,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Granular admin roles</a></strong></p>\n<p>Grant specific permissions to developers or users who perform minor administrative tasks without granting them unrestricted access to the full admin role by reviewing and assigning available granular admin roles.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowaiplatformcorefeature-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html\nhttps://www.servicenow.com/docs/r/platform-security/roles-within-platform-security.html\nhttps://www.servicenow.com/docs/r/platform-security/platsec-granular-roles.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html\">Granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/config-now-platform-core-features.html\">Configure core features</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/platsec-granular-roles.html\">Platform security granular admin roles</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-roles.html\">Admin Center roles</a>",
     "importance": "Medium"
   },
   {
@@ -11090,7 +11759,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=api-rest&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Path-based REST ACL control</a></strong></p>\n<p>Control access to REST services by creating path-based ACLs using specific HTTP method and path combinations.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowaiplatformcorefeature-release-notes.html",
-    "resources": "https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/add-a-path-based-acl-for-a-scripted-rest-api.html\nhttps://www.servicenow.com/docs/r/api-reference/rest-api-explorer/view-path-based-acls-from-rest-api-explorer.html\nhttps://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t_WbSvcRqACL.html\nhttps://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t_WbSvcOpRqACL.html",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/add-a-path-based-acl-for-a-scripted-rest-api.html\">Add a path-based ACL for a scripted REST API</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/view-path-based-acls.html\">View path-based ACLs</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t_WbSvcRqACL.html\">Configure a scripted REST API to require an ACL</a>\n<a href=\"https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t_WbSvcOpRqACL.html\">Configure a scripted REST API resource to require an ACL</a>",
     "importance": "High"
   },
   {
@@ -11650,7 +12319,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p>Customize the subject title for Sidebar discussions by replacing the default short description with any field from the record.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-sidebar-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/sidebar/set-up-sidebar.html\">Setting up Sidebar</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/sidebar/configure-sidebar.html\">Configuring Sidebar</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/sidebar/exploring-sidebar.html\">Exploring Sidebar</a>\n<a href=\"https://www.youtube.com/watch?v=NkZDgMu36UI\">Getting started with Sidebar</a>",
     "importance": "Low"
   },
   {
@@ -11721,7 +12390,9 @@ var ADENO_RELEASE_DATA = [
       "IRM (Integrated Risk Management)",
       "GRC (Governance, Risk, and Compliance)"
     ],
-    "tags": [],
+    "tags": [
+      "Approvals / Delegation"
+    ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=quick-edit-for-published-templates&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Quick edit for published templates</a></strong></p>\n<p>Starting with version 22.0.0, edit published templates inline as a template manager, including edits to the titles, descriptions, and reader roles.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-smartassessmentengine-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.html\">Quick edit for published templates</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/modify-a-published-template-using-quick-edit.html\">Modify a published template using quick edit</a>\n<a href=\"https://www.servicenow.com/community/grc-articles/q1-2026-release-highlights-for-risk-and-resilience/ta-p/3506080\">Q1 2026 Release Highlights for Risk and Resilience</a>",
@@ -11730,7 +12401,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Smart Assessment Engine",
     "type": "Change",
-    "products": [],
+    "products": [
+      "IRM (Integrated Risk Management)",
+      "GRC (Governance, Risk, and Compliance)"
+    ],
     "tags": [
       "Roles / Permissions",
       "Security / Access Control"
@@ -11943,7 +12617,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Source-to-Pay Operations Integrations",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "API / Integrations",
       "Security / Access Control",
@@ -11957,7 +12633,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Source-to-Pay Operations Integrations",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data"
@@ -11970,7 +12648,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Source-to-Pay Operations Integrations",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data",
@@ -11984,7 +12664,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Approvals / Delegation",
       "Notifications / Email",
@@ -11998,7 +12680,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Employee Center",
       "Service Catalog",
@@ -12006,26 +12690,30 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=decimal-support-services&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Decimal quantity support for service-based purchases in Shopping Hub</a></strong></p>\n<p>Enable requesters to enter and edit decimal quantities for service-based purchase requisitions and purchase orders without validation errors. Decimal quantities are supported only for services to maintain data integrity. Decimal quantities for goods are not supported and return a clear validation message. This validation logic is consistent across Shopping Hub and Employee Center.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-sourcingandprocurementoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.html\">Service portal configuration for ShoppingHub</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases.html\">My purchases on Shopping Hub</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/run-fix-script-decimal-qty.html\">Run the fix script to enable decimal quantities for services</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.html\">Using Shopping Hub</a>",
     "importance": "Medium"
   },
   {
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Service Catalog"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=automatically-assign-categories&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically assign categories during SR and PR creation</a></strong></p>\n<p>Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the Spend categorization agent. This classification process reduces manual classification effort and improves consistency across procurement workflows.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-sourcingandprocurementoperations-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/bundle/yokohama-source-to-pay-operations/page/product/sourcing-procurement-operations/concept/now-assist-source-to-pay-operations.html\">Now Assist for Sourcing and Procurement Operations Documentation</a>\n<a href=\"https://www.servicenow.com/docs/bundle/yokohama-source-to-pay-operations/page/product/sourcing-procurement-operations/concept/psm-overview.html\">Sourcing and Procurement Operations Product Documentation</a>\n<a href=\"https://www.servicenow.com/community/s2p-blog/new-now-assist-for-sourcing-and-procurement-operations-a-smarter/ba-p/3012360\">Community Blog: Now Assist for Sourcing and Procurement Operations</a>\n<a href=\"https://store.servicenow.com/store/app/294d67e21b646a50a85b16db234bcb9a\">ServiceNow Store: Now Assist for Sourcing and Procurement Operations</a>",
     "importance": "Medium"
   },
   {
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Sourcing and Procurement Operations"
+    ],
     "tags": [
       "Service Catalog",
       "Approvals / Delegation"
@@ -12038,7 +12726,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -12050,7 +12740,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Forms / Lists",
@@ -12064,7 +12756,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Workflows / Flow Designer",
       "UI / UX",
@@ -12078,7 +12772,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "AI Control Tower"
+    ],
     "tags": [
       "CMDB",
       "Workflows / Flow Designer",
@@ -12092,7 +12789,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Forms / Lists"
@@ -12105,7 +12805,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)",
+      "Now Assist"
+    ],
     "tags": [
       "UI / UX",
       "Reporting / Platform Analytics",
@@ -12120,7 +12823,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Notifications / Email",
       "Forms / Lists"
@@ -12133,7 +12838,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX",
       "Agent Workspace"
@@ -12146,7 +12853,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists"
@@ -12159,7 +12868,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -12171,7 +12882,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
@@ -12183,7 +12896,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Strategic Planning",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SPM (Strategic Portfolio Management)"
+    ],
     "tags": [
       "Forms / Lists",
       "Import / Export / Data"
@@ -12196,7 +12911,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Roles / Permissions"
     ],
@@ -12208,7 +12925,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Security / Access Control",
       "AI / Machine Learning"
@@ -12221,7 +12940,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Workflows / Flow Designer",
       "Automation / Orchestration",
@@ -12235,7 +12956,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -12247,7 +12971,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform",
+      "Now Assist"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -12259,7 +12986,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Asset Management"
     ],
@@ -12271,7 +13000,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Subscription Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Asset Management"
     ],
@@ -12283,7 +13014,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Supplier Lifecycle Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Supplier Lifecycle Operations"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -12295,7 +13028,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Supplier Lifecycle Operations",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Supplier Lifecycle Operations"
+    ],
     "tags": [
       "Notifications / Email",
       "Agent Workspace",
@@ -12309,7 +13044,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Synthetic monitoring",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)",
+      "ITOM AIOps"
+    ],
     "tags": [
       "Incident Management",
       "Event Management"
@@ -12322,7 +13060,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Synthetic monitoring",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "ITOM (IT Operations Management)",
+      "ITOM AIOps"
+    ],
     "tags": [
       "Event Management",
       "API / Integrations",
@@ -12336,7 +13077,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Customer 360",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
@@ -12348,7 +13091,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Customer 360",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
@@ -12360,7 +13105,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Customer 360",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
@@ -12372,7 +13119,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Customer 360",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Agent Workspace",
       "Forms / Lists"
@@ -12385,7 +13134,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Customer 360",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Agent Workspace",
       "CMDB",
@@ -12401,19 +13152,23 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Customer 360",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=c360-tasks-card&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Cases, tasks, and orders</a></strong></p>\n<p>Manage multiple task types including service problem cases, cases, customer orders, work orders, complaint cases, and invoice cases in a unified view. View details such as case numbers, descriptions, state, sold products, and priority levels across all task records.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-telecommunicationscustomer360-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://docs.servicenow.com/bundle/telecom-media-technology/page/product/tmt-customer-360/concept/c360-home-page.html\">Telecommunications Customer 360 Home Page Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/855ef34293abb6501caaf76e1dba1068\">Telecommunications Customer 360 Store App</a>\n<a href=\"https://www.servicenow.com/community/telecom-articles/telecommunications-media-and-technology-knowledge-amp/ta-p/3416810\">Telecommunications, Media, and Technology Knowledge Article</a>\n<a href=\"https://www.youtube.com/watch?v=PVvr6WM_Wnw\">Now Assist for CSM Feature Short: Provide Customer 360 Insights</a>",
     "importance": "Medium"
   },
   {
     "name": "Telecommunications Customer 360",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Agent Workspace"
     ],
@@ -12425,7 +13180,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Network Inventory",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Service Catalog",
       "Security / Access Control",
@@ -12439,7 +13196,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Service Operations Management (TSOM)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Discovery",
       "CMDB"
@@ -12452,7 +13211,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Service Operations Management (TSOM)",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "Discovery",
       "CMDB",
@@ -12466,7 +13227,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Telecommunications Service Operations Management (TSOM)",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Telecommunications Service Management"
+    ],
     "tags": [
       "CMDB",
       "Discovery",
@@ -12480,7 +13243,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Theme Builder",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -12492,7 +13257,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Theme Builder",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI / UX",
       "UI Builder"
@@ -12505,7 +13272,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Theme Builder",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI / UX"
     ],
@@ -12517,7 +13286,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Third-party Risk Management",
     "type": "Important Information for upgrading",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "Upgrade / Patching",
       "Import / Export / Data",
@@ -12531,7 +13302,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Third-party Risk Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Localization / Translations"
@@ -12544,7 +13317,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Third-party Risk Management",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "Agent Workspace"
     ],
@@ -12556,7 +13331,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Third-party Risk Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "AI / Machine Learning"
     ],
@@ -12568,7 +13345,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Third-party Risk Management",
     "type": "Change",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "Import / Export / Data"
     ],
@@ -12580,7 +13359,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Third-party Risk Management",
     "type": "Removed",
-    "products": [],
+    "products": [
+      "TPRM (Third-party Risk Management)"
+    ],
     "tags": [
       "Upgrade / Patching"
     ],
@@ -12592,7 +13373,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "API / Integrations"
     ],
@@ -12604,7 +13387,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "Automation / Orchestration"
     ],
@@ -12616,7 +13401,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "CMDB"
     ],
@@ -12628,7 +13415,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "Security / Access Control"
     ],
@@ -12640,7 +13429,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "CMDB",
       "Asset Management"
@@ -12653,7 +13444,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "CMDB"
     ],
@@ -12665,7 +13458,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data"
@@ -12678,7 +13473,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data"
@@ -12691,7 +13488,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "API / Integrations",
       "Security / Access Control",
@@ -12705,7 +13504,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "Reporting / Platform Analytics",
       "Notifications / Email"
@@ -12718,7 +13519,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "API / Integrations",
       "Import / Export / Data"
@@ -12731,7 +13534,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Threat Intelligence Security Center",
     "type": "Change",
-    "products": [],
+    "products": [
+      "SecOps (Security Operations)"
+    ],
     "tags": [
       "Security / Access Control"
     ],
@@ -12743,7 +13548,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "UI Builder",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI Builder",
       "UI / UX"
@@ -12756,7 +13563,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "UI Builder",
     "type": "Change",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "UI Builder",
       "Agent Workspace"
@@ -12769,7 +13578,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Universal Request",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Agent Workspace",
       "Security / Access Control"
@@ -12782,7 +13593,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Universal Request",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "Workflows / Flow Designer"
@@ -12795,7 +13608,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Universal Request",
     "type": "Activation Information",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Service Catalog",
       "Incident Management",
@@ -12810,7 +13625,9 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Upgrade Console",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Upgrade / Patching",
       "AI / Machine Learning"
@@ -12823,50 +13640,58 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Upgrade Console",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Upgrade / Patching",
       "Developer Tools"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=um-post-upgrade-activities&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ATF Troubleshooting agent access</a></strong></p>\n<p>You can now troubleshoot failed tests by accessing the ATF troubleshooting agent from the Conduct post-testing step in the post-upgrade activities of a non-production instance.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-upgradeconsole-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.html\">ServiceNow Documentation: ATF troubleshooting agent</a>\n<a href=\"https://store.servicenow.com/store/app/35b1b7aa1ba46a50a85b16db234bcb3c\">ServiceNow Store: Upgrade Console</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/atf-troubleshooting-agent-ai-powered-test-failure-resolution/ta-p/3480084\">ServiceNow Community: ATF Troubleshooting Agent</a>",
     "importance": "Low"
   },
   {
     "name": "Usage Insights",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=tagged-events&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Creating custom events</a></strong></p>\n<p>Create custom events without code directly in your application using the Usage Insights page overlay. Use event descriptions to provide greater visibility and clarity on Usage Insights events.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-usageinsights-release-notes.html",
-    "resources": "Creating custom events</a>Using Usage Insights</a>\n<a href=\"https://www.youtube.com/watch?v=_6XMRgAaRJk\">Platform Academy: Introducing Next Gen Usage Insights</a>",
+    "resources": "<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-blog/platform-academy-introducing-next-gen-usage-insights-with-user/ba-p/3408730\">Platform Academy - Introducing Next Gen Usage Insights</a>\n<a href=\"https://www.youtube.com/watch?v=_6XMRgAaRJk\">Platform Academy: Introducing Next Gen Usage Insights (Video)</a>",
     "importance": "Low"
   },
   {
     "name": "Usage Insights",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-funnel&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Funnels.</a></strong></p>\n<p>Access funnels you create in Usage Insights directly in the Platform Analytics UI to view this data along with your organization's other business metrics.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-usageinsights-release-notes.html",
-    "resources": "Integrate Usage Insights with Platform Analytics</a>\n<a href=\"https://www.servicenow.com/docs/r/US6ajuI5T26ee32kSvfHDw/wnYLmGD5ZyPemzhxfSxV9g\">Funnel reports in Usage Insights</a>Create a funnel report</a>\n<a href=\"https://store.servicenow.com/store/app/95d8a32e1be06a50a85b16db234bcb3f\">Usage Insights Funnel Store App</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-blog/platform-academy-introducing-next-gen-usage-insights-with-user/ba-p/3408730\">Platform Academy - Introducing Next Gen Usage Insights</a>",
+    "resources": "<a href=\"https://www.servicenow.com/docs/r/US6ajuI5T26ee32kSvfHDw/wnYLmGD5ZyPemzhxfSxV9g\">Funnel reports in Usage Insights</a>\n<a href=\"https://store.servicenow.com/store/app/95d8a32e1be06a50a85b16db234bcb3f\">Usage Insights Funnel Application</a>\n<a href=\"https://www.youtube.com/watch?v=_6XMRgAaRJk\">Platform Academy: Introducing Next Gen Usage Insights</a>",
     "importance": "Low"
   },
   {
     "name": "Usage Insights",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Platform"
+    ],
     "tags": [
       "Reporting / Platform Analytics"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=uxa-dashboards&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Dashboards.</a></strong></p>\n<p>Customize dashboards or pages for Platform Analytics directly in Usage Insights.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-usageinsights-release-notes.html",
-    "resources": "",
+    "resources": "<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-blog/platform-academy-introducing-next-gen-usage-insights-with-user/ba-p/3408730\">Platform Academy - Introducing Next Gen Usage Insights</a>\n<a href=\"https://www.youtube.com/watch?v=_6XMRgAaRJk\">Platform Academy: Introducing Next Gen Usage Insights (Video)</a>",
     "importance": "Low"
   },
   {
@@ -12950,7 +13775,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workflow Studio",
     "type": "New feature",
     "products": [
-      "Now Assist"
+      "Now Platform"
     ],
     "tags": [
       "Workflows / Flow Designer"
@@ -12964,7 +13789,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workflow Studio",
     "type": "New feature",
     "products": [
-      "Now Assist"
+      "Now Platform"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -12979,7 +13804,6 @@ var ADENO_RELEASE_DATA = [
     "name": "Workflow Studio",
     "type": "Activation Information",
     "products": [
-      "Integration Hub",
       "Now Platform"
     ],
     "tags": [
@@ -13118,7 +13942,10 @@ var ADENO_RELEASE_DATA = [
     "products": [
       "Integration Hub"
     ],
-    "tags": [],
+    "tags": [
+      "API / Integrations",
+      "SSO / Authentication"
+    ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=create-databricks-connection-zcc&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">OAuth authentication</a></strong></p>\n<p>Configure OAuth authentication in Databricks, Oracle, and Snowflake connectors.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-zerocopyconnectors-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/create-databricks-connection-zcc.html\">Create a Databricks connection</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/create-oracle-connection-zcc.html\">Create an Oracle connection</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/create-snowflake-connection-zcc.html\">Create a Snowflake connection</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/exploring-zcc.html\">Exploring Zero Copy Connectors</a>\n<a href=\"https://www.youtube.com/watch?v=kbsOdKaD3DM\">Deep Dive: ServiceNow Zero Copy Connectors</a>",
@@ -13130,7 +13957,10 @@ var ADENO_RELEASE_DATA = [
     "products": [
       "Integration Hub"
     ],
-    "tags": [],
+    "tags": [
+      "API / Integrations",
+      "Import / Export / Data"
+    ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Apache Iceberg primary connector</a></strong></p>\n<p>The Apache Iceberg connector is now certified as a primary connector.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-zerocopyconnectors-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/apache-iceberg-primary-zcc.html?contentId=Ys1f23z4V7C15Zn2NPyt_A\">ServiceNow Documentation: Apache Iceberg primary connector</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/create-apache-iceberg-connection-primary.html?contentId=c1Os4BuqIPxfl1CuRW5gCQ\">ServiceNow Documentation: Create an Apache Iceberg connection</a>\n<a href=\"https://www.servicenow.com/community/workflow-data-fabric-articles/zero-copy-connectors-are-here-unlock-real-time-enterprise-data/ta-p/3302004\">ServiceNow Community: Zero Copy Connectors are here</a>\n<a href=\"https://www.youtube.com/watch?v=13q415crGEM\">YouTube: ServiceNow Zero Copy Apache Iceberg Connector</a>\n<a href=\"https://www.youtube.com/watch?v=kbsOdKaD3DM\">YouTube: Deep Dive: ServiceNow Zero Copy Connectors</a>",
@@ -13164,3 +13994,4 @@ var ADENO_RELEASE_DATA = [
     "importance": "Low"
   }
 ];
+
