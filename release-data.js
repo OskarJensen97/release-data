@@ -92,7 +92,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Accounts Payable Operations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "API / Integrations",
@@ -108,7 +108,7 @@ var ADENO_RELEASE_DATA = [
     "type": "Change",
     "products": [
       "Now Assist",
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -125,7 +125,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Activity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "API / Integrations",
@@ -140,7 +140,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Activity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Notifications / Email",
@@ -155,7 +155,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Activity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Agent Workspace",
@@ -170,7 +170,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Activity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Forms / Lists"
@@ -184,7 +184,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Activity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Notifications / Email",
@@ -228,7 +228,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -243,7 +243,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -258,7 +258,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -273,7 +273,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -288,7 +288,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation"
@@ -302,7 +302,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Approval Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -318,7 +318,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Risk",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)"
+      "IRM"
     ],
     "tags": [
       "Approvals / Delegation"
@@ -332,7 +332,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Risk",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
+      "IRM",
       "Now Assist"
     ],
     "tags": [
@@ -348,7 +348,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Risk",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)"
+      "IRM"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -363,7 +363,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Advanced Work Assignment",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Agent Workspace"
@@ -391,7 +391,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -405,7 +405,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -421,7 +421,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -437,7 +437,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)",
+      "CSM",
       "Now Assist"
     ],
     "tags": [
@@ -453,7 +453,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -469,7 +469,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -484,7 +484,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -499,7 +499,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -514,7 +514,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -528,7 +528,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -543,7 +543,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -558,7 +558,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -572,7 +572,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -588,7 +588,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -603,7 +603,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -618,7 +618,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -632,7 +632,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -647,7 +647,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent experience for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -662,7 +662,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent Workspace for HR Case Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace",
@@ -677,7 +677,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent Workspace for HR Case Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace",
@@ -694,7 +694,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent Workspace for HR Case Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace"
@@ -708,7 +708,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent Workspace for HR Case Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)",
+      "HRSD",
       "Now Assist"
     ],
     "tags": [
@@ -725,7 +725,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Agent Workspace for HR Case Management",
     "type": "Activation Information",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace"
@@ -1028,7 +1028,7 @@ var ADENO_RELEASE_DATA = [
     "name": "API",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "API / Integrations"
@@ -1058,7 +1058,7 @@ var ADENO_RELEASE_DATA = [
     "name": "API",
     "type": "Change",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "API / Integrations"
@@ -1088,7 +1088,7 @@ var ADENO_RELEASE_DATA = [
     "type": "Activation Information",
     "products": [
       "Now Platform",
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "API / Integrations",
@@ -1258,7 +1258,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Buying Group",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -1272,7 +1272,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Buying Group",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Roles / Permissions"
@@ -1286,7 +1286,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Buying Group",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Forms / Lists"
@@ -1300,7 +1300,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Buying Group",
     "type": "Activation Information",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Asset Management"
@@ -1314,7 +1314,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Card data security",
     "type": "New feature",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Security / Access Control",
@@ -1330,7 +1330,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Card data security",
     "type": "New feature",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Agent Workspace",
@@ -1345,7 +1345,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Card data security",
     "type": "New feature",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Attachments / Documents",
@@ -1360,7 +1360,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Card data security",
     "type": "New feature",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "API / Integrations",
@@ -1376,7 +1376,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Operations for Biomed",
     "type": "Important Information for upgrading",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Security / Access Control",
@@ -1393,7 +1393,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Operations for Environmental Services",
     "type": "Important Information for upgrading",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Roles / Permissions"
@@ -1407,7 +1407,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Operations for Facilities",
     "type": "Important Information for upgrading",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Roles / Permissions"
@@ -1421,7 +1421,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Operations for Healthcare",
     "type": "Important Information for upgrading",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Security / Access Control",
@@ -1438,7 +1438,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Work Management",
     "type": "New feature",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Automation / Orchestration"
@@ -1452,7 +1452,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Work Management",
     "type": "New feature",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Agent Workspace"
@@ -1466,7 +1466,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Care Team Work Management",
     "type": "New feature",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Agent Workspace",
@@ -1482,7 +1482,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case and Knowledge Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Roles / Permissions",
@@ -1498,7 +1498,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case and Knowledge Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Security / Access Control"
@@ -1512,7 +1512,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case and Knowledge Management",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace",
@@ -1527,7 +1527,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case and Knowledge Management",
     "type": "Activation Information",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Knowledge Management"
@@ -1541,7 +1541,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Workflows / Flow Designer"
@@ -1555,7 +1555,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Attachments / Documents",
@@ -1571,7 +1571,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -1587,7 +1587,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Case management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Forms / Lists",
@@ -1602,7 +1602,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Change Management",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -1617,7 +1617,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Change Management",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management"
@@ -1631,7 +1631,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Change Management",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management"
@@ -1645,7 +1645,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Change Management",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -1660,7 +1660,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Change Management",
     "type": "Activation Information",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management"
@@ -1674,7 +1674,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Change Management",
     "type": "Accessibility Information",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -1745,7 +1745,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Cloud Cost Management 10.0",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Cloud Governance"
@@ -1759,7 +1759,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Cloud Cost Management 10.0",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Cloud Governance",
@@ -1774,7 +1774,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Cloud Cost Management 10.0",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Cloud Governance"
@@ -1788,7 +1788,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Cloud Cost Management 10.0",
     "type": "Change",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Cloud Governance",
@@ -1804,7 +1804,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Cloud Cost Management 10.0",
     "type": "Activation Information",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Cloud Governance"
@@ -1818,7 +1818,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -1834,7 +1834,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX"
@@ -1848,7 +1848,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -1864,7 +1864,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -1879,7 +1879,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -1894,7 +1894,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Attachments / Documents"
@@ -1908,7 +1908,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "Accessibility Information",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -1923,7 +1923,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Collaborative Work Management",
     "type": "Accessibility Information",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Agent Workspace",
@@ -1938,8 +1938,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Common Governance, Risk, and Compliance",
     "type": "New feature",
     "products": [
-      "GRC (Governance, Risk, and Compliance)",
-      "IRM (Integrated Risk Management)"
+      "GRC",
+      "IRM"
     ],
     "tags": [
       "Notifications / Email",
@@ -1954,7 +1954,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Common Governance, Risk, and Compliance",
     "type": "New feature",
     "products": [
-      "GRC (Governance, Risk, and Compliance)"
+      "GRC"
     ],
     "tags": [
       "Performance",
@@ -1970,8 +1970,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Common Governance, Risk, and Compliance",
     "type": "Activation Information",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Security / Access Control"
@@ -1985,8 +1985,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Compliance Case Management",
     "type": "New feature",
     "products": [
-      "GRC (Governance, Risk, and Compliance)",
-      "IRM (Integrated Risk Management)"
+      "GRC",
+      "IRM"
     ],
     "tags": [
       "Employee Center",
@@ -2002,7 +2002,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Compliance Case Management",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
+      "IRM",
       "Now Assist"
     ],
     "tags": [
@@ -2017,8 +2017,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Compliance Case Management",
     "type": "Activation Information",
     "products": [
-      "GRC (Governance, Risk, and Compliance)",
-      "IRM (Integrated Risk Management)"
+      "GRC",
+      "IRM"
     ],
     "tags": [
       "Update Sets / Deployments"
@@ -2565,7 +2565,7 @@ var ADENO_RELEASE_DATA = [
     "type": "Change",
     "products": [
       "Now Platform",
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "CMDB",
@@ -2610,7 +2610,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Continuous Authorization and Monitoring",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)"
+      "IRM"
     ],
     "tags": [
       "Import / Export / Data"
@@ -2624,8 +2624,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Continuous Authorization and Monitoring",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Security / Access Control"
@@ -2639,8 +2639,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Continuous Authorization and Monitoring",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Security / Access Control"
@@ -2654,8 +2654,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Continuous Authorization and Monitoring",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "UI / UX",
@@ -2670,7 +2670,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Continuous Authorization and Monitoring",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)"
+      "IRM"
     ],
     "tags": [
       "Forms / Lists",
@@ -2685,8 +2685,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Continuous Authorization and Monitoring",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -2703,7 +2703,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Security / Access Control",
@@ -2718,7 +2718,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -2733,7 +2733,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Import / Export / Data",
@@ -2749,7 +2749,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "UI / UX",
@@ -2764,7 +2764,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -2778,7 +2778,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "API / Integrations"
@@ -2792,7 +2792,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -2807,7 +2807,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -2822,7 +2822,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "Activation Information",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -2836,7 +2836,7 @@ var ADENO_RELEASE_DATA = [
     "name": "CPQ",
     "type": "Localization Information",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Localization / Translations"
@@ -2850,8 +2850,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer Contracts and Entitlements",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)",
-      "Sales and Order Management"
+      "CSM",
+      "SOM"
     ],
     "tags": [
       "Asset Management"
@@ -2865,8 +2865,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer Contracts and Entitlements",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)",
-      "Sales and Order Management"
+      "CSM",
+      "SOM"
     ],
     "tags": [
       "Asset Management"
@@ -2880,7 +2880,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer Contracts and Entitlements",
     "type": "Activation Information",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Asset Management",
@@ -2895,7 +2895,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer self-service for Sales and Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Portal"
@@ -2909,7 +2909,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer self-service for Sales and Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Portal",
@@ -2924,7 +2924,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer self-service for Sales and Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Portal"
@@ -2938,7 +2938,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer self-service for Sales and Order Management",
     "type": "Activation Information",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Portal"
@@ -2952,7 +2952,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer Service Problem Management",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Problem Management",
@@ -2967,7 +2967,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer Success Management",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -2982,7 +2982,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Customer Success Management",
     "type": "Change",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "UI / UX"
@@ -3042,7 +3042,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Import / Export / Data"
@@ -3056,7 +3056,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -3071,7 +3071,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Import / Export / Data",
@@ -3086,7 +3086,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Import / Export / Data"
@@ -3100,7 +3100,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Security / Access Control",
@@ -3115,7 +3115,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -3130,7 +3130,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "CSDM",
@@ -3145,7 +3145,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Asset Management",
@@ -3160,7 +3160,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Forms / Lists",
@@ -3176,7 +3176,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Forms / Lists",
@@ -3191,7 +3191,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -3206,7 +3206,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Update Sets / Deployments",
@@ -3221,7 +3221,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -3236,7 +3236,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Import / Export / Data"
@@ -3250,7 +3250,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Security / Access Control",
@@ -3265,7 +3265,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Import / Export / Data"
@@ -3279,7 +3279,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -3294,7 +3294,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Data Management for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Forms / Lists",
@@ -3549,7 +3549,7 @@ var ADENO_RELEASE_DATA = [
     "name": "DevOps Change Velocity",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -3565,7 +3565,7 @@ var ADENO_RELEASE_DATA = [
     "name": "DevOps Change Velocity",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -3581,7 +3581,7 @@ var ADENO_RELEASE_DATA = [
     "name": "DevOps Change Velocity",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -3596,7 +3596,7 @@ var ADENO_RELEASE_DATA = [
     "name": "DevOps Change Velocity",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management",
@@ -3613,7 +3613,7 @@ var ADENO_RELEASE_DATA = [
     "name": "DevOps Change Velocity",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Change Management"
@@ -3733,7 +3733,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Dispute Content Pack for US Regulations",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "SLA Management"
@@ -3747,7 +3747,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Dispute Content Pack for US Regulations",
     "type": "Activation Information",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -3762,7 +3762,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Dispute Rules Content Pack for Mastercard",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Automation / Orchestration",
@@ -3777,7 +3777,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Dispute Rules Content Pack for Mastercard",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Forms / Lists"
@@ -4045,8 +4045,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Employee Center Pro",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "HRSD (HR Service Delivery)"
+      "ITSM",
+      "HRSD"
     ],
     "tags": [
       "Employee Center",
@@ -4061,7 +4061,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Employee Center Pro",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Employee Center",
@@ -4078,9 +4078,9 @@ var ADENO_RELEASE_DATA = [
     "name": "Employee Center Pro",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)",
-      "ITSM (IT Service Management)",
-      "Workplace Service Delivery"
+      "HRSD",
+      "ITSM",
+      "WSD"
     ],
     "tags": [
       "Employee Center",
@@ -4389,7 +4389,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4404,7 +4404,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -4418,7 +4418,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4434,7 +4434,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4449,7 +4449,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "Change",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Asset Management",
@@ -4464,7 +4464,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "Change",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -4478,8 +4478,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "Change",
     "products": [
-      "ITAM (IT Asset Management)",
-      "Operational Technology Management"
+      "ITAM",
+      "OTM"
     ],
     "tags": [
       "Asset Management",
@@ -4495,7 +4495,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "Change",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -4509,7 +4509,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Enterprise Asset Management",
     "type": "Activation Information",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -4523,7 +4523,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Event Management",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "Event Management"
@@ -4537,7 +4537,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Event Management",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "Event Management",
@@ -4552,8 +4552,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Event Management",
     "type": "Deprecation",
     "products": [
-      "ITOM (IT Operations Management)",
-      "Service Operations Workspace"
+      "ITOM",
+      "SOW"
     ],
     "tags": [
       "Event Management"
@@ -4567,7 +4567,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Event Management",
     "type": "Deprecation",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "Event Management"
@@ -4581,7 +4581,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -4597,7 +4597,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Mobile",
@@ -4612,7 +4612,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -4627,7 +4627,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Mobile",
@@ -4643,7 +4643,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Mobile",
@@ -4658,7 +4658,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -4675,7 +4675,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "New feature",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "API / Integrations",
@@ -4690,7 +4690,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "Change",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -4709,7 +4709,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Field Service Management",
     "type": "Change",
     "products": [
-      "FSM (Field Service Management)"
+      "FSM"
     ],
     "tags": [
       "API / Integrations",
@@ -4724,7 +4724,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Card Operations",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Attachments / Documents",
@@ -4741,7 +4741,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Card Operations",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -4756,7 +4756,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Card Operations",
     "type": "Activation Information",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Agent Workspace",
@@ -4772,7 +4772,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Operations Integration with Mastercard",
     "type": "New feature",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "API / Integrations",
@@ -4788,7 +4788,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Operations Integration with Mastercard",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -4804,7 +4804,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Operations Integration with Mastercard",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -4820,7 +4820,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Financial Services Operations Integration with Visa",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -4835,7 +4835,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Goal Framework for SPM",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -4850,7 +4850,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "Important Information for upgrading",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4865,7 +4865,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "Important Information for upgrading",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4882,7 +4882,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -4896,7 +4896,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4911,7 +4911,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -4925,7 +4925,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4942,7 +4942,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Hardware Asset Management ",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -4957,7 +4957,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Healthcare and Life Sciences Service Management Core",
     "type": "Important Information for upgrading",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Security / Access Control",
@@ -4974,7 +4974,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Healthcare and Life Sciences Service Management Core",
     "type": "Activation Information",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "CMDB",
@@ -4989,7 +4989,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Healthcare Operations Core",
     "type": "Important Information for upgrading",
     "products": [
-      "Healthcare and Life Sciences Service Management"
+      "HCLS"
     ],
     "tags": [
       "Security / Access Control",
@@ -5350,7 +5350,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Incident Management",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Incident Management",
@@ -5365,7 +5365,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Incident Management",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Incident Management",
@@ -5380,7 +5380,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Core",
     "type": "Activation Information",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile"
@@ -5394,7 +5394,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile"
@@ -5408,7 +5408,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile",
@@ -5423,7 +5423,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile",
@@ -5440,7 +5440,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile",
@@ -5455,7 +5455,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile",
@@ -5470,8 +5470,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "New feature",
     "products": [
-      "Operational Technology Management",
-      "Workplace Service Delivery"
+      "OTM",
+      "WSD"
     ],
     "tags": [
       "Mobile",
@@ -5487,7 +5487,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Connected Workforce Mobile Experience",
     "type": "Activation Information",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile"
@@ -5501,7 +5501,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Workflows / Flow Designer"
@@ -5515,7 +5515,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Asset Management",
@@ -5531,7 +5531,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Automation / Orchestration",
@@ -5546,7 +5546,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile",
@@ -5561,7 +5561,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -5577,7 +5577,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Workflows / Flow Designer"
@@ -5591,7 +5591,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Guided Tasks",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Mobile"
@@ -5605,7 +5605,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Process Manager",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -5620,7 +5620,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Process Manager",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -5635,7 +5635,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Process Manager",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB"
@@ -5649,7 +5649,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Process Manager",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -5664,7 +5664,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Process Manager",
     "type": "Change",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -5679,7 +5679,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Standards",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Security / Access Control",
@@ -5696,7 +5696,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Standards",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Asset Management",
@@ -5711,7 +5711,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Standards",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -5726,7 +5726,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Industrial Standards",
     "type": "Activation Information",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -6070,7 +6070,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Intelligence for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -6085,7 +6085,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Intelligence for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -6100,7 +6100,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Intelligence for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -6116,7 +6116,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Intelligence for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)",
+      "CSM",
       "Now Assist"
     ],
     "tags": [
@@ -6132,7 +6132,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Intelligence for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -6147,7 +6147,7 @@ var ADENO_RELEASE_DATA = [
     "name": "ITOM Visibility",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "Discovery"
@@ -6161,7 +6161,7 @@ var ADENO_RELEASE_DATA = [
     "name": "ITOM Visibility",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "Discovery",
@@ -6177,7 +6177,7 @@ var ADENO_RELEASE_DATA = [
     "name": "ITOM Visibility",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "CMDB",
@@ -6192,7 +6192,7 @@ var ADENO_RELEASE_DATA = [
     "name": "ITOM Visibility",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "CMDB",
@@ -6207,7 +6207,7 @@ var ADENO_RELEASE_DATA = [
     "name": "ITOM Visibility",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "CMDB",
@@ -6223,7 +6223,7 @@ var ADENO_RELEASE_DATA = [
     "name": "ITOM Visibility",
     "type": "Deprecation",
     "products": [
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "Discovery"
@@ -6485,7 +6485,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Manufacturing Commercial Operations",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -6513,7 +6513,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Manufacturing Commercial Operations",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
+      "SOM",
       "Now Assist"
     ],
     "tags": [
@@ -6861,7 +6861,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Next Experience Components",
     "type": "New feature",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "UI / UX",
@@ -7794,7 +7794,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Collaborative Work Management (CWM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -7810,7 +7810,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Collaborative Work Management (CWM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -7842,8 +7842,8 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "ITOM (IT Operations Management)",
-      "ITSM (IT Service Management)"
+      "ITOM",
+      "ITSM"
     ],
     "tags": [
       "CMDB",
@@ -7906,7 +7906,7 @@ var ADENO_RELEASE_DATA = [
     "type": "Activation Information",
     "products": [
       "Now Assist",
-      "ITOM (IT Operations Management)"
+      "ITOM"
     ],
     "tags": [
       "CMDB",
@@ -8116,7 +8116,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for IT Operations Management (ITOM)",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)",
+      "ITOM",
       "Now Assist"
     ],
     "tags": [
@@ -8133,7 +8133,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for IT Operations Management (ITOM)",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)",
+      "ITOM",
       "Now Assist"
     ],
     "tags": [
@@ -8152,7 +8152,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8168,7 +8168,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8215,7 +8215,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Operational Technology Service Management (OTSM)",
     "type": "New feature",
     "products": [
-      "Operational Technology Management",
+      "OTM",
       "Now Assist"
     ],
     "tags": [
@@ -8231,7 +8231,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Operational Technology Service Management (OTSM)",
     "type": "New feature",
     "products": [
-      "Operational Technology Management",
+      "OTM",
       "Now Assist"
     ],
     "tags": [
@@ -8247,7 +8247,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Operational Technology Service Management (OTSM)",
     "type": "New feature",
     "products": [
-      "Operational Technology Management",
+      "OTM",
       "Now Assist"
     ],
     "tags": [
@@ -8265,7 +8265,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8281,7 +8281,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8300,7 +8300,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8321,7 +8321,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8353,7 +8353,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Source-to-Pay Operations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations",
+      "SPO",
       "Now Assist"
     ],
     "tags": [
@@ -8370,7 +8370,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -8385,7 +8385,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -8401,7 +8401,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -8418,7 +8418,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -8433,7 +8433,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -8448,7 +8448,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Strategic Portfolio Management (SPM)",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -8464,7 +8464,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning"
@@ -8494,7 +8494,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8523,7 +8523,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8539,7 +8539,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8557,7 +8557,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -8588,7 +8588,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning"
@@ -8618,7 +8618,7 @@ var ADENO_RELEASE_DATA = [
     "type": "New feature",
     "products": [
       "Now Assist",
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "AI / Machine Learning"
@@ -8632,7 +8632,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Now Assist for Third-party Risk Management (TPRM)",
     "type": "New feature",
     "products": [
-      "TPRM (Third-party Risk Management)",
+      "TPRM",
       "Now Assist"
     ],
     "tags": [
@@ -8707,7 +8707,7 @@ var ADENO_RELEASE_DATA = [
     "name": "On-Call Scheduling",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Incident Management"
@@ -8721,7 +8721,7 @@ var ADENO_RELEASE_DATA = [
     "name": "On-Call Scheduling",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)"
+      "ITSM"
     ],
     "tags": [
       "Roles / Permissions"
@@ -8736,8 +8736,8 @@ var ADENO_RELEASE_DATA = [
     "type": "Important Information for upgrading",
     "products": [
       "Now Platform",
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "CSDM",
@@ -8753,8 +8753,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Resilience",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Import / Export / Data",
@@ -8769,7 +8769,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Resilience",
     "type": "New feature",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -8784,8 +8784,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Sustainability Management (formerly Environmental, Social, and Governance Management)",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "API / Integrations",
@@ -8800,7 +8800,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Sustainability Management (formerly Environmental, Social, and Governance Management)",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)"
+      "IRM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -8815,7 +8815,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology (OT) Discovery",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Discovery",
@@ -8831,7 +8831,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology (OT) Discovery",
     "type": "Activation Information",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Discovery",
@@ -8846,7 +8846,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Incident Management",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Employee Center",
@@ -8862,7 +8862,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Incident Management",
     "type": "Change",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -8877,7 +8877,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Manager",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -8892,7 +8892,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Manager",
     "type": "New feature",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -8907,7 +8907,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Manager",
     "type": "Change",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB"
@@ -8921,7 +8921,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Manager",
     "type": "Change",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB"
@@ -8935,7 +8935,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Manager",
     "type": "Change",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -8950,7 +8950,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Operational Technology Manager",
     "type": "Removed",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "CMDB",
@@ -8966,7 +8966,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Opportunity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "UI / UX",
@@ -8982,7 +8982,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Opportunity Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Forms / Lists"
@@ -8996,7 +8996,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -9012,7 +9012,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -9027,7 +9027,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -9041,7 +9041,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Order Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
+      "SOM",
       "Now Assist"
     ],
     "tags": [
@@ -9057,7 +9057,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Order Management",
     "type": "Change",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "API / Integrations"
@@ -9163,7 +9163,7 @@ var ADENO_RELEASE_DATA = [
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=activate-unlimited-breakdowns&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Activate data snapshots in more cases and with better information</a></strong></p>\n<ul>\n<li>Activate indicators without active data collector jobs.</li>\n<li>Activate indicators regardless of underlying record volume. For example, the INSERT\\_VOLUME\\_EXCEEDED error no longer occurs.</li>\n<li>If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.</li>\n<li>Generic parsing errors have been rewritten into specific, categorized messages.</li>\n</ul>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html",
-    "resources": "Activate Data snapshots</a>Limitations and requirements for Data snapshots</a>Create a Data snapshots automated indicator</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>Platform Analytics Academy - Data Snapshots in Platform Analytics</a>",
+    "resources": "Activate Data snapshots</a>Meet Data Snapshots: Powering the Next Level of Analytics</a>",
     "importance": "Medium"
   },
   {
@@ -9402,7 +9402,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Platform Analytics experience",
     "type": "Change",
     "products": [
-      "Operational Technology Management"
+      "OTM"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -9610,8 +9610,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Policy and Compliance Management",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -9627,8 +9627,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Policy and Compliance Management",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -9644,7 +9644,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Portfolio Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -9659,7 +9659,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Portfolio Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -9675,7 +9675,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Portfolio Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Agent Workspace",
@@ -9690,7 +9690,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Portfolio Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "CMDB",
@@ -9706,7 +9706,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Portfolio Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX"
@@ -9720,7 +9720,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Portfolio Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Forms / Lists",
@@ -9811,10 +9811,10 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "CSM (Customer Service Management)",
-      "HRSD (HR Service Delivery)",
-      "FSM (Field Service Management)",
+      "ITSM",
+      "CSM",
+      "HRSD",
+      "FSM",
       "App Engine"
     ],
     "tags": [
@@ -9830,14 +9830,14 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "CSM (Customer Service Management)",
-      "HRSD (HR Service Delivery)",
-      "FSM (Field Service Management)",
-      "SPM (Strategic Portfolio Management)",
-      "ITAM (IT Asset Management)",
-      "SecOps (Security Operations)",
-      "IRM (Integrated Risk Management)",
+      "ITSM",
+      "CSM",
+      "HRSD",
+      "FSM",
+      "SPM",
+      "ITAM",
+      "SecOps",
+      "IRM",
       "App Engine"
     ],
     "tags": [
@@ -9883,8 +9883,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "Sales and Order Management",
-      "CSM (Customer Service Management)"
+      "SOM",
+      "CSM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -9899,19 +9899,19 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "CSM (Customer Service Management)",
-      "HRSD (HR Service Delivery)",
-      "FSM (Field Service Management)",
+      "ITSM",
+      "CSM",
+      "HRSD",
+      "FSM",
       "App Engine",
-      "ITAM (IT Asset Management)",
-      "SPM (Strategic Portfolio Management)",
-      "Financial Services Operations",
-      "Telecommunications Service Management",
-      "SecOps (Security Operations)",
-      "IRM (Integrated Risk Management)",
-      "Legal Service Delivery",
-      "Sourcing and Procurement Operations"
+      "ITAM",
+      "SPM",
+      "FSO",
+      "TSM",
+      "SecOps",
+      "IRM",
+      "LSD",
+      "SPO"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -9940,7 +9940,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -9968,7 +9968,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Process Mining",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -10027,7 +10027,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "Important Information for upgrading",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -10042,7 +10042,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -10057,7 +10057,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -10071,7 +10071,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -10085,7 +10085,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -10100,7 +10100,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -10114,7 +10114,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog",
@@ -10129,7 +10129,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -10143,7 +10143,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Catalog Management and Pricing Management",
     "type": "Change",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Service Catalog"
@@ -10157,7 +10157,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Support for Technology",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -10172,7 +10172,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Support for Technology",
     "type": "Removed",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -10187,7 +10187,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Product Support for Technology",
     "type": "Activation Information",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "CMDB",
@@ -10202,7 +10202,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Security / Access Control",
@@ -10218,7 +10218,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -10233,7 +10233,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -10248,7 +10248,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Roles / Permissions"
@@ -10262,7 +10262,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -10278,7 +10278,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "Change",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -10293,7 +10293,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "Removed",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Security / Access Control",
@@ -10308,7 +10308,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "Removed",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Security / Access Control",
@@ -10324,7 +10324,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Portfolio Management ",
     "type": "Removed",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX"
@@ -10338,7 +10338,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Workspace",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -10353,7 +10353,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Workspace",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Asset Management"
@@ -10367,7 +10367,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Project Workspace",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -10382,7 +10382,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Public Sector Digital Services",
     "type": "Important Information for upgrading",
     "products": [
-      "Public Sector Digital Services (PSDS)"
+      "PSDS"
     ],
     "tags": [
       "Agent Workspace",
@@ -10398,7 +10398,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Public Sector Digital Services",
     "type": "New feature",
     "products": [
-      "Public Sector Digital Services (PSDS)"
+      "PSDS"
     ],
     "tags": [
       "Agent Workspace",
@@ -10415,7 +10415,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Public Sector Digital Services",
     "type": "New feature",
     "products": [
-      "Public Sector Digital Services (PSDS)",
+      "PSDS",
       "Now Assist"
     ],
     "tags": [
@@ -10431,7 +10431,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Public Sector Digital Services",
     "type": "New feature",
     "products": [
-      "Public Sector Digital Services (PSDS)",
+      "PSDS",
       "Now Assist"
     ],
     "tags": [
@@ -10448,7 +10448,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Public Sector Digital Services",
     "type": "New feature",
     "products": [
-      "Public Sector Digital Services (PSDS)"
+      "PSDS"
     ],
     "tags": [
       "Roles / Permissions",
@@ -10463,7 +10463,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Purchase Order Management",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Asset Management",
@@ -10480,7 +10480,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Purchase Order Management",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Asset Management"
@@ -10494,7 +10494,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Purchase Order Management",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Agent Workspace",
@@ -10510,7 +10510,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Purchase Order Management",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Notifications / Email"
@@ -10524,7 +10524,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Purchase Order Management",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations",
+      "SPO",
       "Now Assist"
     ],
     "tags": [
@@ -10541,7 +10541,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Quote Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Forms / Lists"
@@ -10555,7 +10555,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Quote Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Agent Workspace"
@@ -10569,7 +10569,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Quote Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -10586,7 +10586,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Quote Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Forms / Lists"
@@ -10600,7 +10600,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Recommended Actions for HRSD",
     "type": "New feature",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace",
@@ -10617,7 +10617,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Recommended Actions for HRSD",
     "type": "Activation Information",
     "products": [
-      "HRSD (HR Service Delivery)"
+      "HRSD"
     ],
     "tags": [
       "Agent Workspace",
@@ -10632,7 +10632,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Recommended Actions for Operational Technology Service Management (OTSM)",
     "type": "New feature",
     "products": [
-      "Operational Technology Management",
+      "OTM",
       "Now Assist"
     ],
     "tags": [
@@ -10648,7 +10648,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Retail",
     "type": "Activation Information",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Service Catalog",
@@ -10693,7 +10693,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sales Forecasting",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -10708,7 +10708,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sales Forecasting",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -10722,7 +10722,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sales Forecasting",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -10736,7 +10736,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sales Forecasting",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -10750,7 +10750,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sales Territory Management",
     "type": "New feature",
     "products": [
-      "Sales and Order Management"
+      "SOM"
     ],
     "tags": [
       "Roles / Permissions",
@@ -10854,7 +10854,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "API / Integrations",
@@ -10870,7 +10870,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Roles / Permissions",
@@ -10885,7 +10885,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Import / Export / Data",
@@ -10900,7 +10900,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)",
+      "SecOps",
       "Now Assist"
     ],
     "tags": [
@@ -10917,7 +10917,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Security / Access Control",
@@ -10933,7 +10933,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Security / Access Control",
@@ -10948,7 +10948,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Incident Management"
@@ -10962,7 +10962,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Agent Workspace"
@@ -10976,7 +10976,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Agent Workspace",
@@ -10991,7 +10991,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Forms / Lists"
@@ -11005,7 +11005,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Security / Access Control",
@@ -11020,7 +11020,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Agent Workspace"
@@ -11034,7 +11034,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Notifications / Email"
@@ -11048,7 +11048,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Agent Workspace",
@@ -11063,7 +11063,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Security Incident Response",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Automation / Orchestration"
@@ -11077,7 +11077,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "UI / UX",
@@ -11097,7 +11097,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -11112,7 +11112,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -11127,7 +11127,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -11143,7 +11143,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)",
+      "CSM",
       "Now Assist"
     ],
     "tags": [
@@ -11159,7 +11159,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Service Portal",
@@ -11176,7 +11176,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -11191,7 +11191,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -11206,7 +11206,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Notifications / Email",
@@ -11221,7 +11221,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -11236,7 +11236,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Service Portal",
@@ -11255,7 +11255,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Notifications / Email",
@@ -11270,7 +11270,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Self-service and omnichannel engagement for CSM",
     "type": "Change",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Service Portal",
@@ -11454,8 +11454,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Operations Workspace for ITSM",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "Service Operations Workspace"
+      "ITSM",
+      "SOW"
     ],
     "tags": [
       "Agent Workspace",
@@ -11470,8 +11470,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Operations Workspace for ITSM",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "Service Operations Workspace"
+      "ITSM",
+      "SOW"
     ],
     "tags": [
       "Agent Workspace",
@@ -11487,8 +11487,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Operations Workspace for ITSM",
     "type": "New feature",
     "products": [
-      "ITSM (IT Service Management)",
-      "Service Operations Workspace"
+      "ITSM",
+      "SOW"
     ],
     "tags": [
       "Agent Workspace",
@@ -11503,8 +11503,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Operations Workspace for ITSM",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)",
-      "Service Operations Workspace"
+      "ITSM",
+      "SOW"
     ],
     "tags": [
       "Agent Workspace",
@@ -11520,8 +11520,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Operations Workspace for ITSM",
     "type": "Change",
     "products": [
-      "ITSM (IT Service Management)",
-      "Service Operations Workspace"
+      "ITSM",
+      "SOW"
     ],
     "tags": [
       "Agent Workspace",
@@ -11537,8 +11537,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Service Operations Workspace for ITSM",
     "type": "Activation Information",
     "products": [
-      "ITSM (IT Service Management)",
-      "Service Operations Workspace"
+      "ITSM",
+      "SOW"
     ],
     "tags": [
       "Agent Workspace",
@@ -12371,9 +12371,9 @@ var ADENO_RELEASE_DATA = [
     "name": "Smart Assessment Engine",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)",
-      "TPRM (Third-party Risk Management)"
+      "IRM",
+      "GRC",
+      "TPRM"
     ],
     "tags": [
       "Approvals / Delegation"
@@ -12387,8 +12387,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Smart Assessment Engine",
     "type": "New feature",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Approvals / Delegation"
@@ -12402,8 +12402,8 @@ var ADENO_RELEASE_DATA = [
     "name": "Smart Assessment Engine",
     "type": "Change",
     "products": [
-      "IRM (Integrated Risk Management)",
-      "GRC (Governance, Risk, and Compliance)"
+      "IRM",
+      "GRC"
     ],
     "tags": [
       "Roles / Permissions",
@@ -12418,7 +12418,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12433,7 +12433,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12449,7 +12449,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12464,7 +12464,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12480,7 +12480,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -12494,7 +12494,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12510,7 +12510,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management"
@@ -12524,7 +12524,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12539,7 +12539,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "New feature",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12554,7 +12554,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "Change",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12570,7 +12570,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Software Asset Management",
     "type": "Activation Information",
     "products": [
-      "ITAM (IT Asset Management)"
+      "ITAM"
     ],
     "tags": [
       "Asset Management",
@@ -12585,7 +12585,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Source-to-Pay Operations Integrations",
     "type": "Important Information for upgrading",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "API / Integrations",
@@ -12602,7 +12602,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Source-to-Pay Operations Integrations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "API / Integrations",
@@ -12618,7 +12618,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Source-to-Pay Operations Integrations",
     "type": "Change",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "API / Integrations",
@@ -12634,7 +12634,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Source-to-Pay Operations Integrations",
     "type": "Change",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "API / Integrations",
@@ -12649,7 +12649,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Source-to-Pay Operations Integrations",
     "type": "Change",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "API / Integrations",
@@ -12665,7 +12665,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Approvals / Delegation",
@@ -12681,7 +12681,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Employee Center",
@@ -12697,7 +12697,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "AI / Machine Learning",
@@ -12712,7 +12712,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Sourcing and Procurement Operations",
     "type": "New feature",
     "products": [
-      "Sourcing and Procurement Operations"
+      "SPO"
     ],
     "tags": [
       "Service Catalog",
@@ -12727,7 +12727,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX"
@@ -12741,7 +12741,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -12757,7 +12757,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Workflows / Flow Designer",
@@ -12773,7 +12773,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "AI Control Tower"
     ],
     "tags": [
@@ -12790,7 +12790,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -12806,7 +12806,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)",
+      "SPM",
       "Now Assist"
     ],
     "tags": [
@@ -12824,7 +12824,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Notifications / Email",
@@ -12839,7 +12839,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX",
@@ -12854,7 +12854,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Agent Workspace",
@@ -12869,7 +12869,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "UI / UX"
@@ -12883,7 +12883,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Roles / Permissions"
@@ -12897,7 +12897,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Strategic Planning",
     "type": "New feature",
     "products": [
-      "SPM (Strategic Portfolio Management)"
+      "SPM"
     ],
     "tags": [
       "Forms / Lists",
@@ -13015,7 +13015,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Supplier Lifecycle Operations",
     "type": "New feature",
     "products": [
-      "Supplier Lifecycle Operations"
+      "SLO"
     ],
     "tags": [
       "UI / UX"
@@ -13029,7 +13029,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Supplier Lifecycle Operations",
     "type": "New feature",
     "products": [
-      "Supplier Lifecycle Operations"
+      "SLO"
     ],
     "tags": [
       "Notifications / Email",
@@ -13045,7 +13045,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Synthetic monitoring",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)",
+      "ITOM",
       "ITOM AIOps"
     ],
     "tags": [
@@ -13061,7 +13061,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Synthetic monitoring",
     "type": "New feature",
     "products": [
-      "ITOM (IT Operations Management)",
+      "ITOM",
       "ITOM AIOps"
     ],
     "tags": [
@@ -13078,7 +13078,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13092,7 +13092,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13106,7 +13106,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Reporting / Platform Analytics"
@@ -13120,7 +13120,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -13135,7 +13135,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -13153,7 +13153,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13167,7 +13167,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Customer 360",
     "type": "Activation Information",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13181,7 +13181,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Network Inventory",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Service Catalog",
@@ -13197,7 +13197,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Service Operations Management (TSOM)",
     "type": "New feature",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Discovery",
@@ -13212,7 +13212,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Service Operations Management (TSOM)",
     "type": "Change",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "Discovery",
@@ -13228,7 +13228,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Telecommunications Service Operations Management (TSOM)",
     "type": "Change",
     "products": [
-      "Telecommunications Service Management"
+      "TSM"
     ],
     "tags": [
       "CMDB",
@@ -13287,7 +13287,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Third-party Risk Management",
     "type": "Important Information for upgrading",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "Upgrade / Patching",
@@ -13303,7 +13303,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Third-party Risk Management",
     "type": "New feature",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -13318,7 +13318,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Third-party Risk Management",
     "type": "New feature",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13332,7 +13332,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Third-party Risk Management",
     "type": "Change",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "AI / Machine Learning"
@@ -13346,7 +13346,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Third-party Risk Management",
     "type": "Change",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "Import / Export / Data"
@@ -13360,7 +13360,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Third-party Risk Management",
     "type": "Removed",
     "products": [
-      "TPRM (Third-party Risk Management)"
+      "TPRM"
     ],
     "tags": [
       "Upgrade / Patching"
@@ -13374,7 +13374,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "API / Integrations"
@@ -13388,7 +13388,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Automation / Orchestration"
@@ -13402,7 +13402,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "CMDB"
@@ -13416,7 +13416,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Security / Access Control"
@@ -13430,7 +13430,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "CMDB",
@@ -13445,7 +13445,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "New feature",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "CMDB"
@@ -13459,7 +13459,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "API / Integrations",
@@ -13474,7 +13474,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "API / Integrations",
@@ -13489,7 +13489,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "API / Integrations",
@@ -13505,7 +13505,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Reporting / Platform Analytics",
@@ -13520,7 +13520,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "API / Integrations",
@@ -13535,7 +13535,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Threat Intelligence Security Center",
     "type": "Change",
     "products": [
-      "SecOps (Security Operations)"
+      "SecOps"
     ],
     "tags": [
       "Security / Access Control"
@@ -13713,7 +13713,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Visa Spoke",
     "type": "Change",
     "products": [
-      "Financial Services Operations"
+      "FSO"
     ],
     "tags": [
       "API / Integrations",
@@ -13820,7 +13820,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workforce Optimization for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13834,7 +13834,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workforce Optimization for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -13850,7 +13850,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workforce Optimization for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -13866,7 +13866,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workforce Optimization for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13880,7 +13880,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workforce Optimization for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace",
@@ -13896,7 +13896,7 @@ var ADENO_RELEASE_DATA = [
     "name": "Workforce Optimization for CSM",
     "type": "New feature",
     "products": [
-      "CSM (Customer Service Management)"
+      "CSM"
     ],
     "tags": [
       "Agent Workspace"
@@ -13994,4 +13994,3 @@ var ADENO_RELEASE_DATA = [
     "importance": "Low"
   }
 ];
-
