@@ -1,51 +1,6 @@
 var ADENO_RELEASE_DATA = [
   {
     "name": "Access Management",
-    "type": "New feature",
-    "products": [
-      "Now Platform"
-    ],
-    "tags": [
-      "API / Integrations",
-      "Security / Access Control"
-    ],
-    "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=machine-identity-access-controls&family=zurich&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Machine identity access controls</a></strong></p>\n<p>Enforce fine-grained access to data via REST or SOAP endpoints using Machine Identity Access Controls. This feature enables you to define which integrations can access specific data, confirming that the integrations only have access to the resources they need.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/access-control/machine-identity-access-controls.html\">ServiceNow Documentation: Machine identity access controls</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/platform-security/authentication/soap-api-access-policies.html\">ServiceNow Documentation: SOAP API access policies</a>\n<a href=\"https://noderegister.service-now.com/kb?id=kb_article_view&sysparm_article=KB2025511\">ServiceNow KB: Introduction to Machine identity Console</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/machine-identity-access-controls/ta-p/3351125\">ServiceNow Community: Machine Identity Access Controls</a>\n<a href=\"https://www.servicenow.com/community/product-launch-blogs/exploring-machine-identity-access-control/ba-p/3360465\">ServiceNow Community: Exploring Machine Identity Access Control</a>",
-    "importance": "High"
-  },
-  {
-    "name": "Access Management",
-    "type": "New feature",
-    "products": [
-      "Now Platform"
-    ],
-    "tags": [
-      "Security / Access Control",
-      "Roles / Permissions",
-      "Scripting"
-    ],
-    "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=scripting-governance&family=zurich&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Scripting Governance Tool</a> tool and role</strong></p>\n<p>Review and help reduce the number of users with scripting privileges using the Scripting Governance Tool. This tool helps improve platform security with scripting governance based on user role.</p>\n<p>A new deny-by-default behavior is enforced for scripting unless you have the snc\\_required\\_script\\_writer\\_permission role. After an upgrade or zBoot, this role is automatically assigned via the Conditional Script Writer group.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
-    "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2581331\">Scripting Governance tool and Conditional Script Writer group</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2599480\">Help us understand about this group - Conditional Script Writer</a>\n<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2567224\">Scripting Governance Dashboard Explanation</a>\n<a href=\"https://www.servicenow.com/community/developer-articles/the-snc-required-script-writer-permission-role-in-zurich-a-quiet/ta-p/3500783\">The snc_required_script_writer_permission Role in Zurich</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/scripting-governance-tool/ta-p/3344420\">Scripting Governance Tool Community Article</a>",
-    "importance": "High"
-  },
-  {
-    "name": "Access Management",
-    "type": "New feature",
-    "products": [
-      "Now Platform"
-    ],
-    "tags": [
-      "Security / Access Control"
-    ],
-    "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=datatype-acl&family=zurich&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Datatype ACL</a></strong></p>\n<p>Simplify and help reduce redundant ACL definitions with Datatype ACLs. Create a single ACL to target all table columns of a specific data type, streamlining access control configurations.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
-    "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/access-control/datatype-acl.html?contentId=DFnQvtg1s1mj2ppFxn1mjQ\">ServiceNow Documentation: Datatype ACL</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/datatype-acls/ta-p/3344409\">ServiceNow Community: Datatype ACLs</a>\n<a href=\"https://www.servicenow.com/community/platform-privacy-security-blog/configuring-acls-the-right-way/ba-p/3446017\">ServiceNow Community: Configuring ACLs the Right Way</a>",
-    "importance": "Medium"
-  },
-  {
-    "name": "Access Management",
     "type": "Change",
     "products": [
       "Now Platform"
@@ -54,7 +9,7 @@ var ADENO_RELEASE_DATA = [
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=query-acl-rule&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Query ACLs</a></strong></p>\n<p>Query ACLs now load automatically during plugin installation for most platform plugins. These preconfigured ACLs reduce the need to run the QueryRangeACLAuditor tool to generate query ACLs. Store app query ACLs aren't included in preconfigured query ACLs. For more information about preconfigured query ACLs, see the <a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494\" target=\"_blank\" rel=\"noopener noreferrer\">Maintenance Information KB2046494</a> article in the Now Support Knowledge Base.</p>\n<p>Existing custom query ACLs are preserved and loaded as inactive. To view inactive ACLs, use this command: <code><INSTANCE_URL>/sys_security_acl_list.do?[query_parameters]</code></p>\n<p>QueryRangeACLAuditor tool modifications are preserved.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accessmanagement-release-notes.html",
     "resources": "<a href=\"https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494\">Maintenance Information KB2046494</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/access-management-landing.html\">Access Management</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/access-control/access-control-rules.html\">Access Control List Rules</a>\n<a href=\"https://www.servicenow.com/community/developer-blog/query-acls/ba-p/3273676\">Query ACLs - ServiceNow Community</a>\n<a href=\"https://www.servicenow.com/community/sysadmin-forum/running-queryrangeaclauditor-script-include/m-p/3272810\">Running QueryRangeACLAuditor script include</a>",
     "importance": "Medium"
   },
@@ -68,7 +23,7 @@ var ADENO_RELEASE_DATA = [
       "Security / Access Control"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=acl-rule-types&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">ACL rule types</a></strong></p>\n<p>Core field and datatype ACLs are replaced with more comprehensive rules to optimize ACL volume.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accessmanagement-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/access-control/access-control-rules.html\">Access Control List Rules</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/platform-security/access-control/acl-rule-types.html\">ACL rule types</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-security/access-management-landing.html\">Access Management</a>\n<a href=\"https://www.servicenow.com/community/platform-privacy-security-blog/configuring-acls-the-right-way/ba-p/3446017\">Configuring ACLs the Right Way: Best Practices for Secure Applications</a>",
     "importance": "Medium"
   },
@@ -84,7 +39,7 @@ var ADENO_RELEASE_DATA = [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=access-analyzer&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Access Analyzer</a></strong></p>\n<p>Use ServiceNow® Access Analyzer v6.1, a tool designed for AI administrators or creators to validate the access controls configured within agentic assets (agentic workflows and AI agents) on the ServiceNow AI Platform.</p>\n<p><strong>Important:</strong></p>\n<p>Access Analyzer is available in the ServiceNow Store. For more information, visit <a href=\"https://store.servicenow.com/store\" target=\"_blank\" rel=\"noopener noreferrer\">ServiceNow Store</a>.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-appenginemanagementcenter-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accessmanagement-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-security/access-control/explore-access-analyzer.html\">Exploring Access Analyzer Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/f579abee1be06a50a85b16db234bcb52\">ServiceNow Store: Access Analyzer</a>\n<a href=\"https://www.servicenow.com/community/platform-privacy-security/get-the-right-access-faster-how-access-analyzer-helps-you-work/ta-p/3333258\">ServiceNow Community: How Access Analyzer Helps You Work Smarter</a>\n<a href=\"https://www.youtube.com/watch?v=yhW0RZEPFLw\">YouTube: Getting started with Access Analyzer</a>",
     "importance": "Medium"
   },
@@ -99,7 +54,7 @@ var ADENO_RELEASE_DATA = [
       "Automation / Orchestration"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=tax-engine-integration&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Tax Engine Integration</a></strong></p>\n<p>The tax engine integration framework validates supplier-provided tax against system tax at invoice line level, maintains compliance with regional and global tax regulations. This integration triggers automatic tax validation, handles exceptions for tax variance and missing data, enables manual revalidation and rolling up of system tax.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accountlifecycleevents-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accountspayableoperations-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/12FXWPUPJJNiwgjoPO9yFQ/ToUUTwBMuVga3O4g0a8v0w\">Tax integration in playbook</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/installed-with-docintel-apm.html\">Components installed with Accounts Payable Operations</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.html\">Using Accounts Payable Operations</a>\n<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.html\">Invoice exceptions</a>\n<a href=\"https://www.youtube.com/watch?v=bsl4VDop0nc\">Accounts Payable Operations Overview</a>",
     "importance": "High"
   },
@@ -117,7 +72,7 @@ var ADENO_RELEASE_DATA = [
       "Approvals / Delegation"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-di-using-now-assis&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure Document Intelligence using Now Assist for Accounts Payable Operations (APO)</a></strong></p>\n<p>The Document classification skill auto-classifies supplier email attachments as invoice, credit memo, or supporting documents with an AI-recommended confidence score. After the classification, separate invoice processing cases are created for invoices and credit memo with supporting documents linked to both the cases. The playbook allows you to configure the confidence threshold for auto-approval or involve AP specialists to manually review them.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accountlifecycleevents-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accountspayableoperations-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/configure-di-using-now-assis.html\">Configure Document Intelligence using Now Assist for Accounts Payable Operations (APO)</a>\n<a href=\"https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo.html\">Now Assist for Accounts Payable Operations (APO)</a>\n<a href=\"https://www.servicenow.com/docs/r/sSWqWaGiCUELM1~_M8y7eg/~68ncV8lV4xAjg_mKf~lig\">Accounts Payable Operations integration with Document Intelligence</a>\n<a href=\"https://www.servicenow.com/community/s2p-articles/have-you-checked-the-accounts-payable-operations-apo-yokohama/ta-p/3283393\">Community: Accounts Payable Operations (APO) Yokohama Release Features</a>\n<a href=\"https://www.youtube.com/watch?v=oNt-sSbUApM\">YouTube: Now Assist in Document Intelligence | Overview</a>",
     "importance": "High"
   },
@@ -206,7 +161,7 @@ var ADENO_RELEASE_DATA = [
       "Service Portal"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=help-center&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Help Center</a></strong></p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-adoptionservices-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/adoption-services.html\">Adoption Services Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/help-center.html\">Help Center Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/create-help-center-content.html\">Create Help Center Content</a>\n<a href=\"https://www.youtube.com/watch?v=iOPKjK-gCcA\">Platform Academy Session #24 - Adoption Services</a>",
     "importance": "Low"
   },
@@ -220,7 +175,7 @@ var ADENO_RELEASE_DATA = [
       "UI / UX"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=guided-tours&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Guided Tours</a></strong></p>\n<p>Guided Tours is enhanced with more accessibility features including:</p>\n<ul>\n<li>Descriptive page titles</li>\n<li>Keyboard assistance for suggesting required fields through screen reader</li>\n<li>Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes</li>\n</ul>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-adoptionservices-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/accessibility/next-experience-accessibility-features-and-updates.html\">Next Experience accessibility features and updates</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/use-gtd-with-accessibility.html\">Create Guided Tours with accessibility enabled</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/activate-guidedtours-service-portal.html\">Enable Guided Tours</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/add-guided-tour.html\">Create Guided Tours</a>",
     "importance": "Low"
   },
@@ -235,7 +190,7 @@ var ADENO_RELEASE_DATA = [
       "Workflows / Flow Designer"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configuring-advanced-approval-management&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Flexible approval configurations</a></strong></p>\n<p>Build workflows that enable sequential approvals, parallel (simultaneous) approvals, or a coFmbination of both.</p>\n<ul>\n<li>Define workflow approval steps and optional chains that progress through multiple approval levels based on rule evaluations.</li>\n<li>Set the approval order using combinations of levels, roles, and conditions.</li>\n<li>Define approval users and groups.</li>\n<li>Control the consolidation of approval requests for approvers when multiple conditions and sequences exist on the same approval request.</li>\n</ul>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
     "resources": "<a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/application/9911c4d6476b3a50cbbce551336d430c\">ServiceNow Store: Advanced Approval Management</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-servicenow-platform/page/administer/service-administration/concept/c_ApprovalRules.html\">ServiceNow Documentation: Approval Rules</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-build-workflows/page/administer/flow-designer/concept/flow-designer.html\">ServiceNow Documentation: Flow Designer</a>\n<a href=\"https://community.servicenow.com/community?id=community_article&sys_id=e4c9a025dbd0dbc01dcaf3231f961906\">ServiceNow Community: Understanding Approval Workflows</a>\n<a href=\"https://www.youtube.com/watch?v=zBQYieNuwGQ\">YouTube: How to Create Approval Workflow in ServiceNow</a>",
     "importance": "Medium"
   },
@@ -250,7 +205,7 @@ var ADENO_RELEASE_DATA = [
       "Workflows / Flow Designer"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=set-approval-trigger-conditions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Intelligent routing rules and smart reapprovals</a></strong></p>\n<p>Automatically trigger approvals by setting conditions based on items such as discount percentage, deal size, and margin thresholds. Configure thresholds and conditions so the approval workflow skips approved steps that have already been approved if the underlying conditions haven't changed.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/advanced-approval-management.html\">ServiceNow Documentation: Advanced Approval Management</a>\n<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">ServiceNow Store: Advanced Approval Management</a>\n<a href=\"http://www.servicenow.com/docs/r/order-management/order-mgt-overview.html\">ServiceNow Documentation: Sales and Order Management</a>\n<a href=\"https://www.servicenow.com/community/csm-forum/discount-approval-in-som-quote-management/td-p/3358202\">ServiceNow Community: Discount Approval in SOM Quote Management</a>",
     "importance": "Medium"
   },
@@ -265,7 +220,7 @@ var ADENO_RELEASE_DATA = [
       "Notifications / Email"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=setting-up-approval-notifications&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Automated notifications of approval status</a></strong></p>\n<p>Inform sales agents and approvers of the status for approval items moving through the approval workflow by setting up notifications. Customize email templates for assignment, reminders, escalation, and cancellation scenarios.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
     "resources": "<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management Application</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/order-mgt-overview.html\">Sales and Order Management Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/cpq-admin-settings.html\">CPQ Admin Settings and Advanced Approval Management</a>",
     "importance": "Medium"
   },
@@ -280,7 +235,7 @@ var ADENO_RELEASE_DATA = [
       "Change Management"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=submitting-approval-requests&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Flexible submission for approval requests</a></strong></p>\n<p>Before submitting requests for approval, see required approvals, approver names, approval reasons, and sequencing by creating and previewing approval requests. You can recall approval requests for changes and resubmit them.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
     "resources": "<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management Store Page</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/order-mgt-overview.html\">Sales and Order Management Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/cpq-admin-settings.html\">Advanced Approval Management Configuration</a>",
     "importance": "Medium"
   },
@@ -294,7 +249,7 @@ var ADENO_RELEASE_DATA = [
       "Approvals / Delegation"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=tracking-approval-status&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Real-time status tracking and approval history</a></strong></p>\n<p>Monitor approval progress and access an audit trail with detailed status for each approval step including assigned approvers, actual approvers (for completed steps), approval comments, and assignment and completion timestamps.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
     "resources": "<a href=\"https://store.servicenow.com/sn_appstore_store.do#!/store/application/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management - ServiceNow Store</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-order-management/page/product/order-management/concept/quote-management.html\">Quote Management Documentation</a>\n<a href=\"https://docs.servicenow.com/bundle/xanadu-order-management/page/product/order-management/concept/order-mgt-overview.html\">Sales and Order Management Overview</a>",
     "importance": "Medium"
   },
@@ -310,7 +265,7 @@ var ADENO_RELEASE_DATA = [
       "Agent Workspace"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=approving-approval-requests&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Approval management</a></strong></p>\n<ul>\n<li>Accept or reject approvals using multiple channels, such as email, push notifications, the CSM Configurable Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.</li>\n<li>Assign backup approvers with date-specific coverage periods for seamless continuity of the approval process.</li>\n</ul>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedapprovalmanagement-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/order-management/sales-and-order-management/order-mgt-overview.html\">Sales and Order Management Documentation</a>\n<a href=\"https://store.servicenow.com/store/app/9911c4d6476b3a50cbbce551336d430c\">Advanced Approval Management Application</a>\n<a href=\"https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-overview.html\">CSM Configurable Workspace Overview</a>\n<a href=\"https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-your-approvals-using-now-assist-virtual-agent-emp-exp.html\">Check Approvals using Now Assist</a>\n<a href=\"https://www.servicenow.com/docs/r/servicenow-platform/service-administration/delegate-work.html\">Delegate Work (Backup Approvers)</a>",
     "importance": "Medium"
   },
@@ -868,7 +823,7 @@ var ADENO_RELEASE_DATA = [
       "Service Catalog"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=request-ai-system&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Risk‑based classification during intake</a></strong></p>\n<p>After upgrading to version 22.0.3, if you have the AI risk and compliance business user [sn\\_grc\\_ai\\_gov.ai\\_risk\\_and\\_compliance\\_business\\_user] role, you can now classify AI systems using a risk‑based approach at intake, enabling organizations to capture AI risk context early and align governance workflows with regulatory and internal risk requirements. This improvement to the AI use case request form supports more accurate AI oversight throughout the system life cycle.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-intake.html\">Intake requests</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.html\">AI Risk and Compliance</a>\n<a href=\"https://store.servicenow.com/store/app/9269fd081b866610a78ca8ea234bcb78\">AI Risk and Compliance Management</a>\n<a href=\"https://www.servicenow.com/community/grc-articles/q1-2026-release-highlights-for-risk-and-resilience/ta-p/3506080\">Q1 2026 Release Highlights for Risk and Resilience</a>\n<a href=\"https://www.youtube.com/watch?v=mF6pAtBtgi8\">What's New in AI Control Tower in Q1 26</a>",
     "importance": "High"
   },
@@ -883,7 +838,7 @@ var ADENO_RELEASE_DATA = [
       "Roles / Permissions"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=report-ai-case-anon&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Report an AI case anonymously</a></strong></p>\n<p>After upgrading to version 22.0.3, if you have the AI case business user [sn\\_ai\\_case\\_mgmt.ai\\_case\\_business\\_user] role, you can navigate to the Employee Center to access the Anonymous Reporting Center and submit AI cases anonymously, enabling broader participation in AI governance while protecting the identity of reporters. No additional role is required to submit an anonymous report directly through the Anonymous Reporting Center. Broader participation helps organizations identify potential AI risks earlier by removing barriers to case submission.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-ai-case-anon.html\">Report an AI case anonymously</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.html\">AI cases and inquiries</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-anon-ai-case-form.html\">Report an AI case form</a>\n<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/follow-up-anonymously.html\">Follow up on an anonymous report</a>\n<a href=\"https://www.youtube.com/watch?v=jv2UOq26SMY\">What's New in AI Control Tower: Anonymous Reporting</a>",
     "importance": "High"
   },
@@ -898,7 +853,7 @@ var ADENO_RELEASE_DATA = [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=airc-offboarding-ai-assets&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Offboard AI models and datasets</a></strong></p>\n<p>After upgrading to version 22.0.3, if you have the AI risk and compliance analyst [sn\\_grc\\_ai\\_gov.ai\\_risk\\_and\\_compliance\\_analyst] or AI risk and compliance manager [sn\\_grc\\_ai\\_gov.ai\\_risk\\_and\\_compliance\\_manager] role you can manage AI asset offboarding life cycle tasks. Managing these tasks helps ensure that governance‑related activities, such as risk and impact assessments, conformity reviews, issue closure, and audit documentation, are addressed when an AI asset is retired or removed from active use.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-offboarding-ai-assets.html\">Offboarding AI assets review</a>\n<a href=\"https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.html\">Create offboarding requests for AI assets</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-forum/ai-without-chaos-a-deep-dive-into-ai-control-tower/td-p/3455272\">Community: AI Without Chaos - A Deep Dive into AI Control Tower</a>\n<a href=\"https://www.youtube.com/watch?v=H7m7s3OmzmE\">YouTube: AI Control Tower Demo | Managing AI Risk, Compliance</a>\n<a href=\"https://www.youtube.com/watch?v=Zeewhsatucc\">YouTube: What's New in AI Control Tower (December 2025)</a>",
     "importance": "High"
   },
@@ -912,7 +867,7 @@ var ADENO_RELEASE_DATA = [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=hybrid-search-ais&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Improve search precision and contextual relevance with hybrid search</a></strong></p>\n<p>Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aisearch-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/hybrid-search-ais.html\">Hybrid search</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/enable-hybrid-search-aisac.html\">Manage hybrid search in search applications</a>\n<a href=\"https://www.servicenow.com/community/csm-articles/unlocking-customer-success-with-ai-powered-search/ta-p/3432984\">Unlocking Customer Success with AI-Powered Search</a>\n<a href=\"https://www.servicenow.com/community/ceg-ai-coe-articles/making-ai-search-work-practical-lessons-from-the-field/ta-p/3250487\">Making AI Search Work: Practical Lessons from the Field</a>\n<a href=\"https://www.youtube.com/watch?v=tv3yqlmgSSw\">ServiceNow Exchange: AI Academy - AI Search and External Content</a>",
     "importance": "Medium"
   },
@@ -927,7 +882,7 @@ var ADENO_RELEASE_DATA = [
       "Virtual Agent / Chatbot"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Configure AI Search as the source for Ask Now Assist suggestions</a></strong></p>\n<p>Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aisearch-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-ai-search-source-ask-now-assist-suggestions.html\">Configure AI Search as the source for Ask Now Assist suggestions</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/now-assist-ais.html\">Now Assist in AI Search</a>\n<a href=\"https://www.servicenow.com/community/now-assist-articles/now-assist-in-ai-search-faq/ta-p/2686538\">Now Assist in AI Search FAQ</a>\n<a href=\"https://www.youtube.com/watch?v=sgVngXSzF3E\">Get Started with Now Assist in AI Search (AI Academy)</a>\n<a href=\"https://www.youtube.com/watch?v=jFPxJylDJVw\">AI Search with Now Assist in AI Search: Ask the experts</a>",
     "importance": "Low"
   },
@@ -943,7 +898,7 @@ var ADENO_RELEASE_DATA = [
       "Virtual Agent / Chatbot"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Now Assist Multi-Content Response Genius Results</a></strong></p>\n<p>If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aisearch-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.html\">ServiceNow Documentation: Now Assist Multi-Content Response Genius Results</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/enabling-now-assist-qa-grs.html\">ServiceNow Documentation: Enabling Now Assist Q&A Genius Results</a>\n<a href=\"https://www.servicenow.com/community/now-assist-forum/now-assist-generated-people-search-results-should-only-display/m-p/3505296\">ServiceNow Community: Now Assist Multi-Content Response Discussion</a>\n<a href=\"https://www.youtube.com/watch?v=4sv7pH56ZdI\">YouTube: Configuring Now Assist Panel Q&A Search</a>\n<a href=\"https://www.youtube.com/watch?v=sgVngXSzF3E\">YouTube: Get Started with Now Assist in AI Search</a>",
     "importance": "Medium"
   },
@@ -959,7 +914,7 @@ var ADENO_RELEASE_DATA = [
       "Roles / Permissions"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=search-suggestions-overview&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Search Suggestions</a></strong></p>\n<p>Search administrators with the ais\\_admin granular admin role can access all Search Suggestions tables. Assign search administrators this role to eliminate needless propagation of full admin access.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aisearch-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/washingtondc/platform-administration/ai-search/assign-ais-admin-role.html\">Assign AI Search roles</a>\n<a href=\"https://www.servicenow.com/docs/r/washingtondc/platform-administration/search-suggestions/understanding-search-suggestion-tables.html\">Understanding Search Suggestion tables</a>\n<a href=\"https://www.servicenow.com/docs/r/platform-administration/ai-search/configuring-ais.html\">Configure AI Search</a>",
     "importance": "Medium"
   },
@@ -973,7 +928,7 @@ var ADENO_RELEASE_DATA = [
       "AI / Machine Learning"
     ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=search-preview-ui-new&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Gain insights into search behavior with a refreshed and updated Search Preview UI.</a></strong></p>\n<p>Preview search query results using settings from a search application configuration or a search profile. Choose between keyword and hybrid search modes. Display search results as individual EVAM cards or as a JSON-format search query response object, with search and syntax highlighting. Review search query behavior and results and specify search query settings with the new Summary, Genius Results, Details, and Profile admin tools.</p>",
-    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html",
+    "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aisearch-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/search-preview-ui-new.html\">Search Preview UI Documentation</a>\n<a href=\"https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/configure-search-result-card-opts.html\">Configure EVAM Display Settings</a>\n<a href=\"https://www.servicenow.com/community/servicenow-ai-platform-articles/ai-search-servicenow-ai-search-demo-a-complete-guide/ta-p/3488050\">ServiceNow AI Search Demo Guide</a>\n<a href=\"https://www.youtube.com/watch?v=RBq6j6GuhoU\">ServiceNow AI Search Overview</a>",
     "importance": "Low"
   },
@@ -8573,7 +8528,10 @@ var ADENO_RELEASE_DATA = [
   {
     "name": "Now Assist for Telecommunications, Media and Technology (TMT)",
     "type": "New feature",
-    "products": [],
+    "products": [
+      "Now Assist",
+      "TSM"
+    ],
     "tags": [
       "AI / Machine Learning",
       "Agent Workspace"
@@ -13972,7 +13930,10 @@ var ADENO_RELEASE_DATA = [
     "products": [
       "Integration Hub"
     ],
-    "tags": [],
+    "tags": [
+      "API / Integrations",
+      "Import / Export / Data"
+    ],
     "details": "<p><strong><a href=\"https://www.servicenow.com/docs/access?context=primary-connectors-zcc&family=australia&ft:locale=en-US\" target=\"_blank\" rel=\"noopener noreferrer\">Primary connectors in preview</a></strong></p>\n<p>Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®.</p>",
     "link": "https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-zerocopyconnectors-release-notes.html",
     "resources": "<a href=\"https://www.servicenow.com/docs/r/integrate-applications/primary-connectors-zcc.html\">ServiceNow Documentation: Primary Connectors</a>\n<a href=\"https://www.servicenow.com/docs/r/integrate-applications/managing-connections-zcc.html\">ServiceNow Documentation: Manage Zero Copy Connections</a>\n<a href=\"https://store.servicenow.com/store/app/ef892b071b9eaa10f9c66575604bcbd1\">ServiceNow Store: Zero Copy Connectors</a>\n<a href=\"https://www.servicenow.com/community/workflow-data-fabric-articles/zero-copy-connectors-are-here-unlock-real-time-enterprise-data/ta-p/3302004\">ServiceNow Community: Zero Copy Connectors Overview</a>",
